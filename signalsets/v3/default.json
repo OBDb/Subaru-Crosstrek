@@ -15,19 +15,19 @@
   ]},
 { "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "1024"}, "freq": 0.25,
   "signals": [
-    {"id": "CROSSTREK_FR_VSS", "path": "Tires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Tire 1 id"}
+    {"id": "CROSSTREK_FR_VSS", "path": "Tires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Front right tire speed"}
   ]},
 { "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "1025"}, "freq": 0.25,
   "signals": [
-    {"id": "CROSSTREK_FL_VSS", "path": "Tires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Tire 1 id"}
+    {"id": "CROSSTREK_FL_VSS", "path": "Tires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Front left tire speed"}
   ]},
 { "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "1026"}, "freq": 0.25,
   "signals": [
-    {"id": "CROSSTREK_RR_VSS", "path": "Tires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Tire 1 id"}
+    {"id": "CROSSTREK_RR_VSS", "path": "Tires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Rear right tire speed"}
   ]},
 { "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "1027"}, "freq": 0.25,
   "signals": [
-    {"id": "CROSSTREK_RL_VSS", "path": "Tires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Tire 1 id"}
+    {"id": "CROSSTREK_RL_VSS", "path": "Tires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Rear left tire speed"}
   ]},
 { "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "1029"}, "freq": 0.25,
   "signals": [
