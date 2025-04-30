@@ -1,0 +1,100 @@
+command_id: 7E0.0110
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: '7E80441100000'
+  expected_values:
+    MAF: 0
+- response: 7E8044110015C
+  expected_values:
+    MAF: 3.48
+- response: 7E8044110016B
+  expected_values:
+    MAF: 3.63
+- response: '7E80441100181'
+  expected_values:
+    MAF: 3.85
+- response: '7E80441100188'
+  expected_values:
+    MAF: 3.92
+- response: 7E804411001AA
+  expected_values:
+    MAF: 4.26
+- response: 7E804411001BC
+  expected_values:
+    MAF: 4.44
+- response: 7E804411001C9
+  expected_values:
+    MAF: 4.57
+- response: 7E804411001D5
+  expected_values:
+    MAF: 4.69
+- response: 7E804411001E5
+  expected_values:
+    MAF: 4.85
+- response: '7E80441100206'
+  expected_values:
+    MAF: 5.18
+- response: 7E8044110020D
+  expected_values:
+    MAF: 5.25
+- response: 7E8044110021F
+  expected_values:
+    MAF: 5.43
+- response: 7E8044110024C
+  expected_values:
+    MAF: 5.88
+- response: '7E80441100259'
+  expected_values:
+    MAF: 6.01
+- response: 7E804411002F5
+  expected_values:
+    MAF: 7.57
+- response: '7E80441100437'
+  expected_values:
+    MAF: 10.79
+- response: '7E80441100485'
+  expected_values:
+    MAF: 11.57
+- response: '7E80441100562'
+  expected_values:
+    MAF: 13.78
+- response: 7E8044110058E
+  expected_values:
+    MAF: 14.22
+- response: '7E80441100642'
+  expected_values:
+    MAF: 16.02
+- response: '7E80441100667'
+  expected_values:
+    MAF: 16.39
+- response: '7E80441100672'
+  expected_values:
+    MAF: 16.5
+- response: 7E804411006B7
+  expected_values:
+    MAF: 17.19
+- response: 7E804411007A9
+  expected_values:
+    MAF: 19.61
+- response: '7E80441100810'
+  expected_values:
+    MAF: 20.64
+- response: 7E8044110082D
+  expected_values:
+    MAF: 20.93
+- response: '7E80441100859'
+  expected_values:
+    MAF: 21.37
+- response: '7E80441100861'
+  expected_values:
+    MAF: 21.45
+- response: 7E804411008D5
+  expected_values:
+    MAF: 22.61
+- response: 7E8044110095B
+  expected_values:
+    MAF: 23.95
+- response: '7E80441100999'
+  expected_values:
+    MAF: 24.57

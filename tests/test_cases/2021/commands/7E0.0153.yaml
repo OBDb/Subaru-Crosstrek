@@ -1,0 +1,88 @@
+command_id: 7E0.0153
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80441534DD2
+  expected_values:
+    EVAP_VPA: 99.61
+- response: 7E80441534DD9
+  expected_values:
+    EVAP_VPA: 99.645
+- response: 7E80441534DDE
+  expected_values:
+    EVAP_VPA: 99.67
+- response: 7E80441534DF6
+  expected_values:
+    EVAP_VPA: 99.79
+- response: 7E80441534DF7
+  expected_values:
+    EVAP_VPA: 99.795
+- response: 7E80441534DF8
+  expected_values:
+    EVAP_VPA: 99.8
+- response: 7E80441534E05
+  expected_values:
+    EVAP_VPA: 99.865
+- response: 7E80441534E07
+  expected_values:
+    EVAP_VPA: 99.875
+- response: 7E80441534E19
+  expected_values:
+    EVAP_VPA: 99.965
+- response: 7E80441534E56
+  expected_values:
+    EVAP_VPA: 100.27
+- response: 7E80441534E5A
+  expected_values:
+    EVAP_VPA: 100.29
+- response: 7E80441534E65
+  expected_values:
+    EVAP_VPA: 100.345
+- response: 7E80441534E69
+  expected_values:
+    EVAP_VPA: 100.365
+- response: 7E80441534E6C
+  expected_values:
+    EVAP_VPA: 100.38
+- response: 7E80441534E71
+  expected_values:
+    EVAP_VPA: 100.405
+- response: 7E80441534E77
+  expected_values:
+    EVAP_VPA: 100.435
+- response: 7E80441534E86
+  expected_values:
+    EVAP_VPA: 100.51
+- response: 7E80441534E88
+  expected_values:
+    EVAP_VPA: 100.52
+- response: 7E80441534ED8
+  expected_values:
+    EVAP_VPA: 100.92
+- response: 7E80441534EDB
+  expected_values:
+    EVAP_VPA: 100.935
+- response: 7E80441534EDE
+  expected_values:
+    EVAP_VPA: 100.95
+- response: 7E80441534EE0
+  expected_values:
+    EVAP_VPA: 100.96
+- response: 7E80441534EE7
+  expected_values:
+    EVAP_VPA: 100.995
+- response: 7E80441534EEA
+  expected_values:
+    EVAP_VPA: 101.01
+- response: 7E80441534EEC
+  expected_values:
+    EVAP_VPA: 101.02
+- response: 7E80441534EEE
+  expected_values:
+    EVAP_VPA: 101.03
+- response: 7E80441534EF0
+  expected_values:
+    EVAP_VPA: 101.04
+- response: 7E80441534EF1
+  expected_values:
+    EVAP_VPA: 101.045

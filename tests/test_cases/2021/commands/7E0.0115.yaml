@@ -1,0 +1,104 @@
+command_id: 7E0.0115
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: '7E80441150080'
+  expected_values:
+    O2S12: 0
+    SHRTFT11: 0
+- response: 7E80441150C80
+  expected_values:
+    O2S12: 0.06
+    SHRTFT11: 0
+- response: '7E80441151380'
+  expected_values:
+    O2S12: 0.095
+    SHRTFT11: 0
+- response: 7E8044115177E
+  expected_values:
+    O2S12: 0.115
+    SHRTFT11: -1.5625
+- response: '7E80441151980'
+  expected_values:
+    O2S12: 0.125
+    SHRTFT11: 0
+- response: 7E80441151F80
+  expected_values:
+    O2S12: 0.155
+    SHRTFT11: 0
+- response: 7E80441152E7F
+  expected_values:
+    O2S12: 0.23
+    SHRTFT11: -0.78125
+- response: '7E80441158780'
+  expected_values:
+    O2S12: 0.675
+    SHRTFT11: 0
+- response: '7E80441158980'
+  expected_values:
+    O2S12: 0.685
+    SHRTFT11: 0
+- response: 7E80441158F80
+  expected_values:
+    O2S12: 0.715
+    SHRTFT11: 0
+- response: '7E80441159080'
+  expected_values:
+    O2S12: 0.72
+    SHRTFT11: 0
+- response: '7E80441159180'
+  expected_values:
+    O2S12: 0.725
+    SHRTFT11: 0
+- response: '7E80441159280'
+  expected_values:
+    O2S12: 0.73
+    SHRTFT11: 0
+- response: '7E80441159680'
+  expected_values:
+    O2S12: 0.75
+    SHRTFT11: 0
+- response: '7E80441159780'
+  expected_values:
+    O2S12: 0.755
+    SHRTFT11: 0
+- response: 7E80441159A80
+  expected_values:
+    O2S12: 0.77
+    SHRTFT11: 0
+- response: 7E80441159B80
+  expected_values:
+    O2S12: 0.775
+    SHRTFT11: 0
+- response: 7E80441159C80
+  expected_values:
+    O2S12: 0.78
+    SHRTFT11: 0
+- response: 7E80441159D80
+  expected_values:
+    O2S12: 0.785
+    SHRTFT11: 0
+- response: 7E80441159E80
+  expected_values:
+    O2S12: 0.79
+    SHRTFT11: 0
+- response: 7E80441159F80
+  expected_values:
+    O2S12: 0.795
+    SHRTFT11: 0
+- response: 7E8044115A180
+  expected_values:
+    O2S12: 0.805
+    SHRTFT11: 0
+- response: 7E8044115AB80
+  expected_values:
+    O2S12: 0.855
+    SHRTFT11: 0
+- response: 7E8044115B280
+  expected_values:
+    O2S12: 0.89
+    SHRTFT11: 0
+- response: 7E8044115B77E
+  expected_values:
+    O2S12: 0.915
+    SHRTFT11: -1.5625

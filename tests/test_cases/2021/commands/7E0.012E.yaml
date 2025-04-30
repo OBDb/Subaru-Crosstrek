@@ -1,0 +1,43 @@
+command_id: 7E0.012E
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E803412E00
+  expected_values:
+    EVAP_PCT: 0
+- response: 7E803412E15
+  expected_values:
+    EVAP_PCT: 8.23529
+- response: 7E803412E23
+  expected_values:
+    EVAP_PCT: 13.72549
+- response: 7E803412E66
+  expected_values:
+    EVAP_PCT: 40
+- response: 7E803412E8F
+  expected_values:
+    EVAP_PCT: 56.07843
+- response: 7E803412E9D
+  expected_values:
+    EVAP_PCT: 61.56863
+- response: 7E803412EA8
+  expected_values:
+    EVAP_PCT: 65.88235
+- response: 7E803412EBC
+  expected_values:
+    EVAP_PCT: 73.72549
+- response: 7E803412EC6
+  expected_values:
+    EVAP_PCT: 77.64706
+- response: 7E803412EF4
+  expected_values:
+    EVAP_PCT: 95.68627
+- response: 7E803412EF8
+  expected_values:
+    EVAP_PCT: 97.2549
+- response: 7E803412EFA
+  expected_values:
+    EVAP_PCT: 98.03922
+- response: 7E803412EFE
+  expected_values:
+    EVAP_PCT: 99.60784
