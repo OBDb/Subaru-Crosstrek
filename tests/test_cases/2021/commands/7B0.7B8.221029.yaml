@@ -32,6 +32,12 @@ test_cases:
 - response: 7B8056210290009
   expected_values:
     CROSSTREK_STEER_ANGLE: 9
+- response: 7B805621029000A
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 10
+- response: 7B805621029000B
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 11
 - response: 7B805621029000C
   expected_values:
     CROSSTREK_STEER_ANGLE: 12
@@ -77,24 +83,48 @@ test_cases:
 - response: 7B805621029001E
   expected_values:
     CROSSTREK_STEER_ANGLE: 30
+- response: 7B8056210290022
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 34
 - response: 7B8056210290024
   expected_values:
     CROSSTREK_STEER_ANGLE: 36
+- response: 7B8056210290029
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 41
 - response: 7B805621029002C
   expected_values:
     CROSSTREK_STEER_ANGLE: 44
 - response: 7B805621029002E
   expected_values:
     CROSSTREK_STEER_ANGLE: 46
+- response: 7B8056210290032
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 50
+- response: 7B8056210290035
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 53
+- response: 7B805621029003D
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 61
+- response: 7B8056210290047
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 71
 - response: 7B805621029004A
   expected_values:
     CROSSTREK_STEER_ANGLE: 74
+- response: 7B805621029004D
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 77
 - response: 7B805621029005D
   expected_values:
     CROSSTREK_STEER_ANGLE: 93
 - response: 7B805621029005F
   expected_values:
     CROSSTREK_STEER_ANGLE: 95
+- response: 7B8056210290078
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 120
 - response: 7B805621029007C
   expected_values:
     CROSSTREK_STEER_ANGLE: 124
@@ -104,9 +134,30 @@ test_cases:
 - response: 7B8056210290089
   expected_values:
     CROSSTREK_STEER_ANGLE: 137
+- response: 7B805621029009D
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 157
+- response: 7B80562102900A5
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 165
+- response: 7B80562102900D5
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 213
+- response: 7B80562102900E0
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 224
+- response: 7B80562102900E8
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 232
+- response: 7B80562102900F9
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 249
 - response: 7B8056210290103
   expected_values:
     CROSSTREK_STEER_ANGLE: 259
+- response: 7B8056210290111
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 273
 - response: 7B8056210290126
   expected_values:
     CROSSTREK_STEER_ANGLE: 294
@@ -128,13 +179,28 @@ test_cases:
 - response: 7B805621029FE2A
   expected_values:
     CROSSTREK_STEER_ANGLE: 0
+- response: 7B805621029FE2C
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 0
+- response: 7B805621029FE59
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 0
+- response: 7B805621029FE5F
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 0
 - response: 7B805621029FE70
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 0
+- response: 7B805621029FEDA
   expected_values:
     CROSSTREK_STEER_ANGLE: 0
 - response: 7B805621029FEE0
   expected_values:
     CROSSTREK_STEER_ANGLE: 0
 - response: 7B805621029FEE3
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 0
+- response: 7B805621029FEE5
   expected_values:
     CROSSTREK_STEER_ANGLE: 0
 - response: 7B805621029FEEF
@@ -146,19 +212,40 @@ test_cases:
 - response: 7B805621029FF26
   expected_values:
     CROSSTREK_STEER_ANGLE: 0
+- response: 7B805621029FF31
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 0
 - response: 7B805621029FF3F
   expected_values:
     CROSSTREK_STEER_ANGLE: 0
 - response: 7B805621029FF52
   expected_values:
     CROSSTREK_STEER_ANGLE: 0
+- response: 7B805621029FF69
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 0
 - response: 7B805621029FF86
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 0
+- response: 7B805621029FF8B
   expected_values:
     CROSSTREK_STEER_ANGLE: 0
 - response: 7B805621029FF92
   expected_values:
     CROSSTREK_STEER_ANGLE: 0
 - response: 7B805621029FFA9
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 0
+- response: 7B805621029FFAD
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 0
+- response: 7B805621029FFB2
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 0
+- response: 7B805621029FFC4
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 0
+- response: 7B805621029FFC6
   expected_values:
     CROSSTREK_STEER_ANGLE: 0
 - response: 7B805621029FFC7
@@ -179,10 +266,22 @@ test_cases:
 - response: 7B805621029FFD0
   expected_values:
     CROSSTREK_STEER_ANGLE: 0
+- response: 7B805621029FFD1
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 0
 - response: 7B805621029FFD3
   expected_values:
     CROSSTREK_STEER_ANGLE: 0
+- response: 7B805621029FFD8
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 0
 - response: 7B805621029FFDA
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 0
+- response: 7B805621029FFDB
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 0
+- response: 7B805621029FFDE
   expected_values:
     CROSSTREK_STEER_ANGLE: 0
 - response: 7B805621029FFE3
@@ -194,13 +293,28 @@ test_cases:
 - response: 7B805621029FFE8
   expected_values:
     CROSSTREK_STEER_ANGLE: 0
+- response: 7B805621029FFE9
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 0
 - response: 7B805621029FFEA
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 0
+- response: 7B805621029FFEB
   expected_values:
     CROSSTREK_STEER_ANGLE: 0
 - response: 7B805621029FFEC
   expected_values:
     CROSSTREK_STEER_ANGLE: 0
 - response: 7B805621029FFED
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 0
+- response: 7B805621029FFEE
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 0
+- response: 7B805621029FFEF
+  expected_values:
+    CROSSTREK_STEER_ANGLE: 0
+- response: 7B805621029FFF1
   expected_values:
     CROSSTREK_STEER_ANGLE: 0
 - response: 7B805621029FFF2

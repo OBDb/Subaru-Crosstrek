@@ -398,3 +398,351 @@ test_cases:
 - response: 7E8056210E59882
   expected_values:
     CROSSTREK_ODO: 78084
+- response: 7E8056210E59883
+  expected_values:
+    CROSSTREK_ODO: 78086
+- response: 7E8056210E59884
+  expected_values:
+    CROSSTREK_ODO: 78088
+- response: 7E8056210E59885
+  expected_values:
+    CROSSTREK_ODO: 78090
+- response: 7E8056210E59886
+  expected_values:
+    CROSSTREK_ODO: 78092
+- response: 7E8056210E59887
+  expected_values:
+    CROSSTREK_ODO: 78094
+- response: 7E8056210E59888
+  expected_values:
+    CROSSTREK_ODO: 78096
+- response: 7E8056210E59889
+  expected_values:
+    CROSSTREK_ODO: 78098
+- response: 7E8056210E5988A
+  expected_values:
+    CROSSTREK_ODO: 78100
+- response: 7E8056210E5988B
+  expected_values:
+    CROSSTREK_ODO: 78102
+- response: 7E8056210E5988C
+  expected_values:
+    CROSSTREK_ODO: 78104
+- response: 7E8056210E5988D
+  expected_values:
+    CROSSTREK_ODO: 78106
+- response: 7E8056210E5988E
+  expected_values:
+    CROSSTREK_ODO: 78108
+- response: 7E8056210E5988F
+  expected_values:
+    CROSSTREK_ODO: 78110
+- response: 7E8056210E59890
+  expected_values:
+    CROSSTREK_ODO: 78112
+- response: 7E8056210E59891
+  expected_values:
+    CROSSTREK_ODO: 78114
+- response: 7E8056210E59892
+  expected_values:
+    CROSSTREK_ODO: 78116
+- response: 7E8056210E59893
+  expected_values:
+    CROSSTREK_ODO: 78118
+- response: 7E8056210E59894
+  expected_values:
+    CROSSTREK_ODO: 78120
+- response: 7E8056210E59895
+  expected_values:
+    CROSSTREK_ODO: 78122
+- response: 7E8056210E59896
+  expected_values:
+    CROSSTREK_ODO: 78124
+- response: 7E8056210E59897
+  expected_values:
+    CROSSTREK_ODO: 78126
+- response: 7E8056210E59898
+  expected_values:
+    CROSSTREK_ODO: 78128
+- response: 7E8056210E59899
+  expected_values:
+    CROSSTREK_ODO: 78130
+- response: 7E8056210E5989A
+  expected_values:
+    CROSSTREK_ODO: 78132
+- response: 7E8056210E5989B
+  expected_values:
+    CROSSTREK_ODO: 78134
+- response: 7E8056210E5989C
+  expected_values:
+    CROSSTREK_ODO: 78136
+- response: 7E8056210E5989D
+  expected_values:
+    CROSSTREK_ODO: 78138
+- response: 7E8056210E5989E
+  expected_values:
+    CROSSTREK_ODO: 78140
+- response: 7E8056210E5989F
+  expected_values:
+    CROSSTREK_ODO: 78142
+- response: 7E8056210E598A0
+  expected_values:
+    CROSSTREK_ODO: 78144
+- response: 7E8056210E598A1
+  expected_values:
+    CROSSTREK_ODO: 78146
+- response: 7E8056210E598A2
+  expected_values:
+    CROSSTREK_ODO: 78148
+- response: 7E8056210E598A3
+  expected_values:
+    CROSSTREK_ODO: 78150
+- response: 7E8056210E598A4
+  expected_values:
+    CROSSTREK_ODO: 78152
+- response: 7E8056210E598A5
+  expected_values:
+    CROSSTREK_ODO: 78154
+- response: 7E8056210E598A6
+  expected_values:
+    CROSSTREK_ODO: 78156
+- response: 7E8056210E598A7
+  expected_values:
+    CROSSTREK_ODO: 78158
+- response: 7E8056210E598A8
+  expected_values:
+    CROSSTREK_ODO: 78160
+- response: 7E8056210E598A9
+  expected_values:
+    CROSSTREK_ODO: 78162
+- response: 7E8056210E598AA
+  expected_values:
+    CROSSTREK_ODO: 78164
+- response: 7E8056210E598AB
+  expected_values:
+    CROSSTREK_ODO: 78166
+- response: 7E8056210E598AC
+  expected_values:
+    CROSSTREK_ODO: 78168
+- response: 7E8056210E598AD
+  expected_values:
+    CROSSTREK_ODO: 78170
+- response: 7E8056210E598AE
+  expected_values:
+    CROSSTREK_ODO: 78172
+- response: 7E8056210E598AF
+  expected_values:
+    CROSSTREK_ODO: 78174
+- response: 7E8056210E598B0
+  expected_values:
+    CROSSTREK_ODO: 78176
+- response: 7E8056210E598B1
+  expected_values:
+    CROSSTREK_ODO: 78178
+- response: 7E8056210E598B2
+  expected_values:
+    CROSSTREK_ODO: 78180
+- response: 7E8056210E598B3
+  expected_values:
+    CROSSTREK_ODO: 78182
+- response: 7E8056210E598B4
+  expected_values:
+    CROSSTREK_ODO: 78184
+- response: 7E8056210E598B5
+  expected_values:
+    CROSSTREK_ODO: 78186
+- response: 7E8056210E598B6
+  expected_values:
+    CROSSTREK_ODO: 78188
+- response: 7E8056210E598B7
+  expected_values:
+    CROSSTREK_ODO: 78190
+- response: 7E8056210E598B8
+  expected_values:
+    CROSSTREK_ODO: 78192
+- response: 7E8056210E598B9
+  expected_values:
+    CROSSTREK_ODO: 78194
+- response: 7E8056210E598BA
+  expected_values:
+    CROSSTREK_ODO: 78196
+- response: 7E8056210E598BB
+  expected_values:
+    CROSSTREK_ODO: 78198
+- response: 7E8056210E598BC
+  expected_values:
+    CROSSTREK_ODO: 78200
+- response: 7E8056210E598BD
+  expected_values:
+    CROSSTREK_ODO: 78202
+- response: 7E8056210E598BE
+  expected_values:
+    CROSSTREK_ODO: 78204
+- response: 7E8056210E598BF
+  expected_values:
+    CROSSTREK_ODO: 78206
+- response: 7E8056210E598C0
+  expected_values:
+    CROSSTREK_ODO: 78208
+- response: 7E8056210E598C1
+  expected_values:
+    CROSSTREK_ODO: 78210
+- response: 7E8056210E598C2
+  expected_values:
+    CROSSTREK_ODO: 78212
+- response: 7E8056210E598C3
+  expected_values:
+    CROSSTREK_ODO: 78214
+- response: 7E8056210E598C4
+  expected_values:
+    CROSSTREK_ODO: 78216
+- response: 7E8056210E598C5
+  expected_values:
+    CROSSTREK_ODO: 78218
+- response: 7E8056210E598C6
+  expected_values:
+    CROSSTREK_ODO: 78220
+- response: 7E8056210E598C7
+  expected_values:
+    CROSSTREK_ODO: 78222
+- response: 7E8056210E598C8
+  expected_values:
+    CROSSTREK_ODO: 78224
+- response: 7E8056210E598C9
+  expected_values:
+    CROSSTREK_ODO: 78226
+- response: 7E8056210E598CA
+  expected_values:
+    CROSSTREK_ODO: 78228
+- response: 7E8056210E598CB
+  expected_values:
+    CROSSTREK_ODO: 78230
+- response: 7E8056210E598CC
+  expected_values:
+    CROSSTREK_ODO: 78232
+- response: 7E8056210E598CD
+  expected_values:
+    CROSSTREK_ODO: 78234
+- response: 7E8056210E598CE
+  expected_values:
+    CROSSTREK_ODO: 78236
+- response: 7E8056210E598CF
+  expected_values:
+    CROSSTREK_ODO: 78238
+- response: 7E8056210E598D0
+  expected_values:
+    CROSSTREK_ODO: 78240
+- response: 7E8056210E598D1
+  expected_values:
+    CROSSTREK_ODO: 78242
+- response: 7E8056210E598D2
+  expected_values:
+    CROSSTREK_ODO: 78244
+- response: 7E8056210E598D3
+  expected_values:
+    CROSSTREK_ODO: 78246
+- response: 7E8056210E598D4
+  expected_values:
+    CROSSTREK_ODO: 78248
+- response: 7E8056210E598D5
+  expected_values:
+    CROSSTREK_ODO: 78250
+- response: 7E8056210E598D6
+  expected_values:
+    CROSSTREK_ODO: 78252
+- response: 7E8056210E598D7
+  expected_values:
+    CROSSTREK_ODO: 78254
+- response: 7E8056210E598D8
+  expected_values:
+    CROSSTREK_ODO: 78256
+- response: 7E8056210E598D9
+  expected_values:
+    CROSSTREK_ODO: 78258
+- response: 7E8056210E598DA
+  expected_values:
+    CROSSTREK_ODO: 78260
+- response: 7E8056210E598DB
+  expected_values:
+    CROSSTREK_ODO: 78262
+- response: 7E8056210E598DC
+  expected_values:
+    CROSSTREK_ODO: 78264
+- response: 7E8056210E598DD
+  expected_values:
+    CROSSTREK_ODO: 78266
+- response: 7E8056210E598DE
+  expected_values:
+    CROSSTREK_ODO: 78268
+- response: 7E8056210E598DF
+  expected_values:
+    CROSSTREK_ODO: 78270
+- response: 7E8056210E598E0
+  expected_values:
+    CROSSTREK_ODO: 78272
+- response: 7E8056210E598E1
+  expected_values:
+    CROSSTREK_ODO: 78274
+- response: 7E8056210E598E2
+  expected_values:
+    CROSSTREK_ODO: 78276
+- response: 7E8056210E598E3
+  expected_values:
+    CROSSTREK_ODO: 78278
+- response: 7E8056210E598E4
+  expected_values:
+    CROSSTREK_ODO: 78280
+- response: 7E8056210E598E5
+  expected_values:
+    CROSSTREK_ODO: 78282
+- response: 7E8056210E598E6
+  expected_values:
+    CROSSTREK_ODO: 78284
+- response: 7E8056210E598E7
+  expected_values:
+    CROSSTREK_ODO: 78286
+- response: 7E8056210E598E8
+  expected_values:
+    CROSSTREK_ODO: 78288
+- response: 7E8056210E598E9
+  expected_values:
+    CROSSTREK_ODO: 78290
+- response: 7E8056210E598EA
+  expected_values:
+    CROSSTREK_ODO: 78292
+- response: 7E8056210E598EB
+  expected_values:
+    CROSSTREK_ODO: 78294
+- response: 7E8056210E598F6
+  expected_values:
+    CROSSTREK_ODO: 78316
+- response: 7E8056210E598F7
+  expected_values:
+    CROSSTREK_ODO: 78318
+- response: 7E8056210E598F8
+  expected_values:
+    CROSSTREK_ODO: 78320
+- response: 7E8056210E598F9
+  expected_values:
+    CROSSTREK_ODO: 78322
+- response: 7E8056210E598FA
+  expected_values:
+    CROSSTREK_ODO: 78324
+- response: 7E8056210E598FB
+  expected_values:
+    CROSSTREK_ODO: 78326
+- response: 7E8056210E598FC
+  expected_values:
+    CROSSTREK_ODO: 78328
+- response: 7E8056210E598FD
+  expected_values:
+    CROSSTREK_ODO: 78330
+- response: 7E8056210E598FE
+  expected_values:
+    CROSSTREK_ODO: 78332
+- response: 7E8056210E598FF
+  expected_values:
+    CROSSTREK_ODO: 78334
+- response: 7E8056210E59900
+  expected_values:
+    CROSSTREK_ODO: 78336
