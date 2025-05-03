@@ -11,6 +11,15 @@ test_cases:
 - response: 7B8056210270004
   expected_values:
     CROSSTREK_RL_VSS: 4
+- response: 7B8056210270006
+  expected_values:
+    CROSSTREK_RL_VSS: 6
+- response: 7B8056210270009
+  expected_values:
+    CROSSTREK_RL_VSS: 9
+- response: 7B805621027000A
+  expected_values:
+    CROSSTREK_RL_VSS: 10
 - response: 7B805621027000C
   expected_values:
     CROSSTREK_RL_VSS: 12
@@ -20,12 +29,42 @@ test_cases:
 - response: 7B8056210270011
   expected_values:
     CROSSTREK_RL_VSS: 17
+- response: 7B8056210270013
+  expected_values:
+    CROSSTREK_RL_VSS: 19
 - response: 7B8056210270016
   expected_values:
     CROSSTREK_RL_VSS: 22
+- response: 7B805621027001E
+  expected_values:
+    CROSSTREK_RL_VSS: 30
+- response: 7B8056210270020
+  expected_values:
+    CROSSTREK_RL_VSS: 32
+- response: 7B8056210270022
+  expected_values:
+    CROSSTREK_RL_VSS: 34
+- response: 7B8056210270023
+  expected_values:
+    CROSSTREK_RL_VSS: 35
 - response: 7B8056210270025
   expected_values:
     CROSSTREK_RL_VSS: 37
+- response: 7B8056210270026
+  expected_values:
+    CROSSTREK_RL_VSS: 38
+- response: 7B8056210270027
+  expected_values:
+    CROSSTREK_RL_VSS: 39
+- response: 7B8056210270028
+  expected_values:
+    CROSSTREK_RL_VSS: 40
+- response: 7B8056210270029
+  expected_values:
+    CROSSTREK_RL_VSS: 41
+- response: 7B805621027002C
+  expected_values:
+    CROSSTREK_RL_VSS: 44
 - response: 7B8056210270031
   expected_values:
     CROSSTREK_RL_VSS: 49
@@ -41,24 +80,54 @@ test_cases:
 - response: 7B805621027003A
   expected_values:
     CROSSTREK_RL_VSS: 58
+- response: 7B805621027003E
+  expected_values:
+    CROSSTREK_RL_VSS: 62
 - response: 7B8056210270042
   expected_values:
     CROSSTREK_RL_VSS: 66
 - response: 7B8056210270048
   expected_values:
     CROSSTREK_RL_VSS: 72
+- response: 7B8056210270051
+  expected_values:
+    CROSSTREK_RL_VSS: 81
+- response: 7B8056210270053
+  expected_values:
+    CROSSTREK_RL_VSS: 83
 - response: 7B8056210270057
   expected_values:
     CROSSTREK_RL_VSS: 87
+- response: 7B8056210270058
+  expected_values:
+    CROSSTREK_RL_VSS: 88
 - response: 7B805621027005B
   expected_values:
     CROSSTREK_RL_VSS: 91
+- response: 7B805621027005C
+  expected_values:
+    CROSSTREK_RL_VSS: 92
+- response: 7B8056210270060
+  expected_values:
+    CROSSTREK_RL_VSS: 96
+- response: 7B8056210270061
+  expected_values:
+    CROSSTREK_RL_VSS: 97
+- response: 7B8056210270063
+  expected_values:
+    CROSSTREK_RL_VSS: 99
+- response: 7B8056210270066
+  expected_values:
+    CROSSTREK_RL_VSS: 102
 - response: 7B8056210270068
   expected_values:
     CROSSTREK_RL_VSS: 104
 - response: 7B805621027006C
   expected_values:
     CROSSTREK_RL_VSS: 108
+- response: 7B805621027006D
+  expected_values:
+    CROSSTREK_RL_VSS: 109
 - response: 7B8056210270088
   expected_values:
     CROSSTREK_RL_VSS: 136
@@ -71,6 +140,9 @@ test_cases:
 - response: 7B805621027008D
   expected_values:
     CROSSTREK_RL_VSS: 141
+- response: 7B805621027008E
+  expected_values:
+    CROSSTREK_RL_VSS: 142
 - response: 7B8056210270095
   expected_values:
     CROSSTREK_RL_VSS: 149
@@ -83,15 +155,30 @@ test_cases:
 - response: 7B805621027009E
   expected_values:
     CROSSTREK_RL_VSS: 158
+- response: 7B80562102700A4
+  expected_values:
+    CROSSTREK_RL_VSS: 164
 - response: 7B80562102700A7
   expected_values:
     CROSSTREK_RL_VSS: 167
+- response: 7B80562102700AA
+  expected_values:
+    CROSSTREK_RL_VSS: 170
+- response: 7B80562102700AE
+  expected_values:
+    CROSSTREK_RL_VSS: 174
 - response: 7B80562102700B0
   expected_values:
     CROSSTREK_RL_VSS: 176
 - response: 7B80562102700B5
   expected_values:
     CROSSTREK_RL_VSS: 181
+- response: 7B80562102700BA
+  expected_values:
+    CROSSTREK_RL_VSS: 186
+- response: 7B80562102700BB
+  expected_values:
+    CROSSTREK_RL_VSS: 187
 - response: 7B80562102700C0
   expected_values:
     CROSSTREK_RL_VSS: 192
@@ -101,6 +188,9 @@ test_cases:
 - response: 7B80562102700C9
   expected_values:
     CROSSTREK_RL_VSS: 201
+- response: 7B80562102700CB
+  expected_values:
+    CROSSTREK_RL_VSS: 203
 - response: 7B80562102700CD
   expected_values:
     CROSSTREK_RL_VSS: 205
@@ -113,45 +203,123 @@ test_cases:
 - response: 7B80562102700DC
   expected_values:
     CROSSTREK_RL_VSS: 220
+- response: 7B80562102700E6
+  expected_values:
+    CROSSTREK_RL_VSS: 230
 - response: 7B80562102700E9
   expected_values:
     CROSSTREK_RL_VSS: 233
+- response: 7B80562102700F4
+  expected_values:
+    CROSSTREK_RL_VSS: 244
+- response: 7B80562102700F6
+  expected_values:
+    CROSSTREK_RL_VSS: 246
+- response: 7B80562102700F7
+  expected_values:
+    CROSSTREK_RL_VSS: 247
+- response: 7B80562102700F8
+  expected_values:
+    CROSSTREK_RL_VSS: 248
+- response: 7B80562102700FB
+  expected_values:
+    CROSSTREK_RL_VSS: 251
 - response: 7B80562102700FD
   expected_values:
     CROSSTREK_RL_VSS: 253
 - response: 7B8056210270104
   expected_values:
     CROSSTREK_RL_VSS: 260
+- response: 7B8056210270111
+  expected_values:
+    CROSSTREK_RL_VSS: 273
+- response: 7B8056210270114
+  expected_values:
+    CROSSTREK_RL_VSS: 276
 - response: 7B8056210270117
   expected_values:
     CROSSTREK_RL_VSS: 279
 - response: 7B8056210270119
   expected_values:
     CROSSTREK_RL_VSS: 281
+- response: 7B805621027011C
+  expected_values:
+    CROSSTREK_RL_VSS: 284
+- response: 7B805621027011E
+  expected_values:
+    CROSSTREK_RL_VSS: 286
+- response: 7B8056210270127
+  expected_values:
+    CROSSTREK_RL_VSS: 295
+- response: 7B805621027012E
+  expected_values:
+    CROSSTREK_RL_VSS: 302
+- response: 7B8056210270131
+  expected_values:
+    CROSSTREK_RL_VSS: 305
+- response: 7B8056210270134
+  expected_values:
+    CROSSTREK_RL_VSS: 308
+- response: 7B8056210270136
+  expected_values:
+    CROSSTREK_RL_VSS: 310
 - response: 7B8056210270139
   expected_values:
     CROSSTREK_RL_VSS: 313
 - response: 7B805621027013A
   expected_values:
     CROSSTREK_RL_VSS: 314
+- response: 7B805621027013B
+  expected_values:
+    CROSSTREK_RL_VSS: 315
+- response: 7B805621027013E
+  expected_values:
+    CROSSTREK_RL_VSS: 318
+- response: 7B8056210270141
+  expected_values:
+    CROSSTREK_RL_VSS: 321
+- response: 7B8056210270144
+  expected_values:
+    CROSSTREK_RL_VSS: 324
 - response: 7B8056210270150
   expected_values:
     CROSSTREK_RL_VSS: 336
+- response: 7B805621027015A
+  expected_values:
+    CROSSTREK_RL_VSS: 346
 - response: 7B805621027015C
   expected_values:
     CROSSTREK_RL_VSS: 348
 - response: 7B805621027015E
   expected_values:
     CROSSTREK_RL_VSS: 350
+- response: 7B805621027015F
+  expected_values:
+    CROSSTREK_RL_VSS: 351
 - response: 7B8056210270163
   expected_values:
     CROSSTREK_RL_VSS: 355
+- response: 7B8056210270164
+  expected_values:
+    CROSSTREK_RL_VSS: 356
 - response: 7B8056210270165
   expected_values:
     CROSSTREK_RL_VSS: 357
+- response: 7B8056210270167
+  expected_values:
+    CROSSTREK_RL_VSS: 359
+- response: 7B805621027016A
+  expected_values:
+    CROSSTREK_RL_VSS: 362
+- response: 7B805621027016B
+  expected_values:
+    CROSSTREK_RL_VSS: 363
 - response: 7B805621027016C
   expected_values:
     CROSSTREK_RL_VSS: 364
+- response: 7B8056210270171
+  expected_values:
+    CROSSTREK_RL_VSS: 369
 - response: 7B8056210270172
   expected_values:
     CROSSTREK_RL_VSS: 370
@@ -161,6 +329,9 @@ test_cases:
 - response: 7B805621027017C
   expected_values:
     CROSSTREK_RL_VSS: 380
+- response: 7B805621027017E
+  expected_values:
+    CROSSTREK_RL_VSS: 382
 - response: 7B805621027017F
   expected_values:
     CROSSTREK_RL_VSS: 383
@@ -170,6 +341,12 @@ test_cases:
 - response: 7B8056210270185
   expected_values:
     CROSSTREK_RL_VSS: 389
+- response: 7B8056210270186
+  expected_values:
+    CROSSTREK_RL_VSS: 390
+- response: 7B8056210270189
+  expected_values:
+    CROSSTREK_RL_VSS: 393
 - response: 7B805621027018A
   expected_values:
     CROSSTREK_RL_VSS: 394
@@ -179,27 +356,69 @@ test_cases:
 - response: 7B805621027018E
   expected_values:
     CROSSTREK_RL_VSS: 398
+- response: 7B8056210270192
+  expected_values:
+    CROSSTREK_RL_VSS: 402
+- response: 7B8056210270193
+  expected_values:
+    CROSSTREK_RL_VSS: 403
+- response: 7B8056210270195
+  expected_values:
+    CROSSTREK_RL_VSS: 405
 - response: 7B8056210270199
   expected_values:
     CROSSTREK_RL_VSS: 409
+- response: 7B805621027019C
+  expected_values:
+    CROSSTREK_RL_VSS: 412
 - response: 7B805621027019D
   expected_values:
     CROSSTREK_RL_VSS: 413
 - response: 7B80562102701A4
   expected_values:
     CROSSTREK_RL_VSS: 420
+- response: 7B80562102701A7
+  expected_values:
+    CROSSTREK_RL_VSS: 423
 - response: 7B80562102701AA
   expected_values:
     CROSSTREK_RL_VSS: 426
 - response: 7B80562102701AD
   expected_values:
     CROSSTREK_RL_VSS: 429
+- response: 7B80562102701AE
+  expected_values:
+    CROSSTREK_RL_VSS: 430
+- response: 7B80562102701B0
+  expected_values:
+    CROSSTREK_RL_VSS: 432
+- response: 7B80562102701B3
+  expected_values:
+    CROSSTREK_RL_VSS: 435
 - response: 7B80562102701B4
   expected_values:
     CROSSTREK_RL_VSS: 436
+- response: 7B80562102701BB
+  expected_values:
+    CROSSTREK_RL_VSS: 443
+- response: 7B80562102701BE
+  expected_values:
+    CROSSTREK_RL_VSS: 446
 - response: 7B80562102701BF
   expected_values:
     CROSSTREK_RL_VSS: 447
+- response: 7B80562102701C2
+  expected_values:
+    CROSSTREK_RL_VSS: 450
+- response: 7B80562102701C4
+  expected_values:
+    CROSSTREK_RL_VSS: 452
+- response: 7B80562102701C6
+  expected_values:
+    CROSSTREK_RL_VSS: 454
+- response: 7B80562102701C7
+  expected_values:
+    CROSSTREK_RL_VSS: 455
 - response: 7B80562102701D1
   expected_values:
     CROSSTREK_RL_VSS: 465
@@ -212,18 +431,39 @@ test_cases:
 - response: 7B80562102701E0
   expected_values:
     CROSSTREK_RL_VSS: 480
+- response: 7B80562102701E9
+  expected_values:
+    CROSSTREK_RL_VSS: 489
+- response: 7B80562102701EA
+  expected_values:
+    CROSSTREK_RL_VSS: 490
 - response: 7B80562102701F5
   expected_values:
     CROSSTREK_RL_VSS: 501
 - response: 7B80562102701F6
   expected_values:
     CROSSTREK_RL_VSS: 502
+- response: 7B80562102701F7
+  expected_values:
+    CROSSTREK_RL_VSS: 503
 - response: 7B80562102701FB
   expected_values:
     CROSSTREK_RL_VSS: 507
+- response: 7B8056210270200
+  expected_values:
+    CROSSTREK_RL_VSS: 512
+- response: 7B8056210270205
+  expected_values:
+    CROSSTREK_RL_VSS: 517
 - response: 7B805621027020E
   expected_values:
     CROSSTREK_RL_VSS: 526
+- response: 7B805621027020F
+  expected_values:
+    CROSSTREK_RL_VSS: 527
+- response: 7B8056210270210
+  expected_values:
+    CROSSTREK_RL_VSS: 528
 - response: 7B8056210270213
   expected_values:
     CROSSTREK_RL_VSS: 531
@@ -248,18 +488,45 @@ test_cases:
 - response: 7B8056210270224
   expected_values:
     CROSSTREK_RL_VSS: 548
+- response: 7B805621027022C
+  expected_values:
+    CROSSTREK_RL_VSS: 556
+- response: 7B805621027022F
+  expected_values:
+    CROSSTREK_RL_VSS: 559
+- response: 7B8056210270230
+  expected_values:
+    CROSSTREK_RL_VSS: 560
 - response: 7B8056210270231
   expected_values:
     CROSSTREK_RL_VSS: 561
+- response: 7B8056210270233
+  expected_values:
+    CROSSTREK_RL_VSS: 563
 - response: 7B8056210270236
   expected_values:
     CROSSTREK_RL_VSS: 566
+- response: 7B8056210270238
+  expected_values:
+    CROSSTREK_RL_VSS: 568
 - response: 7B8056210270239
   expected_values:
     CROSSTREK_RL_VSS: 569
+- response: 7B805621027023A
+  expected_values:
+    CROSSTREK_RL_VSS: 570
+- response: 7B805621027023B
+  expected_values:
+    CROSSTREK_RL_VSS: 571
 - response: 7B8056210270241
   expected_values:
     CROSSTREK_RL_VSS: 577
+- response: 7B8056210270244
+  expected_values:
+    CROSSTREK_RL_VSS: 580
+- response: 7B8056210270248
+  expected_values:
+    CROSSTREK_RL_VSS: 584
 - response: 7B805621027024B
   expected_values:
     CROSSTREK_RL_VSS: 587
@@ -269,6 +536,12 @@ test_cases:
 - response: 7B8056210270251
   expected_values:
     CROSSTREK_RL_VSS: 593
+- response: 7B8056210270254
+  expected_values:
+    CROSSTREK_RL_VSS: 596
+- response: 7B8056210270259
+  expected_values:
+    CROSSTREK_RL_VSS: 601
 - response: 7B8056210270260
   expected_values:
     CROSSTREK_RL_VSS: 608
@@ -284,6 +557,9 @@ test_cases:
 - response: 7B8056210270279
   expected_values:
     CROSSTREK_RL_VSS: 633
+- response: 7B805621027027E
+  expected_values:
+    CROSSTREK_RL_VSS: 638
 - response: 7B805621027027F
   expected_values:
     CROSSTREK_RL_VSS: 639
@@ -299,60 +575,141 @@ test_cases:
 - response: 7B805621027028B
   expected_values:
     CROSSTREK_RL_VSS: 651
+- response: 7B805621027028C
+  expected_values:
+    CROSSTREK_RL_VSS: 652
 - response: 7B805621027028D
   expected_values:
     CROSSTREK_RL_VSS: 653
+- response: 7B805621027028F
+  expected_values:
+    CROSSTREK_RL_VSS: 655
+- response: 7B8056210270295
+  expected_values:
+    CROSSTREK_RL_VSS: 661
+- response: 7B8056210270296
+  expected_values:
+    CROSSTREK_RL_VSS: 662
+- response: 7B8056210270298
+  expected_values:
+    CROSSTREK_RL_VSS: 664
+- response: 7B8056210270299
+  expected_values:
+    CROSSTREK_RL_VSS: 665
 - response: 7B805621027029C
   expected_values:
     CROSSTREK_RL_VSS: 668
+- response: 7B80562102702A4
+  expected_values:
+    CROSSTREK_RL_VSS: 676
+- response: 7B80562102702A5
+  expected_values:
+    CROSSTREK_RL_VSS: 677
+- response: 7B80562102702A6
+  expected_values:
+    CROSSTREK_RL_VSS: 678
 - response: 7B80562102702A9
   expected_values:
     CROSSTREK_RL_VSS: 681
+- response: 7B80562102702AC
+  expected_values:
+    CROSSTREK_RL_VSS: 684
+- response: 7B80562102702B0
+  expected_values:
+    CROSSTREK_RL_VSS: 688
 - response: 7B80562102702B4
   expected_values:
     CROSSTREK_RL_VSS: 692
+- response: 7B80562102702B9
+  expected_values:
+    CROSSTREK_RL_VSS: 697
+- response: 7B80562102702BA
+  expected_values:
+    CROSSTREK_RL_VSS: 698
 - response: 7B80562102702BB
   expected_values:
     CROSSTREK_RL_VSS: 699
 - response: 7B80562102702BD
   expected_values:
     CROSSTREK_RL_VSS: 701
+- response: 7B80562102702BE
+  expected_values:
+    CROSSTREK_RL_VSS: 702
 - response: 7B80562102702BF
   expected_values:
     CROSSTREK_RL_VSS: 703
+- response: 7B80562102702C0
+  expected_values:
+    CROSSTREK_RL_VSS: 704
 - response: 7B80562102702C2
   expected_values:
     CROSSTREK_RL_VSS: 706
+- response: 7B80562102702C4
+  expected_values:
+    CROSSTREK_RL_VSS: 708
 - response: 7B80562102702C5
   expected_values:
     CROSSTREK_RL_VSS: 709
 - response: 7B80562102702C6
   expected_values:
     CROSSTREK_RL_VSS: 710
+- response: 7B80562102702C7
+  expected_values:
+    CROSSTREK_RL_VSS: 711
 - response: 7B80562102702C9
   expected_values:
     CROSSTREK_RL_VSS: 713
+- response: 7B80562102702CA
+  expected_values:
+    CROSSTREK_RL_VSS: 714
+- response: 7B80562102702CB
+  expected_values:
+    CROSSTREK_RL_VSS: 715
 - response: 7B80562102702CC
   expected_values:
     CROSSTREK_RL_VSS: 716
+- response: 7B80562102702D2
+  expected_values:
+    CROSSTREK_RL_VSS: 722
+- response: 7B80562102702D4
+  expected_values:
+    CROSSTREK_RL_VSS: 724
 - response: 7B80562102702D7
   expected_values:
     CROSSTREK_RL_VSS: 727
+- response: 7B80562102702D9
+  expected_values:
+    CROSSTREK_RL_VSS: 729
 - response: 7B80562102702E1
   expected_values:
     CROSSTREK_RL_VSS: 737
+- response: 7B80562102702E5
+  expected_values:
+    CROSSTREK_RL_VSS: 741
+- response: 7B80562102702E8
+  expected_values:
+    CROSSTREK_RL_VSS: 744
 - response: 7B80562102702E9
   expected_values:
     CROSSTREK_RL_VSS: 745
+- response: 7B80562102702ED
+  expected_values:
+    CROSSTREK_RL_VSS: 749
 - response: 7B80562102702F2
   expected_values:
     CROSSTREK_RL_VSS: 754
+- response: 7B80562102702F4
+  expected_values:
+    CROSSTREK_RL_VSS: 756
 - response: 7B80562102702FD
   expected_values:
     CROSSTREK_RL_VSS: 765
 - response: 7B80562102702FE
   expected_values:
     CROSSTREK_RL_VSS: 766
+- response: 7B8056210270303
+  expected_values:
+    CROSSTREK_RL_VSS: 771
 - response: 7B8056210270304
   expected_values:
     CROSSTREK_RL_VSS: 772
@@ -365,36 +722,75 @@ test_cases:
 - response: 7B8056210270317
   expected_values:
     CROSSTREK_RL_VSS: 791
+- response: 7B8056210270319
+  expected_values:
+    CROSSTREK_RL_VSS: 793
 - response: 7B805621027031E
   expected_values:
     CROSSTREK_RL_VSS: 798
+- response: 7B8056210270320
+  expected_values:
+    CROSSTREK_RL_VSS: 800
 - response: 7B8056210270321
   expected_values:
     CROSSTREK_RL_VSS: 801
+- response: 7B8056210270323
+  expected_values:
+    CROSSTREK_RL_VSS: 803
 - response: 7B8056210270324
   expected_values:
     CROSSTREK_RL_VSS: 804
 - response: 7B8056210270326
   expected_values:
     CROSSTREK_RL_VSS: 806
+- response: 7B8056210270329
+  expected_values:
+    CROSSTREK_RL_VSS: 809
+- response: 7B805621027032E
+  expected_values:
+    CROSSTREK_RL_VSS: 814
+- response: 7B805621027032F
+  expected_values:
+    CROSSTREK_RL_VSS: 815
 - response: 7B8056210270330
   expected_values:
     CROSSTREK_RL_VSS: 816
+- response: 7B8056210270339
+  expected_values:
+    CROSSTREK_RL_VSS: 825
+- response: 7B805621027033C
+  expected_values:
+    CROSSTREK_RL_VSS: 828
+- response: 7B805621027033E
+  expected_values:
+    CROSSTREK_RL_VSS: 830
 - response: 7B8056210270345
   expected_values:
     CROSSTREK_RL_VSS: 837
 - response: 7B805621027034C
   expected_values:
     CROSSTREK_RL_VSS: 844
+- response: 7B805621027034D
+  expected_values:
+    CROSSTREK_RL_VSS: 845
 - response: 7B8056210270351
   expected_values:
     CROSSTREK_RL_VSS: 849
 - response: 7B8056210270353
   expected_values:
     CROSSTREK_RL_VSS: 851
+- response: 7B8056210270354
+  expected_values:
+    CROSSTREK_RL_VSS: 852
 - response: 7B8056210270359
   expected_values:
     CROSSTREK_RL_VSS: 857
+- response: 7B805621027035D
+  expected_values:
+    CROSSTREK_RL_VSS: 861
+- response: 7B8056210270368
+  expected_values:
+    CROSSTREK_RL_VSS: 872
 - response: 7B8056210270369
   expected_values:
     CROSSTREK_RL_VSS: 873
@@ -404,6 +800,9 @@ test_cases:
 - response: 7B805621027036C
   expected_values:
     CROSSTREK_RL_VSS: 876
+- response: 7B805621027036E
+  expected_values:
+    CROSSTREK_RL_VSS: 878
 - response: 7B8056210270370
   expected_values:
     CROSSTREK_RL_VSS: 880
@@ -422,6 +821,18 @@ test_cases:
 - response: 7B8056210270377
   expected_values:
     CROSSTREK_RL_VSS: 887
+- response: 7B8056210270379
+  expected_values:
+    CROSSTREK_RL_VSS: 889
+- response: 7B805621027037B
+  expected_values:
+    CROSSTREK_RL_VSS: 891
+- response: 7B805621027037E
+  expected_values:
+    CROSSTREK_RL_VSS: 894
+- response: 7B805621027037F
+  expected_values:
+    CROSSTREK_RL_VSS: 895
 - response: 7B8056210270384
   expected_values:
     CROSSTREK_RL_VSS: 900
@@ -443,6 +854,9 @@ test_cases:
 - response: 7B805621027039A
   expected_values:
     CROSSTREK_RL_VSS: 922
+- response: 7B805621027039B
+  expected_values:
+    CROSSTREK_RL_VSS: 923
 - response: 7B805621027039F
   expected_values:
     CROSSTREK_RL_VSS: 927
@@ -455,21 +869,39 @@ test_cases:
 - response: 7B80562102703A8
   expected_values:
     CROSSTREK_RL_VSS: 936
+- response: 7B80562102703AB
+  expected_values:
+    CROSSTREK_RL_VSS: 939
 - response: 7B80562102703AD
   expected_values:
     CROSSTREK_RL_VSS: 941
+- response: 7B80562102703AF
+  expected_values:
+    CROSSTREK_RL_VSS: 943
 - response: 7B80562102703B0
   expected_values:
     CROSSTREK_RL_VSS: 944
+- response: 7B80562102703B4
+  expected_values:
+    CROSSTREK_RL_VSS: 948
 - response: 7B80562102703B7
   expected_values:
     CROSSTREK_RL_VSS: 951
+- response: 7B80562102703BA
+  expected_values:
+    CROSSTREK_RL_VSS: 954
+- response: 7B80562102703BB
+  expected_values:
+    CROSSTREK_RL_VSS: 955
 - response: 7B80562102703BC
   expected_values:
     CROSSTREK_RL_VSS: 956
 - response: 7B80562102703C1
   expected_values:
     CROSSTREK_RL_VSS: 961
+- response: 7B80562102703C2
+  expected_values:
+    CROSSTREK_RL_VSS: 962
 - response: 7B80562102703C3
   expected_values:
     CROSSTREK_RL_VSS: 963
@@ -494,6 +926,9 @@ test_cases:
 - response: 7B80562102703DF
   expected_values:
     CROSSTREK_RL_VSS: 991
+- response: 7B80562102703E0
+  expected_values:
+    CROSSTREK_RL_VSS: 992
 - response: 7B80562102703E1
   expected_values:
     CROSSTREK_RL_VSS: 993
@@ -506,18 +941,45 @@ test_cases:
 - response: 7B80562102703E6
   expected_values:
     CROSSTREK_RL_VSS: 998
+- response: 7B80562102703E8
+  expected_values:
+    CROSSTREK_RL_VSS: 1000
+- response: 7B80562102703EB
+  expected_values:
+    CROSSTREK_RL_VSS: 1003
 - response: 7B80562102703EC
   expected_values:
     CROSSTREK_RL_VSS: 1004
+- response: 7B80562102703EE
+  expected_values:
+    CROSSTREK_RL_VSS: 1006
+- response: 7B80562102703F4
+  expected_values:
+    CROSSTREK_RL_VSS: 1012
 - response: 7B80562102703F5
   expected_values:
     CROSSTREK_RL_VSS: 1013
 - response: 7B80562102703FA
   expected_values:
     CROSSTREK_RL_VSS: 1018
+- response: 7B80562102703FD
+  expected_values:
+    CROSSTREK_RL_VSS: 1021
+- response: 7B80562102703FF
+  expected_values:
+    CROSSTREK_RL_VSS: 1023
+- response: 7B8056210270402
+  expected_values:
+    CROSSTREK_RL_VSS: 1026
 - response: 7B8056210270404
   expected_values:
     CROSSTREK_RL_VSS: 1028
+- response: 7B8056210270406
+  expected_values:
+    CROSSTREK_RL_VSS: 1030
+- response: 7B8056210270408
+  expected_values:
+    CROSSTREK_RL_VSS: 1032
 - response: 7B8056210270409
   expected_values:
     CROSSTREK_RL_VSS: 1033
@@ -527,9 +989,18 @@ test_cases:
 - response: 7B805621027040E
   expected_values:
     CROSSTREK_RL_VSS: 1038
+- response: 7B8056210270410
+  expected_values:
+    CROSSTREK_RL_VSS: 1040
+- response: 7B8056210270411
+  expected_values:
+    CROSSTREK_RL_VSS: 1041
 - response: 7B8056210270412
   expected_values:
     CROSSTREK_RL_VSS: 1042
+- response: 7B8056210270414
+  expected_values:
+    CROSSTREK_RL_VSS: 1044
 - response: 7B8056210270417
   expected_values:
     CROSSTREK_RL_VSS: 1047
@@ -548,54 +1019,99 @@ test_cases:
 - response: 7B805621027042F
   expected_values:
     CROSSTREK_RL_VSS: 1071
+- response: 7B8056210270433
+  expected_values:
+    CROSSTREK_RL_VSS: 1075
+- response: 7B8056210270435
+  expected_values:
+    CROSSTREK_RL_VSS: 1077
 - response: 7B8056210270437
   expected_values:
     CROSSTREK_RL_VSS: 1079
+- response: 7B8056210270439
+  expected_values:
+    CROSSTREK_RL_VSS: 1081
 - response: 7B805621027043C
   expected_values:
     CROSSTREK_RL_VSS: 1084
+- response: 7B805621027043D
+  expected_values:
+    CROSSTREK_RL_VSS: 1085
 - response: 7B805621027043E
   expected_values:
     CROSSTREK_RL_VSS: 1086
+- response: 7B8056210270441
+  expected_values:
+    CROSSTREK_RL_VSS: 1089
 - response: 7B8056210270442
   expected_values:
     CROSSTREK_RL_VSS: 1090
 - response: 7B8056210270443
   expected_values:
     CROSSTREK_RL_VSS: 1091
+- response: 7B8056210270446
+  expected_values:
+    CROSSTREK_RL_VSS: 1094
 - response: 7B8056210270447
   expected_values:
     CROSSTREK_RL_VSS: 1095
+- response: 7B8056210270449
+  expected_values:
+    CROSSTREK_RL_VSS: 1097
 - response: 7B805621027044E
   expected_values:
     CROSSTREK_RL_VSS: 1102
 - response: 7B805621027044F
   expected_values:
     CROSSTREK_RL_VSS: 1103
+- response: 7B8056210270452
+  expected_values:
+    CROSSTREK_RL_VSS: 1106
 - response: 7B805621027045B
   expected_values:
     CROSSTREK_RL_VSS: 1115
+- response: 7B805621027045C
+  expected_values:
+    CROSSTREK_RL_VSS: 1116
 - response: 7B805621027045D
   expected_values:
     CROSSTREK_RL_VSS: 1117
 - response: 7B8056210270460
   expected_values:
     CROSSTREK_RL_VSS: 1120
+- response: 7B8056210270461
+  expected_values:
+    CROSSTREK_RL_VSS: 1121
+- response: 7B8056210270462
+  expected_values:
+    CROSSTREK_RL_VSS: 1122
 - response: 7B8056210270464
   expected_values:
     CROSSTREK_RL_VSS: 1124
 - response: 7B805621027046D
   expected_values:
     CROSSTREK_RL_VSS: 1133
+- response: 7B8056210270470
+  expected_values:
+    CROSSTREK_RL_VSS: 1136
 - response: 7B8056210270477
   expected_values:
     CROSSTREK_RL_VSS: 1143
 - response: 7B805621027047B
   expected_values:
     CROSSTREK_RL_VSS: 1147
+- response: 7B805621027047E
+  expected_values:
+    CROSSTREK_RL_VSS: 1150
+- response: 7B8056210270483
+  expected_values:
+    CROSSTREK_RL_VSS: 1155
 - response: 7B8056210270488
   expected_values:
     CROSSTREK_RL_VSS: 1160
+- response: 7B805621027048F
+  expected_values:
+    CROSSTREK_RL_VSS: 1167
 - response: 7B8056210270499
   expected_values:
     CROSSTREK_RL_VSS: 1177
@@ -608,27 +1124,51 @@ test_cases:
 - response: 7B80562102704A2
   expected_values:
     CROSSTREK_RL_VSS: 1186
+- response: 7B80562102704A4
+  expected_values:
+    CROSSTREK_RL_VSS: 1188
 - response: 7B80562102704A5
   expected_values:
     CROSSTREK_RL_VSS: 1189
 - response: 7B80562102704A7
   expected_values:
     CROSSTREK_RL_VSS: 1191
+- response: 7B80562102704A8
+  expected_values:
+    CROSSTREK_RL_VSS: 1192
 - response: 7B80562102704A9
   expected_values:
     CROSSTREK_RL_VSS: 1193
 - response: 7B80562102704B3
   expected_values:
     CROSSTREK_RL_VSS: 1203
+- response: 7B80562102704B4
+  expected_values:
+    CROSSTREK_RL_VSS: 1204
+- response: 7B80562102704B5
+  expected_values:
+    CROSSTREK_RL_VSS: 1205
 - response: 7B80562102704B7
   expected_values:
     CROSSTREK_RL_VSS: 1207
 - response: 7B80562102704B9
   expected_values:
     CROSSTREK_RL_VSS: 1209
+- response: 7B80562102704BD
+  expected_values:
+    CROSSTREK_RL_VSS: 1213
+- response: 7B80562102704C1
+  expected_values:
+    CROSSTREK_RL_VSS: 1217
+- response: 7B80562102704C4
+  expected_values:
+    CROSSTREK_RL_VSS: 1220
 - response: 7B80562102704CA
   expected_values:
     CROSSTREK_RL_VSS: 1226
+- response: 7B80562102704CB
+  expected_values:
+    CROSSTREK_RL_VSS: 1227
 - response: 7B80562102704CC
   expected_values:
     CROSSTREK_RL_VSS: 1228
@@ -641,6 +1181,9 @@ test_cases:
 - response: 7B80562102704D2
   expected_values:
     CROSSTREK_RL_VSS: 1234
+- response: 7B80562102704D3
+  expected_values:
+    CROSSTREK_RL_VSS: 1235
 - response: 7B80562102704D4
   expected_values:
     CROSSTREK_RL_VSS: 1236
@@ -650,15 +1193,30 @@ test_cases:
 - response: 7B80562102704D6
   expected_values:
     CROSSTREK_RL_VSS: 1238
+- response: 7B80562102704D7
+  expected_values:
+    CROSSTREK_RL_VSS: 1239
 - response: 7B80562102704D8
   expected_values:
     CROSSTREK_RL_VSS: 1240
+- response: 7B80562102704D9
+  expected_values:
+    CROSSTREK_RL_VSS: 1241
+- response: 7B80562102704DB
+  expected_values:
+    CROSSTREK_RL_VSS: 1243
 - response: 7B80562102704DC
   expected_values:
     CROSSTREK_RL_VSS: 1244
 - response: 7B80562102704E2
   expected_values:
     CROSSTREK_RL_VSS: 1250
+- response: 7B80562102704E3
+  expected_values:
+    CROSSTREK_RL_VSS: 1251
+- response: 7B80562102704E7
+  expected_values:
+    CROSSTREK_RL_VSS: 1255
 - response: 7B80562102704E8
   expected_values:
     CROSSTREK_RL_VSS: 1256
@@ -668,6 +1226,18 @@ test_cases:
 - response: 7B80562102704EE
   expected_values:
     CROSSTREK_RL_VSS: 1262
+- response: 7B80562102704F3
+  expected_values:
+    CROSSTREK_RL_VSS: 1267
+- response: 7B80562102704F5
+  expected_values:
+    CROSSTREK_RL_VSS: 1269
+- response: 7B80562102704F6
+  expected_values:
+    CROSSTREK_RL_VSS: 1270
+- response: 7B80562102704F8
+  expected_values:
+    CROSSTREK_RL_VSS: 1272
 - response: 7B80562102704FE
   expected_values:
     CROSSTREK_RL_VSS: 1278
@@ -677,12 +1247,21 @@ test_cases:
 - response: 7B8056210270501
   expected_values:
     CROSSTREK_RL_VSS: 1281
+- response: 7B8056210270503
+  expected_values:
+    CROSSTREK_RL_VSS: 1283
 - response: 7B8056210270507
   expected_values:
     CROSSTREK_RL_VSS: 1287
+- response: 7B805621027050B
+  expected_values:
+    CROSSTREK_RL_VSS: 1291
 - response: 7B8056210270510
   expected_values:
     CROSSTREK_RL_VSS: 1296
+- response: 7B8056210270516
+  expected_values:
+    CROSSTREK_RL_VSS: 1302
 - response: 7B8056210270518
   expected_values:
     CROSSTREK_RL_VSS: 1304
@@ -695,18 +1274,27 @@ test_cases:
 - response: 7B8056210270520
   expected_values:
     CROSSTREK_RL_VSS: 1312
+- response: 7B8056210270522
+  expected_values:
+    CROSSTREK_RL_VSS: 1314
 - response: 7B8056210270526
   expected_values:
     CROSSTREK_RL_VSS: 1318
 - response: 7B8056210270528
   expected_values:
     CROSSTREK_RL_VSS: 1320
+- response: 7B805621027052F
+  expected_values:
+    CROSSTREK_RL_VSS: 1327
 - response: 7B8056210270531
   expected_values:
     CROSSTREK_RL_VSS: 1329
 - response: 7B8056210270535
   expected_values:
     CROSSTREK_RL_VSS: 1333
+- response: 7B8056210270538
+  expected_values:
+    CROSSTREK_RL_VSS: 1336
 - response: 7B805621027053E
   expected_values:
     CROSSTREK_RL_VSS: 1342
@@ -716,12 +1304,24 @@ test_cases:
 - response: 7B8056210270546
   expected_values:
     CROSSTREK_RL_VSS: 1350
+- response: 7B8056210270547
+  expected_values:
+    CROSSTREK_RL_VSS: 1351
 - response: 7B805621027054B
   expected_values:
     CROSSTREK_RL_VSS: 1355
+- response: 7B805621027054C
+  expected_values:
+    CROSSTREK_RL_VSS: 1356
+- response: 7B805621027054F
+  expected_values:
+    CROSSTREK_RL_VSS: 1359
 - response: 7B8056210270550
   expected_values:
     CROSSTREK_RL_VSS: 1360
+- response: 7B8056210270556
+  expected_values:
+    CROSSTREK_RL_VSS: 1366
 - response: 7B8056210270557
   expected_values:
     CROSSTREK_RL_VSS: 1367
@@ -734,9 +1334,27 @@ test_cases:
 - response: 7B8056210270568
   expected_values:
     CROSSTREK_RL_VSS: 1384
+- response: 7B805621027056B
+  expected_values:
+    CROSSTREK_RL_VSS: 1387
+- response: 7B8056210270573
+  expected_values:
+    CROSSTREK_RL_VSS: 1395
+- response: 7B8056210270574
+  expected_values:
+    CROSSTREK_RL_VSS: 1396
+- response: 7B8056210270576
+  expected_values:
+    CROSSTREK_RL_VSS: 1398
+- response: 7B8056210270577
+  expected_values:
+    CROSSTREK_RL_VSS: 1399
 - response: 7B805621027057A
   expected_values:
     CROSSTREK_RL_VSS: 1402
+- response: 7B8056210270580
+  expected_values:
+    CROSSTREK_RL_VSS: 1408
 - response: 7B8056210270584
   expected_values:
     CROSSTREK_RL_VSS: 1412
@@ -761,18 +1379,45 @@ test_cases:
 - response: 7B8056210270596
   expected_values:
     CROSSTREK_RL_VSS: 1430
+- response: 7B8056210270597
+  expected_values:
+    CROSSTREK_RL_VSS: 1431
+- response: 7B805621027059A
+  expected_values:
+    CROSSTREK_RL_VSS: 1434
+- response: 7B805621027059D
+  expected_values:
+    CROSSTREK_RL_VSS: 1437
 - response: 7B805621027059E
   expected_values:
     CROSSTREK_RL_VSS: 1438
+- response: 7B80562102705A4
+  expected_values:
+    CROSSTREK_RL_VSS: 1444
 - response: 7B80562102705A6
   expected_values:
     CROSSTREK_RL_VSS: 1446
+- response: 7B80562102705A7
+  expected_values:
+    CROSSTREK_RL_VSS: 1447
 - response: 7B80562102705AB
   expected_values:
     CROSSTREK_RL_VSS: 1451
+- response: 7B80562102705AC
+  expected_values:
+    CROSSTREK_RL_VSS: 1452
 - response: 7B80562102705B8
   expected_values:
     CROSSTREK_RL_VSS: 1464
+- response: 7B80562102705BB
+  expected_values:
+    CROSSTREK_RL_VSS: 1467
+- response: 7B80562102705BC
+  expected_values:
+    CROSSTREK_RL_VSS: 1468
+- response: 7B80562102705BF
+  expected_values:
+    CROSSTREK_RL_VSS: 1471
 - response: 7B80562102705C1
   expected_values:
     CROSSTREK_RL_VSS: 1473
@@ -794,18 +1439,36 @@ test_cases:
 - response: 7B80562102705DE
   expected_values:
     CROSSTREK_RL_VSS: 1502
+- response: 7B80562102705EA
+  expected_values:
+    CROSSTREK_RL_VSS: 1514
 - response: 7B80562102705EC
   expected_values:
     CROSSTREK_RL_VSS: 1516
+- response: 7B80562102705F0
+  expected_values:
+    CROSSTREK_RL_VSS: 1520
+- response: 7B80562102705F2
+  expected_values:
+    CROSSTREK_RL_VSS: 1522
 - response: 7B80562102705F4
   expected_values:
     CROSSTREK_RL_VSS: 1524
 - response: 7B80562102705FC
   expected_values:
     CROSSTREK_RL_VSS: 1532
+- response: 7B8056210270602
+  expected_values:
+    CROSSTREK_RL_VSS: 1538
 - response: 7B8056210270603
   expected_values:
     CROSSTREK_RL_VSS: 1539
+- response: 7B8056210270604
+  expected_values:
+    CROSSTREK_RL_VSS: 1540
+- response: 7B8056210270606
+  expected_values:
+    CROSSTREK_RL_VSS: 1542
 - response: 7B8056210270608
   expected_values:
     CROSSTREK_RL_VSS: 1544
@@ -818,12 +1481,21 @@ test_cases:
 - response: 7B805621027060D
   expected_values:
     CROSSTREK_RL_VSS: 1549
+- response: 7B805621027060E
+  expected_values:
+    CROSSTREK_RL_VSS: 1550
+- response: 7B8056210270612
+  expected_values:
+    CROSSTREK_RL_VSS: 1554
 - response: 7B8056210270613
   expected_values:
     CROSSTREK_RL_VSS: 1555
 - response: 7B8056210270614
   expected_values:
     CROSSTREK_RL_VSS: 1556
+- response: 7B805621027061C
+  expected_values:
+    CROSSTREK_RL_VSS: 1564
 - response: 7B805621027061E
   expected_values:
     CROSSTREK_RL_VSS: 1566
@@ -833,15 +1505,24 @@ test_cases:
 - response: 7B8056210270623
   expected_values:
     CROSSTREK_RL_VSS: 1571
+- response: 7B8056210270624
+  expected_values:
+    CROSSTREK_RL_VSS: 1572
 - response: 7B8056210270628
   expected_values:
     CROSSTREK_RL_VSS: 1576
 - response: 7B805621027062C
   expected_values:
     CROSSTREK_RL_VSS: 1580
+- response: 7B8056210270634
+  expected_values:
+    CROSSTREK_RL_VSS: 1588
 - response: 7B805621027063B
   expected_values:
     CROSSTREK_RL_VSS: 1595
+- response: 7B805621027063D
+  expected_values:
+    CROSSTREK_RL_VSS: 1597
 - response: 7B805621027063E
   expected_values:
     CROSSTREK_RL_VSS: 1598
@@ -851,18 +1532,39 @@ test_cases:
 - response: 7B8056210270644
   expected_values:
     CROSSTREK_RL_VSS: 1604
+- response: 7B8056210270649
+  expected_values:
+    CROSSTREK_RL_VSS: 1609
 - response: 7B805621027064D
   expected_values:
     CROSSTREK_RL_VSS: 1613
+- response: 7B805621027064E
+  expected_values:
+    CROSSTREK_RL_VSS: 1614
+- response: 7B8056210270652
+  expected_values:
+    CROSSTREK_RL_VSS: 1618
 - response: 7B805621027065E
   expected_values:
     CROSSTREK_RL_VSS: 1630
+- response: 7B8056210270660
+  expected_values:
+    CROSSTREK_RL_VSS: 1632
 - response: 7B8056210270661
   expected_values:
     CROSSTREK_RL_VSS: 1633
+- response: 7B8056210270662
+  expected_values:
+    CROSSTREK_RL_VSS: 1634
+- response: 7B8056210270666
+  expected_values:
+    CROSSTREK_RL_VSS: 1638
 - response: 7B8056210270667
   expected_values:
     CROSSTREK_RL_VSS: 1639
+- response: 7B805621027066C
+  expected_values:
+    CROSSTREK_RL_VSS: 1644
 - response: 7B8056210270673
   expected_values:
     CROSSTREK_RL_VSS: 1651
@@ -872,39 +1574,78 @@ test_cases:
 - response: 7B805621027067A
   expected_values:
     CROSSTREK_RL_VSS: 1658
+- response: 7B805621027067D
+  expected_values:
+    CROSSTREK_RL_VSS: 1661
 - response: 7B805621027067E
   expected_values:
     CROSSTREK_RL_VSS: 1662
 - response: 7B8056210270681
   expected_values:
     CROSSTREK_RL_VSS: 1665
+- response: 7B8056210270684
+  expected_values:
+    CROSSTREK_RL_VSS: 1668
 - response: 7B8056210270685
   expected_values:
     CROSSTREK_RL_VSS: 1669
+- response: 7B8056210270689
+  expected_values:
+    CROSSTREK_RL_VSS: 1673
 - response: 7B8056210270691
   expected_values:
     CROSSTREK_RL_VSS: 1681
 - response: 7B8056210270693
   expected_values:
     CROSSTREK_RL_VSS: 1683
+- response: 7B8056210270694
+  expected_values:
+    CROSSTREK_RL_VSS: 1684
 - response: 7B8056210270697
   expected_values:
     CROSSTREK_RL_VSS: 1687
 - response: 7B8056210270698
   expected_values:
     CROSSTREK_RL_VSS: 1688
+- response: 7B805621027069A
+  expected_values:
+    CROSSTREK_RL_VSS: 1690
+- response: 7B805621027069B
+  expected_values:
+    CROSSTREK_RL_VSS: 1691
+- response: 7B805621027069E
+  expected_values:
+    CROSSTREK_RL_VSS: 1694
 - response: 7B80562102706A4
   expected_values:
     CROSSTREK_RL_VSS: 1700
 - response: 7B80562102706AA
   expected_values:
     CROSSTREK_RL_VSS: 1706
+- response: 7B80562102706AE
+  expected_values:
+    CROSSTREK_RL_VSS: 1710
 - response: 7B80562102706AF
   expected_values:
     CROSSTREK_RL_VSS: 1711
+- response: 7B80562102706B0
+  expected_values:
+    CROSSTREK_RL_VSS: 1712
+- response: 7B80562102706B6
+  expected_values:
+    CROSSTREK_RL_VSS: 1718
 - response: 7B80562102706B9
   expected_values:
     CROSSTREK_RL_VSS: 1721
+- response: 7B80562102706C0
+  expected_values:
+    CROSSTREK_RL_VSS: 1728
+- response: 7B80562102706C1
+  expected_values:
+    CROSSTREK_RL_VSS: 1729
+- response: 7B80562102706C7
+  expected_values:
+    CROSSTREK_RL_VSS: 1735
 - response: 7B80562102706C9
   expected_values:
     CROSSTREK_RL_VSS: 1737
@@ -920,9 +1661,33 @@ test_cases:
 - response: 7B80562102706D5
   expected_values:
     CROSSTREK_RL_VSS: 1749
+- response: 7B80562102706D9
+  expected_values:
+    CROSSTREK_RL_VSS: 1753
+- response: 7B80562102706DA
+  expected_values:
+    CROSSTREK_RL_VSS: 1754
+- response: 7B80562102706DF
+  expected_values:
+    CROSSTREK_RL_VSS: 1759
+- response: 7B80562102706E0
+  expected_values:
+    CROSSTREK_RL_VSS: 1760
+- response: 7B80562102706E2
+  expected_values:
+    CROSSTREK_RL_VSS: 1762
 - response: 7B80562102706E4
   expected_values:
     CROSSTREK_RL_VSS: 1764
+- response: 7B80562102706E5
+  expected_values:
+    CROSSTREK_RL_VSS: 1765
+- response: 7B80562102706E7
+  expected_values:
+    CROSSTREK_RL_VSS: 1767
+- response: 7B80562102706E9
+  expected_values:
+    CROSSTREK_RL_VSS: 1769
 - response: 7B80562102706EA
   expected_values:
     CROSSTREK_RL_VSS: 1770
@@ -935,27 +1700,66 @@ test_cases:
 - response: 7B80562102706F3
   expected_values:
     CROSSTREK_RL_VSS: 1779
+- response: 7B80562102706F4
+  expected_values:
+    CROSSTREK_RL_VSS: 1780
 - response: 7B80562102706F9
   expected_values:
     CROSSTREK_RL_VSS: 1785
 - response: 7B80562102706FA
   expected_values:
     CROSSTREK_RL_VSS: 1786
+- response: 7B80562102706FB
+  expected_values:
+    CROSSTREK_RL_VSS: 1787
 - response: 7B80562102706FD
   expected_values:
     CROSSTREK_RL_VSS: 1789
 - response: 7B8056210270700
   expected_values:
     CROSSTREK_RL_VSS: 1792
+- response: 7B8056210270701
+  expected_values:
+    CROSSTREK_RL_VSS: 1793
+- response: 7B8056210270704
+  expected_values:
+    CROSSTREK_RL_VSS: 1796
+- response: 7B8056210270706
+  expected_values:
+    CROSSTREK_RL_VSS: 1798
+- response: 7B8056210270708
+  expected_values:
+    CROSSTREK_RL_VSS: 1800
+- response: 7B805621027070A
+  expected_values:
+    CROSSTREK_RL_VSS: 1802
+- response: 7B805621027070C
+  expected_values:
+    CROSSTREK_RL_VSS: 1804
 - response: 7B805621027070E
   expected_values:
     CROSSTREK_RL_VSS: 1806
+- response: 7B805621027070F
+  expected_values:
+    CROSSTREK_RL_VSS: 1807
+- response: 7B8056210270710
+  expected_values:
+    CROSSTREK_RL_VSS: 1808
 - response: 7B8056210270712
   expected_values:
     CROSSTREK_RL_VSS: 1810
 - response: 7B8056210270713
   expected_values:
     CROSSTREK_RL_VSS: 1811
+- response: 7B8056210270714
+  expected_values:
+    CROSSTREK_RL_VSS: 1812
+- response: 7B8056210270715
+  expected_values:
+    CROSSTREK_RL_VSS: 1813
+- response: 7B8056210270719
+  expected_values:
+    CROSSTREK_RL_VSS: 1817
 - response: 7B8056210270720
   expected_values:
     CROSSTREK_RL_VSS: 1824
@@ -980,18 +1784,54 @@ test_cases:
 - response: 7B8056210270738
   expected_values:
     CROSSTREK_RL_VSS: 1848
+- response: 7B8056210270739
+  expected_values:
+    CROSSTREK_RL_VSS: 1849
+- response: 7B805621027073C
+  expected_values:
+    CROSSTREK_RL_VSS: 1852
 - response: 7B8056210270740
   expected_values:
     CROSSTREK_RL_VSS: 1856
 - response: 7B8056210270742
   expected_values:
     CROSSTREK_RL_VSS: 1858
+- response: 7B8056210270746
+  expected_values:
+    CROSSTREK_RL_VSS: 1862
 - response: 7B8056210270749
   expected_values:
     CROSSTREK_RL_VSS: 1865
+- response: 7B805621027074D
+  expected_values:
+    CROSSTREK_RL_VSS: 1869
+- response: 7B8056210270751
+  expected_values:
+    CROSSTREK_RL_VSS: 1873
+- response: 7B8056210270752
+  expected_values:
+    CROSSTREK_RL_VSS: 1874
 - response: 7B8056210270753
   expected_values:
     CROSSTREK_RL_VSS: 1875
+- response: 7B8056210270755
+  expected_values:
+    CROSSTREK_RL_VSS: 1877
+- response: 7B8056210270756
+  expected_values:
+    CROSSTREK_RL_VSS: 1878
+- response: 7B8056210270758
+  expected_values:
+    CROSSTREK_RL_VSS: 1880
+- response: 7B805621027075B
+  expected_values:
+    CROSSTREK_RL_VSS: 1883
+- response: 7B8056210270760
+  expected_values:
+    CROSSTREK_RL_VSS: 1888
+- response: 7B8056210270762
+  expected_values:
+    CROSSTREK_RL_VSS: 1890
 - response: 7B8056210270764
   expected_values:
     CROSSTREK_RL_VSS: 1892
@@ -1004,33 +1844,93 @@ test_cases:
 - response: 7B805621027076E
   expected_values:
     CROSSTREK_RL_VSS: 1902
+- response: 7B8056210270770
+  expected_values:
+    CROSSTREK_RL_VSS: 1904
 - response: 7B8056210270771
   expected_values:
     CROSSTREK_RL_VSS: 1905
+- response: 7B8056210270772
+  expected_values:
+    CROSSTREK_RL_VSS: 1906
 - response: 7B8056210270773
   expected_values:
     CROSSTREK_RL_VSS: 1907
 - response: 7B8056210270774
   expected_values:
     CROSSTREK_RL_VSS: 1908
+- response: 7B8056210270776
+  expected_values:
+    CROSSTREK_RL_VSS: 1910
+- response: 7B8056210270777
+  expected_values:
+    CROSSTREK_RL_VSS: 1911
+- response: 7B8056210270779
+  expected_values:
+    CROSSTREK_RL_VSS: 1913
 - response: 7B805621027077B
   expected_values:
     CROSSTREK_RL_VSS: 1915
+- response: 7B805621027077C
+  expected_values:
+    CROSSTREK_RL_VSS: 1916
+- response: 7B8056210270780
+  expected_values:
+    CROSSTREK_RL_VSS: 1920
+- response: 7B8056210270781
+  expected_values:
+    CROSSTREK_RL_VSS: 1921
+- response: 7B8056210270782
+  expected_values:
+    CROSSTREK_RL_VSS: 1922
+- response: 7B8056210270785
+  expected_values:
+    CROSSTREK_RL_VSS: 1925
 - response: 7B8056210270786
   expected_values:
     CROSSTREK_RL_VSS: 1926
+- response: 7B8056210270787
+  expected_values:
+    CROSSTREK_RL_VSS: 1927
 - response: 7B8056210270788
   expected_values:
     CROSSTREK_RL_VSS: 1928
+- response: 7B805621027078F
+  expected_values:
+    CROSSTREK_RL_VSS: 1935
+- response: 7B8056210270792
+  expected_values:
+    CROSSTREK_RL_VSS: 1938
 - response: 7B8056210270795
   expected_values:
     CROSSTREK_RL_VSS: 1941
 - response: 7B8056210270797
   expected_values:
     CROSSTREK_RL_VSS: 1943
+- response: 7B8056210270798
+  expected_values:
+    CROSSTREK_RL_VSS: 1944
+- response: 7B805621027079A
+  expected_values:
+    CROSSTREK_RL_VSS: 1946
 - response: 7B805621027079D
   expected_values:
     CROSSTREK_RL_VSS: 1949
+- response: 7B80562102707A0
+  expected_values:
+    CROSSTREK_RL_VSS: 1952
+- response: 7B80562102707A3
+  expected_values:
+    CROSSTREK_RL_VSS: 1955
+- response: 7B80562102707A4
+  expected_values:
+    CROSSTREK_RL_VSS: 1956
+- response: 7B80562102707A6
+  expected_values:
+    CROSSTREK_RL_VSS: 1958
+- response: 7B80562102707A9
+  expected_values:
+    CROSSTREK_RL_VSS: 1961
 - response: 7B80562102707AB
   expected_values:
     CROSSTREK_RL_VSS: 1963
@@ -1043,6 +1943,9 @@ test_cases:
 - response: 7B80562102707AE
   expected_values:
     CROSSTREK_RL_VSS: 1966
+- response: 7B80562102707AF
+  expected_values:
+    CROSSTREK_RL_VSS: 1967
 - response: 7B80562102707B0
   expected_values:
     CROSSTREK_RL_VSS: 1968
@@ -1079,6 +1982,9 @@ test_cases:
 - response: 7B80562102707C1
   expected_values:
     CROSSTREK_RL_VSS: 1985
+- response: 7B80562102707C2
+  expected_values:
+    CROSSTREK_RL_VSS: 1986
 - response: 7B80562102707C5
   expected_values:
     CROSSTREK_RL_VSS: 1989
@@ -1103,21 +2009,33 @@ test_cases:
 - response: 7B80562102707DE
   expected_values:
     CROSSTREK_RL_VSS: 2014
+- response: 7B80562102707DF
+  expected_values:
+    CROSSTREK_RL_VSS: 2015
 - response: 7B80562102707E0
   expected_values:
     CROSSTREK_RL_VSS: 2016
 - response: 7B80562102707E4
   expected_values:
     CROSSTREK_RL_VSS: 2020
+- response: 7B80562102707E7
+  expected_values:
+    CROSSTREK_RL_VSS: 2023
 - response: 7B80562102707EA
   expected_values:
     CROSSTREK_RL_VSS: 2026
 - response: 7B80562102707EB
   expected_values:
     CROSSTREK_RL_VSS: 2027
+- response: 7B80562102707EC
+  expected_values:
+    CROSSTREK_RL_VSS: 2028
 - response: 7B80562102707F0
   expected_values:
     CROSSTREK_RL_VSS: 2032
+- response: 7B80562102707F2
+  expected_values:
+    CROSSTREK_RL_VSS: 2034
 - response: 7B80562102707F5
   expected_values:
     CROSSTREK_RL_VSS: 2037
@@ -1127,12 +2045,24 @@ test_cases:
 - response: 7B80562102707F9
   expected_values:
     CROSSTREK_RL_VSS: 2041
+- response: 7B80562102707FB
+  expected_values:
+    CROSSTREK_RL_VSS: 2043
+- response: 7B80562102707FF
+  expected_values:
+    CROSSTREK_RL_VSS: 2047
 - response: 7B8056210270801
   expected_values:
     CROSSTREK_RL_VSS: 2049
 - response: 7B8056210270803
   expected_values:
     CROSSTREK_RL_VSS: 2051
+- response: 7B805621027080A
+  expected_values:
+    CROSSTREK_RL_VSS: 2058
+- response: 7B805621027080B
+  expected_values:
+    CROSSTREK_RL_VSS: 2059
 - response: 7B805621027080C
   expected_values:
     CROSSTREK_RL_VSS: 2060
@@ -1142,12 +2072,18 @@ test_cases:
 - response: 7B8056210270811
   expected_values:
     CROSSTREK_RL_VSS: 2065
+- response: 7B8056210270813
+  expected_values:
+    CROSSTREK_RL_VSS: 2067
 - response: 7B8056210270816
   expected_values:
     CROSSTREK_RL_VSS: 2070
 - response: 7B8056210270819
   expected_values:
     CROSSTREK_RL_VSS: 2073
+- response: 7B805621027081A
+  expected_values:
+    CROSSTREK_RL_VSS: 2074
 - response: 7B805621027081F
   expected_values:
     CROSSTREK_RL_VSS: 2079
@@ -1163,6 +2099,12 @@ test_cases:
 - response: 7B8056210270826
   expected_values:
     CROSSTREK_RL_VSS: 2086
+- response: 7B8056210270829
+  expected_values:
+    CROSSTREK_RL_VSS: 2089
+- response: 7B8056210270838
+  expected_values:
+    CROSSTREK_RL_VSS: 2104
 - response: 7B805621027083E
   expected_values:
     CROSSTREK_RL_VSS: 2110
@@ -1190,6 +2132,9 @@ test_cases:
 - response: 7B8056210270850
   expected_values:
     CROSSTREK_RL_VSS: 2128
+- response: 7B8056210270851
+  expected_values:
+    CROSSTREK_RL_VSS: 2129
 - response: 7B8056210270852
   expected_values:
     CROSSTREK_RL_VSS: 2130
@@ -1202,6 +2147,9 @@ test_cases:
 - response: 7B8056210270856
   expected_values:
     CROSSTREK_RL_VSS: 2134
+- response: 7B8056210270857
+  expected_values:
+    CROSSTREK_RL_VSS: 2135
 - response: 7B8056210270858
   expected_values:
     CROSSTREK_RL_VSS: 2136
@@ -1211,6 +2159,9 @@ test_cases:
 - response: 7B805621027085D
   expected_values:
     CROSSTREK_RL_VSS: 2141
+- response: 7B805621027085E
+  expected_values:
+    CROSSTREK_RL_VSS: 2142
 - response: 7B8056210270860
   expected_values:
     CROSSTREK_RL_VSS: 2144
@@ -1226,6 +2177,9 @@ test_cases:
 - response: 7B8056210270871
   expected_values:
     CROSSTREK_RL_VSS: 2161
+- response: 7B8056210270877
+  expected_values:
+    CROSSTREK_RL_VSS: 2167
 - response: 7B8056210270898
   expected_values:
     CROSSTREK_RL_VSS: 2200
