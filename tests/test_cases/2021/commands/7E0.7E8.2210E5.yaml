@@ -746,3 +746,30 @@ test_cases:
 - response: 7E8056210E59900
   expected_values:
     CROSSTREK_ODO: 78336
+- response: 7E8056210E59901
+  expected_values:
+    CROSSTREK_ODO: 78338
+- response: 7E8056210E59902
+  expected_values:
+    CROSSTREK_ODO: 78340
+- response: 7E8056210E59903
+  expected_values:
+    CROSSTREK_ODO: 78342
+- response: 7E8056210E59904
+  expected_values:
+    CROSSTREK_ODO: 78344
+- response: 7E8056210E59905
+  expected_values:
+    CROSSTREK_ODO: 78346
+- response: 7E8056210E59906
+  expected_values:
+    CROSSTREK_ODO: 78348
+- response: 7E8056210E59907
+  expected_values:
+    CROSSTREK_ODO: 78350
+- response: 7E8056210E59908
+  expected_values:
+    CROSSTREK_ODO: 78352
+- response: 7E8056210E59909
+  expected_values:
+    CROSSTREK_ODO: 78354

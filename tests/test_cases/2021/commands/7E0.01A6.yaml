@@ -1820,3 +1820,96 @@ test_cases:
 - response: 7E80641A6000BDDD2
   expected_values:
     ODO: 77768.2
+- response: 7E80641A6000BDDD4
+  expected_values:
+    ODO: 77768.4
+- response: 7E80641A6000BDDD7
+  expected_values:
+    ODO: 77768.7
+- response: 7E80641A6000BDDD9
+  expected_values:
+    ODO: 77768.9
+- response: 7E80641A6000BDDDF
+  expected_values:
+    ODO: 77769.5
+- response: 7E80641A6000BDDE9
+  expected_values:
+    ODO: 77770.5
+- response: 7E80641A6000BDDF1
+  expected_values:
+    ODO: 77771.3
+- response: 7E80641A6000BDDFB
+  expected_values:
+    ODO: 77772.3
+- response: 7E80641A6000BDE03
+  expected_values:
+    ODO: 77773.1
+- response: 7E80641A6000BDE0B
+  expected_values:
+    ODO: 77773.9
+- response: 7E80641A6000BDE14
+  expected_values:
+    ODO: 77774.8
+- response: 7E80641A6000BDE1C
+  expected_values:
+    ODO: 77775.6
+- response: 7E80641A6000BDE21
+  expected_values:
+    ODO: 77776.1
+- response: 7E80641A6000BDE26
+  expected_values:
+    ODO: 77776.6
+- response: 7E80641A6000BDE2C
+  expected_values:
+    ODO: 77777.2
+- response: 7E80641A6000BDE33
+  expected_values:
+    ODO: 77777.9
+- response: 7E80641A6000BDE39
+  expected_values:
+    ODO: 77778.5
+- response: 7E80641A6000BDE40
+  expected_values:
+    ODO: 77779.2
+- response: 7E80641A6000BDE48
+  expected_values:
+    ODO: 77780
+- response: 7E80641A6000BDE4D
+  expected_values:
+    ODO: 77780.5
+- response: 7E80641A6000BDE53
+  expected_values:
+    ODO: 77781.1
+- response: 7E80641A6000BDE5E
+  expected_values:
+    ODO: 77782.2
+- response: 7E80641A6000BDE65
+  expected_values:
+    ODO: 77782.9
+- response: 7E80641A6000BDE6B
+  expected_values:
+    ODO: 77783.5
+- response: 7E80641A6000BDE6E
+  expected_values:
+    ODO: 77783.8
+- response: 7E80641A6000BDE72
+  expected_values:
+    ODO: 77784.2
+- response: 7E80641A6000BDE78
+  expected_values:
+    ODO: 77784.8
+- response: 7E80641A6000BDE7E
+  expected_values:
+    ODO: 77785.4
+- response: 7E80641A6000BDE80
+  expected_values:
+    ODO: 77785.6
+- response: 7E80641A6000BDE83
+  expected_values:
+    ODO: 77785.9
+- response: 7E80641A6000BDE85
+  expected_values:
+    ODO: 77786.1
+- response: 7E80641A6000BDE8B
+  expected_values:
+    ODO: 77786.7
