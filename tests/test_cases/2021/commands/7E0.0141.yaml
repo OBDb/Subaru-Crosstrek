@@ -12,6 +12,7 @@ test_cases:
     CAT_ENA: 1
     CCM_CMPL: 1
     CCM_ENA: 1
+    CIM_SUP_FLAG: SPARK
     EGR_CMPL: 0
     EGR_ENA: 1
     EVAPCMPL: 1

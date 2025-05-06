@@ -12,6 +12,7 @@ test_cases:
     CAT_SUP: 1
     CCM_RDY: 0
     CCM_SUP: 1
+    CIM_SUP: SPARK
     DTC_CNT: 0
     EGR_RDY: 0
     EGR_SUP: 1
