@@ -9,22 +9,23 @@ test_cases:
     AIR_RDY: 0
     AIR_SUP: 0
     CAT_RDY: 0
-    CAT_SUP: 1
+    CAT_SUP: 1.0
     CCM_RDY: 0
-    CCM_SUP: 1
+    CCM_SUP: 1.0
     DTC_CNT: 0
     EGR_RDY: 0
-    EGR_SUP: 1
+    EGR_SUP: 1.0
     EVAP_RDY: 0
-    EVAP_SUP: 1
+    EVAP_SUP: 1.0
     FUEL_RDY: 0
-    FUEL_SUP: 1
+    FUEL_SUP: 1.0
     HCAT_RDY: 0
     HCAT_SUP: 0
     HTR_RDY: 0
-    HTR_SUP: 1
+    HTR_SUP: 1.0
     MIL: 0
     MIS_RDY: 0
-    MIS_SUP: 1
+    MIS_SUP: 1.0
     O2S_RDY: 0
-    O2S_SUP: 1
+    O2S_SUP: 1.0
+    CIM_SUP: SPARK

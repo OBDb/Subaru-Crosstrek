@@ -1,4 +1,18 @@
 { "commands": [
+{ "hdr": "753", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "1022"}, "freq": 15,
+  "signals": [
+    {"id": "CROSSTREK_TP_RL", "path": "Tires", "fmt": {           "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
+    {"id": "CROSSTREK_TP_RR", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
+    {"id": "CROSSTREK_TP_FR", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
+    {"id": "CROSSTREK_TP_FL", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"}
+  ]},
+{ "hdr": "753", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "1028"}, "freq": 86400,
+  "signals": [
+    {"id": "CROSSTREK_TID1", "path": "Tires", "fmt": {           "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Tire 1 id"},
+    {"id": "CROSSTREK_TID2", "path": "Tires", "fmt": {"bix": 24, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Tire 2 id"},
+    {"id": "CROSSTREK_TID3", "path": "Tires", "fmt": {"bix": 48, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Tire 3 id"},
+    {"id": "CROSSTREK_TID4", "path": "Tires", "fmt": {"bix": 72, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Tire 4 id"}
+  ]},
 { "hdr": "753", "rax": "75B", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "1022"}, "freq": 15,
   "signals": [
     {"id": "CROSSTREK_TP_RL", "path": "Tires", "fmt": {           "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
@@ -12,6 +26,26 @@
     {"id": "CROSSTREK_TID2", "path": "Tires", "fmt": {"bix": 24, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Tire 2 id"},
     {"id": "CROSSTREK_TID3", "path": "Tires", "fmt": {"bix": 48, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Tire 3 id"},
     {"id": "CROSSTREK_TID4", "path": "Tires", "fmt": {"bix": 72, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Tire 4 id"}
+  ]},
+{ "hdr": "7B0", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "1024"}, "freq": 0.25,
+  "signals": [
+    {"id": "CROSSTREK_FR_VSS", "path": "Tires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Front right tire speed"}
+  ]},
+{ "hdr": "7B0", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "1025"}, "freq": 0.25,
+  "signals": [
+    {"id": "CROSSTREK_FL_VSS", "path": "Tires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Front left tire speed"}
+  ]},
+{ "hdr": "7B0", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "1026"}, "freq": 0.25,
+  "signals": [
+    {"id": "CROSSTREK_RR_VSS", "path": "Tires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Rear right tire speed"}
+  ]},
+{ "hdr": "7B0", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "1027"}, "freq": 0.25,
+  "signals": [
+    {"id": "CROSSTREK_RL_VSS", "path": "Tires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Rear left tire speed"}
+  ]},
+{ "hdr": "7B0", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "1029"}, "freq": 0.25,
+  "signals": [
+    {"id": "CROSSTREK_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 65535, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle (ABS)"}
   ]},
 { "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "1024"}, "freq": 0.25,
   "signals": [
@@ -33,6 +67,18 @@
   "signals": [
     {"id": "CROSSTREK_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 65535, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle (ABS)"}
   ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0005"}, "freq": 1,
+  "signals": [
+    {"id": "CROSSTREK_COOLANT_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Coolant temperature"}
+  ]},
+{ "hdr": "7E0", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "002F"}, "freq": 1,
+  "signals": [
+    {"id": "CROSSTREK_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 255, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
+  ]},
+{ "hdr": "7E0", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "10E5"}, "freq": 15,
+  "signals": [
+    {"id": "CROSSTREK_ODO", "path": "Trips", "fmt": { "len": 16, "max": 131070, "mul": 2, "unit": "kilometers" }, "name": "Odometer"}
+  ]},
 { "hdr": "7E0", "rax": "7E8", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "002F"}, "freq": 1,
   "signals": [
     {"id": "CROSSTREK_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 255, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
@@ -40,6 +86,10 @@
 { "hdr": "7E0", "rax": "7E8", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "10E5"}, "freq": 15,
   "signals": [
     {"id": "CROSSTREK_ODO", "path": "Trips", "fmt": { "len": 16, "max": 131070, "mul": 2, "unit": "kilometers" }, "name": "Odometer"}
+  ]},
+{ "hdr": "7E6", "dbg": true, "cmd": {"22": "106B"}, "freq": 1,
+  "signals": [
+    {"id": "CROSSTREK_ATF_T", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "ATF temperature"}
   ]}
 ]
 }
