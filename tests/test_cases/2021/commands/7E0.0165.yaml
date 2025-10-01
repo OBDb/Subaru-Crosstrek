@@ -1,9 +1,6 @@
 command_id: 7E0.0165
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: '7E80441650200'
-  expected_values:
+- expected_values:
     GEAR_RCMD: 0
     GEAR_SUP: 0
     GPL_STAT: 0
@@ -14,8 +11,8 @@ test_cases:
     N/G_SUP: 0
     PTO_STAT_AUX: 0
     PTO_SUP: 0
-- response: '7E80441650202'
-  expected_values:
+  response: '7E80441650200'
+- expected_values:
     GEAR_RCMD: 0
     GEAR_SUP: 0
     GPL_STAT: 0
@@ -26,3 +23,4 @@ test_cases:
     N/G_SUP: 0
     PTO_STAT_AUX: 0
     PTO_SUP: 0
+  response: '7E80441650202'

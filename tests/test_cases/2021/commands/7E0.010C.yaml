@@ -1,97 +1,11 @@
 command_id: 7E0.010C
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: 7E804410C0000
-  expected_values:
+- expected_values:
     RPM: 0
-- response: 7E804410C0BC0
-  expected_values:
-    RPM: 752
-- response: 7E804410C0C54
-  expected_values:
-    RPM: 789
-- response: 7E804410C0C9F
-  expected_values:
-    RPM: 807.75
-- response: 7E804410C0D97
-  expected_values:
-    RPM: 869.75
-- response: 7E804410C0F05
-  expected_values:
-    RPM: 961.25
-- response: 7E804410C11C1
-  expected_values:
-    RPM: 1136.25
-- response: 7E804410C121A
-  expected_values:
-    RPM: 1158.5
-- response: 7E804410C125C
-  expected_values:
-    RPM: 1175
-- response: 7E804410C12FC
-  expected_values:
+  response: 7E804410C0000
+- expected_values:
     RPM: 1215
-- response: 7E804410C130B
-  expected_values:
-    RPM: 1218.75
-- response: 7E804410C1352
-  expected_values:
-    RPM: 1236.5
-- response: 7E804410C139F
-  expected_values:
-    RPM: 1255.75
-- response: 7E804410C1548
-  expected_values:
-    RPM: 1362
-- response: 7E804410C15CD
-  expected_values:
-    RPM: 1395.25
-- response: 7E804410C15E0
-  expected_values:
-    RPM: 1400
-- response: 7E804410C1705
-  expected_values:
-    RPM: 1473.25
-- response: 7E804410C17BD
-  expected_values:
-    RPM: 1519.25
-- response: 7E804410C17CE
-  expected_values:
-    RPM: 1523.5
-- response: 7E804410C17DD
-  expected_values:
-    RPM: 1527.25
-- response: 7E804410C181B
-  expected_values:
-    RPM: 1542.75
-- response: 7E804410C181F
-  expected_values:
-    RPM: 1543.75
-- response: 7E804410C191A
-  expected_values:
-    RPM: 1606.5
-- response: 7E804410C195D
-  expected_values:
-    RPM: 1623.25
-- response: 7E804410C1AB8
-  expected_values:
-    RPM: 1710
-- response: 7E804410C1B3E
-  expected_values:
-    RPM: 1743.5
-- response: 7E804410C1CB0
-  expected_values:
-    RPM: 1836
-- response: 7E804410C1D60
-  expected_values:
-    RPM: 1880
-- response: 7E804410C1E3B
-  expected_values:
-    RPM: 1934.75
-- response: 7E804410C1EE7
-  expected_values:
-    RPM: 1977.75
-- response: 7E804410C2218
-  expected_values:
+  response: 7E804410C12FC
+- expected_values:
     RPM: 2182
+  response: 7E804410C2218

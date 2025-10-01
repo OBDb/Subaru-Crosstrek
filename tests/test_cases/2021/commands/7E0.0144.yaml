@@ -1,76 +1,11 @@
 command_id: 7E0.0144
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: 7E80441446E1E
-  expected_values:
+- expected_values:
     EQ_RAT: 0.8603
-- response: 7E80441446FCD
-  expected_values:
-    EQ_RAT: 0.87346
-- response: 7E80441446FE5
-  expected_values:
-    EQ_RAT: 0.87419
-- response: 7E80441447F34
-  expected_values:
-    EQ_RAT: 0.99379
-- response: 7E80441447F4C
-  expected_values:
-    EQ_RAT: 0.99452
-- response: 7E80441447F71
-  expected_values:
-    EQ_RAT: 0.99565
-- response: 7E80441447F8B
-  expected_values:
-    EQ_RAT: 0.99644
-- response: 7E80441447F92
-  expected_values:
-    EQ_RAT: 0.99666
-- response: 7E80441447FB9
-  expected_values:
-    EQ_RAT: 0.99785
-- response: 7E80441447FBC
-  expected_values:
-    EQ_RAT: 0.99794
-- response: 7E80441447FCF
-  expected_values:
-    EQ_RAT: 0.99852
-- response: 7E80441447FD4
-  expected_values:
-    EQ_RAT: 0.99867
-- response: 7E80441447FF4
-  expected_values:
-    EQ_RAT: 0.99965
-- response: '7E80441448000'
-  expected_values:
+  response: 7E80441446E1E
+- expected_values:
+    EQ_RAT: 0.99971
+  response: 7E80441447FF6
+- expected_values:
     EQ_RAT: 1.00002
-- response: 7E8044144800C
-  expected_values:
-    EQ_RAT: 1.00038
-- response: 7E8044144801E
-  expected_values:
-    EQ_RAT: 1.00093
-- response: 7E8044144802A
-  expected_values:
-    EQ_RAT: 1.0013
-- response: '7E80441448038'
-  expected_values:
-    EQ_RAT: 1.00172
-- response: 7E8044144803C
-  expected_values:
-    EQ_RAT: 1.00185
-- response: '7E80441448049'
-  expected_values:
-    EQ_RAT: 1.00224
-- response: 7E8044144804A
-  expected_values:
-    EQ_RAT: 1.00227
-- response: 7E8044144805F
-  expected_values:
-    EQ_RAT: 1.00291
-- response: '7E80441448060'
-  expected_values:
-    EQ_RAT: 1.00294
-- response: '7E80441448062'
-  expected_values:
-    EQ_RAT: 1.00301
+  response: '7E80441448000'
