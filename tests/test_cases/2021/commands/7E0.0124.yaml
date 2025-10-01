@@ -1,140 +1,30 @@
 command_id: 7E0.0124
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: 7E80641246B8C4C2D
-  expected_values:
-    LAMBDA11_WIDE: 0.84021
-    O2S11_WIDE: 2.37933
-- response: 7E80641246D3F4C87
-  expected_values:
-    LAMBDA11_WIDE: 0.85349
-    O2S11_WIDE: 2.39031
-- response: 7E80641246F0D4CEB
-  expected_values:
-    LAMBDA11_WIDE: 0.86758
-    O2S11_WIDE: 2.40251
-- response: 7E8064124750F4E1D
-  expected_values:
-    LAMBDA11_WIDE: 0.91452
-    O2S11_WIDE: 2.43985
-- response: 7E806412478F64ECA
-  expected_values:
-    LAMBDA11_WIDE: 0.94501
-    O2S11_WIDE: 2.46096
-- response: 7E806412479344ED4
-  expected_values:
-    LAMBDA11_WIDE: 0.9469
-    O2S11_WIDE: 2.46218
-- response: 7E80641247D674F8D
-  expected_values:
-    LAMBDA11_WIDE: 0.97971
-    O2S11_WIDE: 2.48475
-- response: 7E80641247DFF4FA7
-  expected_values:
-    LAMBDA11_WIDE: 0.98434
-    O2S11_WIDE: 2.48792
-- response: 7E80641247E094FA9
-  expected_values:
-    LAMBDA11_WIDE: 0.98465
-    O2S11_WIDE: 2.48816
-- response: 7E80641247EFE4FD3
-  expected_values:
-    LAMBDA11_WIDE: 0.99213
-    O2S11_WIDE: 2.49329
-- response: 7E80641247F5B4FE3
-  expected_values:
-    LAMBDA11_WIDE: 0.99496
-    O2S11_WIDE: 2.49524
-- response: 7E80641247F604FE4
-  expected_values:
-    LAMBDA11_WIDE: 0.99512
-    O2S11_WIDE: 2.49536
-- response: 7E80641247F9C4FEF
-  expected_values:
-    LAMBDA11_WIDE: 0.99695
-    O2S11_WIDE: 2.49671
-- response: 7E80641247FA34FF0
-  expected_values:
-    LAMBDA11_WIDE: 0.99716
-    O2S11_WIDE: 2.49683
-- response: 7E80641247FB84FF3
-  expected_values:
-    LAMBDA11_WIDE: 0.9978
-    O2S11_WIDE: 2.49719
-- response: 7E80641247FE64FFB
-  expected_values:
-    LAMBDA11_WIDE: 0.99921
-    O2S11_WIDE: 2.49817
-- response: 7E80641247FEC4FFC
-  expected_values:
-    LAMBDA11_WIDE: 0.99939
-    O2S11_WIDE: 2.49829
-- response: 7E806412480004D3A
-  expected_values:
-    LAMBDA11_WIDE: 1
-    O2S11_WIDE: 2.41215
-- response: '7E806412480005026'
-  expected_values:
-    LAMBDA11_WIDE: 1
-    O2S11_WIDE: 2.50342
-- response: 7E80641248000505F
-  expected_values:
-    LAMBDA11_WIDE: 1
-    O2S11_WIDE: 2.51037
-- response: '7E806412480175002'
-  expected_values:
-    LAMBDA11_WIDE: 1.0007
-    O2S11_WIDE: 2.49902
-- response: 7E80641248076500C
-  expected_values:
-    LAMBDA11_WIDE: 1.0036
-    O2S11_WIDE: 2.50024
-- response: 7E806412480DC5017
-  expected_values:
-    LAMBDA11_WIDE: 1.00671
-    O2S11_WIDE: 2.50159
-- response: 7E8064124812F501F
-  expected_values:
-    LAMBDA11_WIDE: 1.00925
-    O2S11_WIDE: 2.50256
-- response: 7E80641248196502A
-  expected_values:
-    LAMBDA11_WIDE: 1.01239
-    O2S11_WIDE: 2.5039
-- response: 7E8064124822F503A
-  expected_values:
-    LAMBDA11_WIDE: 1.01706
-    O2S11_WIDE: 2.50586
-- response: '7E806412482855043'
-  expected_values:
-    LAMBDA11_WIDE: 1.01968
-    O2S11_WIDE: 2.50695
-- response: 7E806412482D3504B
-  expected_values:
-    LAMBDA11_WIDE: 1.02206
-    O2S11_WIDE: 2.50793
-- response: 7E8064124C2465F3B
-  expected_values:
-    LAMBDA11_WIDE: 1.51776
-    O2S11_WIDE: 2.9745
-- response: 7E8064124C2465FDE
-  expected_values:
-    LAMBDA11_WIDE: 1.51776
-    O2S11_WIDE: 2.99439
-- response: 7E8064124C2466046
-  expected_values:
-    LAMBDA11_WIDE: 1.51776
-    O2S11_WIDE: 3.00708
-- response: 7E8064124C24B5EE2
-  expected_values:
-    LAMBDA11_WIDE: 1.51791
-    O2S11_WIDE: 2.96364
-- response: 7E8064124C2726052
-  expected_values:
-    LAMBDA11_WIDE: 1.5191
-    O2S11_WIDE: 3.00854
-- response: 7E8064124C2996014
-  expected_values:
-    LAMBDA11_WIDE: 1.52029
-    O2S11_WIDE: 3.00098
+- expected_values:
+    LAMBDA11_VOLT: 0.84021
+    O2S11_VOLT: 2.37933
+  response: 7E80641246B8C4C2D
+- expected_values:
+    LAMBDA11_VOLT: 0.98434
+    O2S11_VOLT: 2.48792
+  response: 7E80641247DFF4FA7
+- expected_values:
+    LAMBDA11_VOLT: 0.99939
+    O2S11_VOLT: 2.49829
+  response: 7E80641247FEC4FFC
+- expected_values:
+    LAMBDA11_VOLT: 1
+    O2S11_VOLT: 2.41215
+  response: 7E806412480004D3A
+- expected_values:
+    LAMBDA11_VOLT: 1.0007
+    O2S11_VOLT: 2.49902
+  response: '7E806412480175002'
+- expected_values:
+    LAMBDA11_VOLT: 1.51776
+    O2S11_VOLT: 2.9745
+  response: 7E8064124C2465F3B
+- expected_values:
+    LAMBDA11_VOLT: 1.51776
+    O2S11_VOLT: 3.00708
+  response: 7E8064124C2466046

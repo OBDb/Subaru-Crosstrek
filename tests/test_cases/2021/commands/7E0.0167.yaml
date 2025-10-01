@@ -1,112 +1,20 @@
 command_id: 7E0.0167
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: 7E8054167037F7C
-  expected_values:
-    ECT_1: 87
+- expected_values:
+    ECT_1: 38
     ECT_1_SUP: 1
-    ECT_2: 84
+    ECT_2: 37
     ECT_2_SUP: 1
-- response: 7E8054167037F7D
-  expected_values:
-    ECT_1: 87
+  response: 7E8054167034E4D
+- expected_values:
+    ECT_1: 93
     ECT_1_SUP: 1
-    ECT_2: 85
+    ECT_2: 91
     ECT_2_SUP: 1
-- response: 7E805416703807D
-  expected_values:
-    ECT_1: 88
+  response: '7E8054167038583'
+- expected_values:
+    ECT_1: 94
     ECT_1_SUP: 1
-    ECT_2: 85
+    ECT_2: 91
     ECT_2_SUP: 1
-- response: 7E805416703807E
-  expected_values:
-    ECT_1: 88
-    ECT_1_SUP: 1
-    ECT_2: 86
-    ECT_2_SUP: 1
-- response: '7E8054167038178'
-  expected_values:
-    ECT_1: 89
-    ECT_1_SUP: 1
-    ECT_2: 80
-    ECT_2_SUP: 1
-- response: 7E805416703817A
-  expected_values:
-    ECT_1: 89
-    ECT_1_SUP: 1
-    ECT_2: 82
-    ECT_2_SUP: 1
-- response: 7E805416703817D
-  expected_values:
-    ECT_1: 89
-    ECT_1_SUP: 1
-    ECT_2: 85
-    ECT_2_SUP: 1
-- response: 7E805416703817E
-  expected_values:
-    ECT_1: 89
-    ECT_1_SUP: 1
-    ECT_2: 86
-    ECT_2_SUP: 1
-- response: 7E805416703817F
-  expected_values:
-    ECT_1: 89
-    ECT_1_SUP: 1
-    ECT_2: 87
-    ECT_2_SUP: 1
-- response: '7E8054167038180'
-  expected_values:
-    ECT_1: 89
-    ECT_1_SUP: 1
-    ECT_2: 88
-    ECT_2_SUP: 1
-- response: 7E805416703827D
-  expected_values:
-    ECT_1: 90
-    ECT_1_SUP: 1
-    ECT_2: 85
-    ECT_2_SUP: 1
-- response: 7E805416703827E
-  expected_values:
-    ECT_1: 90
-    ECT_1_SUP: 1
-    ECT_2: 86
-    ECT_2_SUP: 1
-- response: 7E805416703827F
-  expected_values:
-    ECT_1: 90
-    ECT_1_SUP: 1
-    ECT_2: 87
-    ECT_2_SUP: 1
-- response: '7E8054167038280'
-  expected_values:
-    ECT_1: 90
-    ECT_1_SUP: 1
-    ECT_2: 88
-    ECT_2_SUP: 1
-- response: 7E805416703837B
-  expected_values:
-    ECT_1: 91
-    ECT_1_SUP: 1
-    ECT_2: 83
-    ECT_2_SUP: 1
-- response: '7E8054167038381'
-  expected_values:
-    ECT_1: 91
-    ECT_1_SUP: 1
-    ECT_2: 89
-    ECT_2_SUP: 1
-- response: 7E805416703847D
-  expected_values:
-    ECT_1: 92
-    ECT_1_SUP: 1
-    ECT_2: 85
-    ECT_2_SUP: 1
-- response: 7E805416703847F
-  expected_values:
-    ECT_1: 92
-    ECT_1_SUP: 1
-    ECT_2: 87
-    ECT_2_SUP: 1
+  response: '7E8054167038683'

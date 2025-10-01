@@ -1,46 +1,8 @@
 command_id: 7E0.012C
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: 7E803412C00
-  expected_values:
+- expected_values:
     EGR_PCT: 0
-- response: 7E803412C0D
-  expected_values:
-    EGR_PCT: 5.09804
-- response: 7E803412C1B
-  expected_values:
-    EGR_PCT: 10.58824
-- response: 7E803412C31
-  expected_values:
-    EGR_PCT: 19.21569
-- response: 7E803412C3A
-  expected_values:
-    EGR_PCT: 22.7451
-- response: 7E803412C3F
-  expected_values:
-    EGR_PCT: 24.70588
-- response: 7E803412C48
-  expected_values:
-    EGR_PCT: 28.23529
-- response: 7E803412C4C
-  expected_values:
-    EGR_PCT: 29.80392
-- response: 7E803412C55
-  expected_values:
-    EGR_PCT: 33.33333
-- response: 7E803412C59
-  expected_values:
-    EGR_PCT: 34.90196
-- response: 7E803412C70
-  expected_values:
-    EGR_PCT: 43.92157
-- response: 7E803412C86
-  expected_values:
-    EGR_PCT: 52.54902
-- response: 7E803412C98
-  expected_values:
-    EGR_PCT: 59.60784
-- response: 7E803412CAE
-  expected_values:
-    EGR_PCT: 68.23529
+  response: 7E803412C00
+- expected_values:
+    EGR_PCT: 70.19608
+  response: 7E803412CB3

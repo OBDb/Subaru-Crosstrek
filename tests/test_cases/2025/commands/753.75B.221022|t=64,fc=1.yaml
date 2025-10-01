@@ -1,0 +1,32 @@
+command_id: 753.75B.221022|t=64,fc=1
+test_cases:
+- expected_values:
+    CROSSTREK_TP_FL: 28.8
+    CROSSTREK_TP_FR: 28.4
+    CROSSTREK_TP_RL: 28.8
+    CROSSTREK_TP_RR: 28.2
+  response: 75B07621022908D8E90
+- expected_values:
+    CROSSTREK_TP_FL: 28.6
+    CROSSTREK_TP_FR: 28.6
+    CROSSTREK_TP_RL: 29.2
+    CROSSTREK_TP_RR: 28.4
+  response: 75B07621022928E8F8F
+- expected_values:
+    CROSSTREK_TP_FL: 39.6
+    CROSSTREK_TP_FR: 39.8
+    CROSSTREK_TP_RL: 39.4
+    CROSSTREK_TP_RR: 39.8
+  response: 75B07621022C5C7C7C6
+- expected_values:
+    CROSSTREK_TP_FL: 39.6
+    CROSSTREK_TP_FR: 39.8
+    CROSSTREK_TP_RL: 39.8
+    CROSSTREK_TP_RR: 40.4
+  response: 75B07621022C7CAC7C6
+- expected_values:
+    CROSSTREK_TP_FL: 39.4
+    CROSSTREK_TP_FR: 39.4
+    CROSSTREK_TP_RL: 40
+    CROSSTREK_TP_RR: 40
+  response: 75B07621022C8C8C5C5

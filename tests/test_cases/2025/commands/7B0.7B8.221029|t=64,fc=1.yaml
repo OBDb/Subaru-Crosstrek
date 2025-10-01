@@ -1,0 +1,11 @@
+command_id: 7B0.7B8.221029|t=64,fc=1
+test_cases:
+- expected_values:
+    CROSSTREK_STEER_ANGLE: 0
+  response: 7B8056210290000
+- expected_values:
+    CROSSTREK_STEER_ANGLE: 0
+  response: 7B805621029FF14
+- expected_values:
+    CROSSTREK_STEER_ANGLE: 0
+  response: 7B805621029FFFF

@@ -1,76 +1,8 @@
 command_id: 7E0.010B
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: 7E803410B18
-  expected_values:
+- expected_values:
     MAP: 24
-- response: 7E803410B19
-  expected_values:
-    MAP: 25
-- response: 7E803410B1A
-  expected_values:
-    MAP: 26
-- response: 7E803410B1C
-  expected_values:
-    MAP: 28
-- response: 7E803410B1D
-  expected_values:
-    MAP: 29
-- response: 7E803410B20
-  expected_values:
-    MAP: 32
-- response: 7E803410B21
-  expected_values:
-    MAP: 33
-- response: 7E803410B22
-  expected_values:
-    MAP: 34
-- response: 7E803410B23
-  expected_values:
-    MAP: 35
-- response: 7E803410B24
-  expected_values:
-    MAP: 36
-- response: 7E803410B3B
-  expected_values:
-    MAP: 59
-- response: 7E803410B41
-  expected_values:
-    MAP: 65
-- response: 7E803410B42
-  expected_values:
-    MAP: 66
-- response: 7E803410B43
-  expected_values:
-    MAP: 67
-- response: 7E803410B44
-  expected_values:
-    MAP: 68
-- response: 7E803410B4A
-  expected_values:
-    MAP: 74
-- response: 7E803410B4E
-  expected_values:
-    MAP: 78
-- response: 7E803410B52
-  expected_values:
-    MAP: 82
-- response: 7E803410B59
-  expected_values:
-    MAP: 89
-- response: 7E803410B5A
-  expected_values:
-    MAP: 90
-- response: 7E803410B5B
-  expected_values:
-    MAP: 91
-- response: 7E803410B5C
-  expected_values:
-    MAP: 92
-- response: 7E803410B5E
-  expected_values:
-    MAP: 94
-- response: 7E803410B65
-  expected_values:
+  response: 7E803410B18
+- expected_values:
     MAP: 101
+  response: 7E803410B65

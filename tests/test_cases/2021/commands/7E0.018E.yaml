@@ -1,10 +1,8 @@
 command_id: 7E0.018E
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: 7E803418E80
-  expected_values:
+- expected_values:
     TQ_FR: 3
-- response: 7E803418E81
-  expected_values:
+  response: 7E803418E80
+- expected_values:
     TQ_FR: 4
+  response: 7E803418E81
