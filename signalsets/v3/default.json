@@ -1,12 +1,4 @@
 { "commands": [
-{ "hdr": "750", "eax": "2A", "fcm1": true, "dbg": true, "cmd": {"21": "16"}, "freq": 5,
-  "signals": [
-    {"id": "CROSSTREK_TT_1", "path": "Tires", "fmt": {           "len": 8, "max": 150, "min": -20, "add": -40, "unit": "celsius" }, "name": "Tire temperature #1"},
-    {"id": "CROSSTREK_TT_2", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 150, "min": -20, "add": -40, "unit": "celsius" }, "name": "Tire temperature #2"},
-    {"id": "CROSSTREK_TT_3", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 150, "min": -20, "add": -40, "unit": "celsius" }, "name": "Tire temperature #3"},
-    {"id": "CROSSTREK_TT_4", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 150, "min": -20, "add": -40, "unit": "celsius" }, "name": "Tire temperature #4"},
-    {"id": "CROSSTREK_TT_5", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 150, "min": -20, "add": -40, "unit": "celsius" }, "name": "Tire temperature #5"}
-  ]},
 { "hdr": "753", "rax": "75B", "tmo": "64", "fcm1": true, "cmd": {"22": "1022"}, "freq": 15, "dbgfilter": { "to": 2017, "years": [2019, 2022], "from": 2026 },
   "signals": [
     {"id": "CROSSTREK_TP_RL", "path": "Tires", "fmt": {           "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
@@ -20,42 +12,6 @@
     {"id": "CROSSTREK_TID2", "path": "Tires", "fmt": {"bix": 24, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Tire 2 id"},
     {"id": "CROSSTREK_TID3", "path": "Tires", "fmt": {"bix": 48, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Tire 3 id"},
     {"id": "CROSSTREK_TID4", "path": "Tires", "fmt": {"bix": 72, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Tire 4 id"}
-  ]},
-{ "hdr": "7A2", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "0005"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_ECT", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine coolant temperature"}
-  ]},
-{ "hdr": "7A2", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "10A6"}, "freq": 0.25,
-  "signals": [
-    {"id": "CROSSTREK_ACC_POS", "path": "Control", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Accelerator pedal position"}
-  ]},
-{ "hdr": "7A2", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "10E7"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_EOT", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature"}
-  ]},
-{ "hdr": "7A2", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "1135"}, "freq": 0.5,
-  "signals": [
-    {"id": "CROSSTREK_12V_C", "path": "Battery", "fmt": { "len": 8, "max": 127, "min": -128, "add": -128, "unit": "milliamps" }, "name": "12V battery current"}
-  ]},
-{ "hdr": "7A2", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "1136"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_12V_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "12V battery temperature"}
-  ]},
-{ "hdr": "7A2", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "1149"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_ASH_RATIO_TOT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Cumulative ash ratio"}
-  ]},
-{ "hdr": "7A2", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "1155"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_OIL_CHANGE_DIST", "path": "Engine", "fmt": { "len": 8, "max": 25500, "mul": 100, "unit": "kilometers" }, "name": "Estimated distance to oil change"}
-  ]},
-{ "hdr": "7A2", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "116A"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_DPF_WARN_DIST", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance since DPF warning light flashing"}
-  ]},
-{ "hdr": "7A2", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "12ED"}, "freq": 0.25,
-  "signals": [
-    {"id": "CROSSTREK_MAF_AVG", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "gramsPerSecond" }, "name": "Mass air flow, average"}
   ]},
 { "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1024"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2022], "from": 2026 },
   "signals": [
@@ -76,6 +32,10 @@
 { "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1029"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2022], "from": 2026 },
   "signals": [
     {"id": "CROSSTREK_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 65535, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
+  ]},
+{ "hdr": "7C0", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"21": "29"}, "freq": 1,
+  "signals": [
+    {"id": "CROSSTREK_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 127, "div": 2, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "tmo": "64", "fcm1": true, "cmd": {"22": "10E5"}, "freq": 15, "dbgfilter": { "to": 2017, "years": [2019, 2022], "from": 2026 },
   "signals": [
