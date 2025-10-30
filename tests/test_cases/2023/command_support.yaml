@@ -108,5 +108,7 @@ unsupported_commands_by_ecu:
   - 7A2.221155
   - 7A2.22116A
   - 7A2.2212ED
+  "7C0":
+  - 7C0.2129|t=64,fc=1:CROSSTREK_FLI
   "7E0":
   - 7E0.7E8.22002F
