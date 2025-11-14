@@ -33,7 +33,7 @@
   "signals": [
     {"id": "CROSSTREK_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 65535, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
-{ "hdr": "7C0", "tmo": "64", "fcm1": true, "cmd": {"21": "29"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2022], "from": 2024 },
+{ "hdr": "7C0", "tmo": "64", "fcm1": true, "cmd": {"21": "29"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2022, 2024], "from": 2026 },
   "signals": [
     {"id": "CROSSTREK_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 127, "div": 2, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
