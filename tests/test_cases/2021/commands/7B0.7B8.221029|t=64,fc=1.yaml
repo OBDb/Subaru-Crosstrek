@@ -7,5 +7,5 @@ test_cases:
     CROSSTREK_STEER_ANGLE: 255
   response: 7B80562102900FF
 - expected_values:
-    CROSSTREK_STEER_ANGLE: 0
+    CROSSTREK_STEER_ANGLE: -256
   response: 7B805621029FF00
