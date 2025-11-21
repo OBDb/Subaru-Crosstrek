@@ -1,0 +1,11 @@
+command_id: 7A3.7AB.221146
+test_cases:
+- expected_values:
+    CROSSTREK_PRIMARY_PULLEY_SPEED: 0
+  response: 7AB056211460000
+- expected_values:
+    CROSSTREK_PRIMARY_PULLEY_SPEED: 1789
+  response: 7AB0562114606FD
+- expected_values:
+    CROSSTREK_PRIMARY_PULLEY_SPEED: 2082
+  response: 7AB056211460822

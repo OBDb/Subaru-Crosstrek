@@ -1,0 +1,8 @@
+command_id: 7A3.7AB.2210C8
+test_cases:
+- expected_values:
+    CROSSTREK_LOCK_UP_DUTY_RATIO: 0
+  response: 7AB046210C800
+- expected_values:
+    CROSSTREK_LOCK_UP_DUTY_RATIO: 99
+  response: 7AB046210C8C6
