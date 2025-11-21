@@ -1,0 +1,14 @@
+command_id: 7A2.7AA.2212ED
+test_cases:
+- expected_values:
+    CROSSTREK_MASS_AIR_FLOW_AVERAGE: 4.89
+  response: 7AA056212ED01E9
+- expected_values:
+    CROSSTREK_MASS_AIR_FLOW_AVERAGE: 5
+  response: 7AA056212ED0206
+- expected_values:
+    CROSSTREK_MASS_AIR_FLOW_AVERAGE: 5
+  response: 7AA056212ED0BF8
+- expected_values:
+    CROSSTREK_MASS_AIR_FLOW_AVERAGE: 5
+  response: 7AA056212ED0E4D

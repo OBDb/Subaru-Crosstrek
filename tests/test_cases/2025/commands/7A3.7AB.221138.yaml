@@ -1,0 +1,11 @@
+command_id: 7A3.7AB.221138
+test_cases:
+- expected_values:
+    CROSSTREK_SECONDARY_PULLEY_SPEED: 0
+  response: 7AB056211380000
+- expected_values:
+    CROSSTREK_SECONDARY_PULLEY_SPEED: 3040
+  response: 7AB056211380BE0
+- expected_values:
+    CROSSTREK_SECONDARY_PULLEY_SPEED: 4364
+  response: 7AB05621138110C

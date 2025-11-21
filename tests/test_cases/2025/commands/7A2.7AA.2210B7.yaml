@@ -1,0 +1,23 @@
+command_id: 7A2.7AA.2210B7
+test_cases:
+- expected_values:
+    CROSSTREK_OCV_DUTY_LEFT: 0
+  response: 7AA046210B700
+- expected_values:
+    CROSSTREK_OCV_DUTY_LEFT: 55.29412
+  response: 7AA046210B78D
+- expected_values:
+    CROSSTREK_OCV_DUTY_LEFT: 56.07843
+  response: 7AA046210B78F
+- expected_values:
+    CROSSTREK_OCV_DUTY_LEFT: 56.47059
+  response: 7AA046210B790
+- expected_values:
+    CROSSTREK_OCV_DUTY_LEFT: 56.86275
+  response: 7AA046210B791
+- expected_values:
+    CROSSTREK_OCV_DUTY_LEFT: 57.2549
+  response: 7AA046210B792
+- expected_values:
+    CROSSTREK_OCV_DUTY_LEFT: 58.82353
+  response: 7AA046210B796

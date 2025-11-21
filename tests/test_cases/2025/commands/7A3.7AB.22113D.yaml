@@ -1,0 +1,14 @@
+command_id: 7A3.7AB.22113D
+test_cases:
+- expected_values:
+    CROSSTREK_TARGET_GEAR_RATIO: 0
+  response: 7AB0562113D005F
+- expected_values:
+    CROSSTREK_TARGET_GEAR_RATIO: 0.00391
+  response: 7AB0562113D011E
+- expected_values:
+    CROSSTREK_TARGET_GEAR_RATIO: 0.00781
+  response: 7AB0562113D0247
+- expected_values:
+    CROSSTREK_TARGET_GEAR_RATIO: 0.00781
+  response: 7AB0562113D02BE

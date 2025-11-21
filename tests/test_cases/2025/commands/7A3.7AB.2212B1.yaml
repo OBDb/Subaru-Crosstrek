@@ -1,0 +1,11 @@
+command_id: 7A3.7AB.2212B1
+test_cases:
+- expected_values:
+    CROSSTREK_ACTUAL_LINE_PRESSURE: 0
+  response: 7AB056212B10000
+- expected_values:
+    CROSSTREK_ACTUAL_LINE_PRESSURE: 1.39612
+  response: 7AB056212B10DF6
+- expected_values:
+    CROSSTREK_ACTUAL_LINE_PRESSURE: 2.13558
+  response: 7AB056212B1155B

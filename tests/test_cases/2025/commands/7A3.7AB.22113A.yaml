@@ -1,0 +1,11 @@
+command_id: 7A3.7AB.22113A
+test_cases:
+- expected_values:
+    CROSSTREK_ACTUAL_SECONDARY_PRESSURE: 0
+  response: 7AB0562113A0000
+- expected_values:
+    CROSSTREK_ACTUAL_SECONDARY_PRESSURE: 0.49259
+  response: 7AB0562113A04ED
+- expected_values:
+    CROSSTREK_ACTUAL_SECONDARY_PRESSURE: 2.97505
+  response: 7AB0562113A1DC0
