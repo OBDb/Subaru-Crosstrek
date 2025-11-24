@@ -3,14 +3,14 @@
   "signals": [
     {"id": "CROSSTREK_STEER_ANGLE_746", "path": "Control", "fmt": { "len": 8, "max": 635, "min": -640, "mul": 5, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle, v2"}
   ]},
-{ "hdr": "753", "rax": "75B", "tmo": "64", "fcm1": true, "cmd": {"22": "1022"}, "freq": 15, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019], "from": 2026 },
+{ "hdr": "753", "rax": "75B", "tmo": "64", "fcm1": true, "cmd": {"22": "1022"}, "freq": 15, "dbgfilter": { "to": 2013, "years": [2016, 2017], "from": 2026 },
   "signals": [
     {"id": "CROSSTREK_TP_RL", "path": "Tires", "fmt": {           "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
     {"id": "CROSSTREK_TP_RR", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
     {"id": "CROSSTREK_TP_FR", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
     {"id": "CROSSTREK_TP_FL", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "753", "rax": "75B", "tmo": "64", "fcm1": true, "cmd": {"22": "1028"}, "freq": 86400, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2019], "from": 2026 },
+{ "hdr": "753", "rax": "75B", "tmo": "64", "fcm1": true, "cmd": {"22": "1028"}, "freq": 86400, "dbgfilter": { "to": 2013, "years": [2016, 2017], "from": 2026 },
   "signals": [
     {"id": "CROSSTREK_TID1", "path": "Tires", "fmt": {           "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Tire 1 id"},
     {"id": "CROSSTREK_TID2", "path": "Tires", "fmt": {"bix": 24, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Tire 2 id"},
