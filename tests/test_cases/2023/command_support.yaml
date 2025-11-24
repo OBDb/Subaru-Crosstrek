@@ -234,6 +234,7 @@ unsupported_commands_by_ecu:
   "7E0":
   - 7E0.7E8.220005
   - 7E0.7E8.22002F
+  - 7E0.7E8.2210E7:CROSSTREK_EOT
   "7E3":
   - 7E3.7EB.221021
   - 7E3.7EB.221022
