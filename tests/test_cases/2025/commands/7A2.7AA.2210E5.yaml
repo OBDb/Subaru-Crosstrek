@@ -1,17 +1,17 @@
 command_id: 7A2.7AA.2210E5
 test_cases:
 - expected_values:
-    CROSSTREK_ODO_7A2: 9760
+    CROSSTREK_ODO_7A2_10E5: 9760
   response: 7AA056210E51310
 - expected_values:
-    CROSSTREK_ODO_7A2: 9762
+    CROSSTREK_ODO_7A2_10E5: 9762
   response: 7AA056210E51311
 - expected_values:
-    CROSSTREK_ODO_7A2: 9764
+    CROSSTREK_ODO_7A2_10E5: 9764
   response: 7AA056210E51312
 - expected_values:
-    CROSSTREK_ODO_7A2: 9766
+    CROSSTREK_ODO_7A2_10E5: 9766
   response: 7AA056210E51313
 - expected_values:
-    CROSSTREK_ODO_7A2: 9768
+    CROSSTREK_ODO_7A2_10E5: 9768
   response: 7AA056210E51314
