@@ -1,5 +1,5 @@
 { "commands": [
-{ "hdr": "746", "dbg": true, "cmd": {"22": "1032"}, "freq": 1,
+{ "hdr": "746", "dbg": true, "cmd": {"22": "1032"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_STEER_ANGLE_746", "path": "Control", "fmt": { "len": 8, "max": 635, "min": -640, "mul": 5, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle, v2"}
   ]},
@@ -17,63 +17,63 @@
     {"id": "CROSSTREK_TID3", "path": "Tires", "fmt": {"bix": 48, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Tire 3 id"},
     {"id": "CROSSTREK_TID4", "path": "Tires", "fmt": {"bix": 72, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Tire 4 id"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "0005"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "0005"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
-    {"id": "CROSSTREK_COOLANT_T_7A2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Coolant temperature, v2"}
+    {"id": "CROSSTREK_COOLANT_T_7A2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Coolant temperature, v2", "suggestedMetric": "engineCoolantTemperature"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "0023"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "0023"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_FRP", "path": "Fuel", "fmt": { "len": 16, "max": 65535, "unit": "kilopascal" }, "name": "Fuel rail pressure"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "002F"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "002F"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_FUEL_LEVEL", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "003C"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "003C"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_EGT_AT_CATALYST_INLET", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "celsius" }, "name": "Exhaust gas temperature, catalyst inlet"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "003E"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "003E"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_EGT_DPF_INLET", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "celsius" }, "name": "Exhaust gas temperature at DPF inlet"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10A1"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10A1"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_MAF_VOLTAGE", "path": "Battery", "fmt": { "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Mass airflow sensor voltage"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10A4"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10A4"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_FUEL_INJECTOR_2_PULSE_WIDTH", "path": "Fuel", "fmt": { "len": 8, "max": 65.28, "div": 3.90625, "unit": "milliseconds" }, "name": "Fuel injector #2 pulse width"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10A5"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10A5"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
-    {"id": "CROSSTREK_ODOMETER", "path": "Trips", "fmt": { "len": 16, "max": 131070, "mul": 2, "unit": "kilometers" }, "name": "Odometer"}
+    {"id": "CROSSTREK_ODOMETER", "path": "Trips", "fmt": { "len": 16, "max": 131070, "mul": 2, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10A6"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "CROSSTREK_ACC_PEDAL_ANGLE", "path": "Movement", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Accelerator pedal angle"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10A7"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10A7"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_FUEL_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10AB"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10AB"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_RADIATOR_FAN", "path": "ECU", "fmt": { "len": 8, "max": 200, "unit": "percent" }, "name": "Radiator fan control"}
   ]},
 { "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10AE"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
-    {"id": "CROSSTREK_CPC_VALVE_DUTY_CYCLE", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "CPC valve duty cycle"}
+    {"id": "CROSSTREK_CPC_VALVE_DUTY_CYCLE", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Canister purge control valve duty cycle"}
   ]},
 { "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B1"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
-    {"id": "CROSSTREK_EGR_STEPS", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "EGR steps"}
+    {"id": "CROSSTREK_EGR_STEPS", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Exhaust gas recirculation steps"}
   ]},
 { "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B2"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "CROSSTREK_ALTERNATOR_DUTY", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Alternator duty"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10B3"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10B3"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_FUEL_PUMP_DUTY", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel pump duty"}
   ]},
@@ -97,15 +97,15 @@
   "signals": [
     {"id": "CROSSTREK_A_F_SENSOR_1", "path": "ECU", "fmt": { "len": 8, "max": 5, "mul": 1.99, "div": 255, "unit": "scalar" }, "name": "A/F sensor #1"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10D2"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10D2"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
-    {"id": "CROSSTREK_EWG_VALVE_POSITION_SENSOR_LEARNING_CLOSED", "path": "ECU", "fmt": { "len": 8, "max": 29.8, "min": -10, "mul": 39.8, "div": 255, "add": -10, "unit": "millimeters" }, "name": "Electric waste gate valve position sensor learning value at fully-closed position"}
+    {"id": "CROSSTREK_EWG_VALVE_POSITION_SENSOR_LEARNING_CLOSED", "path": "Engine", "fmt": { "len": 8, "max": 29, "min": -10, "mul": 39.8, "div": 255, "add": -10, "unit": "millimeters" }, "name": "Electric waste gate valve position sensor learning value at fully-closed position"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10D3"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10D3"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_EWG_VALVE_REQUEST_POSITION", "path": "ECU", "fmt": { "len": 16, "max": 30, "min": -10, "mul": 40, "div": 65535, "add": -10, "unit": "millimeters" }, "name": "Electric waste gate valve request position value"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10D4"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10D4"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_EWG_VALVE_ACTUAL_POSITION", "path": "ECU", "fmt": { "len": 16, "max": 30, "min": -10, "mul": 40, "div": 65535, "add": -10, "unit": "millimeters" }, "name": "Electric waste gate valve actual position value"}
   ]},
@@ -121,19 +121,19 @@
   "signals": [
     {"id": "CROSSTREK_ODO_7A2", "path": "Trips", "fmt": { "len": 16, "max": 131070, "mul": 2, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10E6"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10E6"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_FUEL_TANK_AIR_PRESSURE", "path": "Fuel", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "unknown" }, "name": "Fuel tank air pressure"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10E7"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10E7"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_EOT", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10E8"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10E8"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_OSV_DUTY_RIGHT", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "OSV duty right"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10E9"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10E9"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_OSV_DUTY_LEFT", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "OSV duty left"}
   ]},
@@ -161,23 +161,23 @@
   "signals": [
     {"id": "CROSSTREK_ROUGHNESS_MONITOR_4", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Roughness monitor #4"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1116"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1116"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_FINAL_INJECTION_AMOUNT_MM_ST_", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Final injection amount"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1118"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1118"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_TARGET_INTAKE_MANIFOLD_PRESSURE", "path": "ECU", "fmt": { "len": 8, "max": 50, "unit": "kilopascal" }, "name": "Target intake manifold pressure"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "111B"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "111B"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_EGR_TARGET_VALVE_OPENING_ANGLE", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "degrees" }, "name": "Exhaust gas recirculation target valve opening angle"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "111C"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "111C"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_EGR_VALVE_OPENING_ANGLE", "path": "ECU", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "degrees" }, "name": "Exhaust gas recirculation valve opening angle"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "111F"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "111F"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_INLET_AIR_T_AFTER_AIR_FILTER_", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Inlet air temperature (after air filter)"}
   ]},
@@ -185,79 +185,79 @@
   "signals": [
     {"id": "CROSSTREK_TARGET_ENGINE_SPEED", "path": "Movement", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Target engine speed"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "112A"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "112A"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_MILEAGE_AFTER_INJECTOR_LEARNING", "path": "ECU", "fmt": { "len": 16, "max": 327675, "mul": 5, "unit": "kilometers" }, "name": "Mileage after injector learning"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "112B"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "112B"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_MILEAGE_AFTER_INJECTOR_REPLACEMENT", "path": "ECU", "fmt": { "len": 16, "max": 327675, "mul": 5, "unit": "kilometers" }, "name": "Mileage after injector replacement"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "112C"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "112C"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_INTERIOR_HEATER", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Interior heater"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "112D"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "112D"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_QUANTITY_CORRECTION_1", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Quantity correction cylinder #1"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "112E"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "112E"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_QUANTITY_CORRECTION_2", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Quantity correction cylinder #2"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "112F"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "112F"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_QUANTITY_CORRECTION_3", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Quantity correction cylinder #3"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1130"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1130"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_QUANTITY_CORRECTION_4", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Quantity correction cylinder #4"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1135"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1135"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_BAT_CURRENT", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "milliamps" }, "name": "Battery current"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1136"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1136"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_BAT_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery temperature"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1149"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1149"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_CUMULATIVE_ASH_RATIO", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Cumulative ash ratio"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "114A"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "114A"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_PRESSURE_DIFFERENCE_BETWEEN_DPF_INLET_AND_OUTLET", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Pressure difference between DPF inlet and outlet"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "114B"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "114B"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_ESTIMATED_CATALYST_T", "path": "Engine", "fmt": { "len": 8, "max": 1235, "min": -40, "mul": 5, "add": -40, "unit": "celsius" }, "name": "Estimated catalyst temperature"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "114C"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "114C"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_ESTIMATED_DPF_T", "path": "Engine", "fmt": { "len": 8, "max": 1235, "min": -40, "mul": 5, "add": -40, "unit": "celsius" }, "name": "Estimated DPF temperature"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "114D"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "114D"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_SOOT_ACCUMULATION_RATIO", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Soot accumulation ratio"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "114E"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "114E"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_OIL_DILUTION_RATIO", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Oil dilution ratio"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1155"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1155"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_ESTIMATED_DISTANCE_TO_OIL_CHANGE", "path": "Trips", "fmt": { "len": 8, "max": 25500, "mul": 100, "unit": "kilometers" }, "name": "Estimated distance to oil change"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1156"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1156"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_RUNNING_DISTANCE_SINCE_LAST_DPF_REGENERATION", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Running distance since last DPF regeneration"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1157"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1157"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_DPF_REGENERATION_COUNT", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "DPF regeneration count"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1158"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1158"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_MQI_FLV_1_1", "path": "ECU", "fmt": {           "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Micro-quantity-injection final learning value #1 cylinder #1"},
     {"id": "CROSSTREK_MQI_FLV_2_1", "path": "ECU", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Micro-quantity-injection final learning value #2 cylinder #1"},
@@ -265,7 +265,7 @@
     {"id": "CROSSTREK_MQI_FLV_4_1", "path": "ECU", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Micro-quantity-injection final learning value #4 cylinder #1"},
     {"id": "CROSSTREK_MQI_FLV_5_1", "path": "ECU", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Micro-quantity-injection final learning value #5 cylinder #1"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1159"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1159"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_MQI_FLV_1_2", "path": "ECU", "fmt": {           "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Micro-quantity-injection final learning value #1 cylinder #2"},
     {"id": "CROSSTREK_MQI_FLV_2_2", "path": "ECU", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Micro-quantity-injection final learning value #2 cylinder #2"},
@@ -273,7 +273,7 @@
     {"id": "CROSSTREK_MQI_FLV_4_2", "path": "ECU", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Micro-quantity-injection final learning value #4 cylinder #2"},
     {"id": "CROSSTREK_MQI_FLV_5_2", "path": "ECU", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Micro-quantity-injection final learning value #5 cylinder #2"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "115A"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "115A"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_MQI_FLV_1_3", "path": "ECU", "fmt": {           "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Micro-quantity-injection final learning value #1 cylinder #3"},
     {"id": "CROSSTREK_MQI_FLV_2_3", "path": "ECU", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Micro-quantity-injection final learning value #2 cylinder #3"},
@@ -281,7 +281,7 @@
     {"id": "CROSSTREK_MQI_FLV_4_3", "path": "ECU", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Micro-quantity-injection final learning value #4 cylinder #3"},
     {"id": "CROSSTREK_MQI_FLV_5_3", "path": "ECU", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Micro-quantity-injection final learning value #5 cylinder #3"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "115B"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "115B"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_MQI_FLV_1_4", "path": "ECU", "fmt": {           "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Micro-quantity-injection final learning value #1 cylinder #4"},
     {"id": "CROSSTREK_MQI_FLV_2_4", "path": "ECU", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Micro-quantity-injection final learning value #2 cylinder #4"},
@@ -289,23 +289,23 @@
     {"id": "CROSSTREK_MQI_FLV_4_4", "path": "ECU", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Micro-quantity-injection final learning value #4 cylinder #4"},
     {"id": "CROSSTREK_MQI_FLV_5_4", "path": "ECU", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Micro-quantity-injection final learning value #5 cylinder #4"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1161"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1161"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_INDIVIDUAL_PUMP_DIFFERENCE_LEARNING_VALUE", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Individual pump difference learning value"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1162"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1162"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_FINAL_MAIN_INJECTION_PERIOD", "path": "ECU", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "milliseconds" }, "name": "Final main injection period"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "116A"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "116A"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_DPF_WARN_ODO", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance since DPF warning light flashing"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1189"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1189"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_OIL_DILUTION_AMOUNT", "path": "ECU", "fmt": { "len": 8, "max": 1.275, "div": 200, "unit": "scalar" }, "name": "Oil dilution amount"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "11A1"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "11A1"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_DPF_REGEN_CNT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "DPF regeneration attempts"}
   ]},
@@ -313,27 +313,27 @@
   "signals": [
     {"id": "CROSSTREK_KNOCKING_SIGNAL", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "degrees" }, "name": "Knocking signal"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "122F"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "122F"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_CLUTCH_SWITCH", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Clutch switch"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1230"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1230"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_STOP_LIGHT_SWITCH", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Stop light switch"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1231"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1231"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_CC_SET_COAST_SWITCH", "path": "Cruise control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Cruise control set/coast switch"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1232"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1232"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_CC_RESUME_ACCELERATE_SWITCH", "path": "Cruise control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Cruise control resume/accelerate switch"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1233"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1233"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_BRAKE_SWITCH", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Brake switch"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1234"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1234"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_CC_MAIN_TOGGLE_SWITCH", "path": "Cruise control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Cruise control main toggle switch"}
   ]},
@@ -345,23 +345,23 @@
   "signals": [
     {"id": "CROSSTREK_OIL_LEVEL_SWITCH", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Oil level switch"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "124F"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "124F"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_GLOW_RELAY_SWITCH", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Glow relay switch"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1251"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1251"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_SUB_FUEL_PUMP_RELAY_SWITCH", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Sub fuel pump relay switch"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1254"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1254"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_INJECTOR_LEARNING_SWITCH", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Injector learning switch"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "125B"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "125B"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
-    {"id": "CROSSTREK_DPF_ACTIVE_REGENERATION_SWITCH", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "DPF active regeneration switch"}
+    {"id": "CROSSTREK_DPF_ACTIVE_REGENERATION_SWITCH", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Diesel particulate filter active regeneration switch"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "129C"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "129C"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_ENGINE_STARTING_TIME", "path": "ECU", "fmt": { "len": 16, "max": 655350, "mul": 10, "unit": "milliseconds" }, "name": "Engine starting time"}
   ]},
@@ -399,9 +399,9 @@
   ]},
 { "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1324"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
-    {"id": "CROSSTREK_REMAINING_BAT_CAPACITY", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "Remaining battery capacity"}
+    {"id": "CROSSTREK_REMAINING_BAT_CAPACITY", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "Remaining battery capacity", "suggestedMetric": "stateOfCharge"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "307A"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "307A"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_INLET_AIR_T", "path": "Engine", "fmt": { "len": 8, "max": 300, "min": -30, "mul": 1.8, "add": -40, "unit": "fahrenheit" }, "name": "Inlet air temperature"}
   ]},
@@ -409,7 +409,7 @@
   "signals": [
     {"id": "CROSSTREK_LOCK_UP_DUTY_RATIO", "path": "ECU", "fmt": { "len": 8, "max": 127.5, "mul": 0.5, "unit": "percent" }, "name": "Lock up duty ratio"}
   ]},
-{ "hdr": "7A3", "rax": "7AB", "dbg": true, "cmd": {"22": "10C9"}, "freq": 1,
+{ "hdr": "7A3", "rax": "7AB", "dbg": true, "cmd": {"22": "10C9"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_TRANSFER_DUTY_RATIO", "path": "ECU", "fmt": { "len": 8, "max": 127.5, "mul": 0.5, "unit": "percent" }, "name": "Transfer duty ratio"}
   ]},
@@ -419,7 +419,7 @@
   ]},
 { "hdr": "7A3", "rax": "7AB", "cmd": {"22": "10D2"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
-    {"id": "CROSSTREK_AT_CVT_T_V_1", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "AT/CVT temperature v.1"}
+    {"id": "CROSSTREK_CVT_T", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Continuously variable transmission temperature"}
   ]},
 { "hdr": "7A3", "rax": "7AB", "cmd": {"22": "1138"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
@@ -493,211 +493,119 @@
   "signals": [
     {"id": "CROSSTREK_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0005"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0005"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_COOLANT_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Coolant temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "tmo": "64", "fcm1": true, "cmd": {"22": "10E5"}, "freq": 15, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2024 },
   "signals": [
-    {"id": "CROSSTREK_ODO", "path": "Trips", "fmt": { "len": 16, "max": 131070, "mul": 2, "unit": "kilometers" }, "name": "Odometer"}
+    {"id": "CROSSTREK_ODO", "path": "Trips", "fmt": { "len": 16, "max": 131070, "mul": 2, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "1021"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1052"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
-    {"id": "CROSSTREK_BMS_HVB_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "HV battery state of charge", "suggestedMetric": "stateOfCharge"}
+    {"id": "CROSSTREK_DRIVEMOTOR_TORQUE_OUTPUT_ACTUAL", "path": "ECU", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 10, "div": 100, "sign": true, "unit": "newtonMeters" }, "name": "Drive motor torque output actual"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "1022"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1055"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
-    {"id": "CROSSTREK_BMS_HVB_SOH", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "HV battery state of health", "suggestedMetric": "stateOfHealth"}
+    {"id": "CROSSTREK_DRIVEMOTOR_OUTPUT_POWER", "path": "ECU", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "watts" }, "name": "Drive motor output power"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "1025"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1057"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
-    {"id": "CROSSTREK_BMS_HVB_CHARGE_POWER_LIMIT_1", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "mul": 25.5, "div": 255, "unit": "kilowatts" }, "name": "HV battery charge power limit 1"}
+    {"id": "CROSSTREK_DRIVEMOTOR_TORQUE_TARGET", "path": "ECU", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 10, "div": 100, "sign": true, "unit": "newtonMeters" }, "name": "Drive motor torque target"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "1027"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1058"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
-    {"id": "CROSSTREK_BMS_HVB_DISCHARGE_POWER_LIMIT_1", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "mul": 25.5, "div": 255, "unit": "kilowatts" }, "name": "HV battery discharge power limit 1"}
+    {"id": "CROSSTREK_DRIVEMOTOR_SPEED", "path": "Movement", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Drive motor speed"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "102A"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1059"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
-    {"id": "CROSSTREK_BMS_HVB_T_1", "path": "Battery", "fmt": { "len": 16, "max": 32667.5, "min": -100, "mul": 0.5, "add": -100, "unit": "celsius" }, "name": "HV battery temperature 1"}
+    {"id": "CROSSTREK_DRIVEMOTOR_SPEED_TARGET", "path": "Movement", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Drive motor speed target"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "102B"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "105D"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
-    {"id": "CROSSTREK_BMS_HVB_T_2", "path": "Battery", "fmt": { "len": 16, "max": 32667.5, "min": -100, "mul": 0.5, "add": -100, "unit": "celsius" }, "name": "HV battery temperature 2"}
+    {"id": "CROSSTREK_DRIVEMOTOR_TORQUE_UPPER_LIMIT", "path": "ECU", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "newtonMeters" }, "name": "Drive motor torque upper limit"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "102C"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "105E"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
-    {"id": "CROSSTREK_BMS_HVB_T_3", "path": "Battery", "fmt": { "len": 16, "max": 32667.5, "min": -100, "mul": 0.5, "add": -100, "unit": "celsius" }, "name": "HV battery temperature 3"}
+    {"id": "CROSSTREK_DRIVEMOTOR_TORQUE_LOWER_LIMIT", "path": "ECU", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "newtonMeters" }, "name": "Drive motor torque lower limit"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "102D"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1063"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
-    {"id": "CROSSTREK_BMS_HVB_INTAKE_AIR_T", "path": "Battery", "fmt": { "len": 16, "max": 32667.5, "min": -100, "mul": 0.5, "add": -100, "unit": "celsius" }, "name": "HV battery intake air temperature"}
+    {"id": "CROSSTREK_DRIVEMOTOR_INVERTER_INPUT_HV_SENSOR", "path": "ECU", "fmt": { "len": 16, "max": 16383.75, "mul": 2500, "div": 10000, "unit": "volts" }, "name": "Drive motor inverter input HV sensor"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "1143"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1065"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
-    {"id": "CROSSTREK_BMS_HVB_CELL_T_ESTIMATED", "path": "Battery", "fmt": { "len": 16, "max": 6453.5, "min": -100, "div": 10, "add": -100, "unit": "celsius" }, "name": "HV battery cell temperature estimated"}
+    {"id": "CROSSTREK_INVERTER_T_ESTIMATED", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Inverter temperature estimated"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1052"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1066"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
-    {"id": "CROSSTREK_DRIVEMOTOR_DRIVE_MOTOR_TORQUE_OUTPUT_ACTUAL", "path": "ECU", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 10, "div": 100, "sign": true, "unit": "newtonMeters" }, "name": "Drive motor torque output actual"}
+    {"id": "CROSSTREK_DRIVEMOTOR_INVERTER_T_A", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Drive motor inverter temperature a"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1055"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1067"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
-    {"id": "CROSSTREK_DRIVEMOTOR_DRIVE_MOTOR_OUTPUT_POWER", "path": "ECU", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "watts" }, "name": "Drive motor output power"}
+    {"id": "CROSSTREK_DRIVEMOTOR_INVERTER_T_B", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Drive motor inverter temperature b"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1057"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1068"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
-    {"id": "CROSSTREK_DRIVEMOTOR_DRIVE_MOTOR_TORQUE_TARGET", "path": "ECU", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 10, "div": 100, "sign": true, "unit": "newtonMeters" }, "name": "Drive motor torque target"}
+    {"id": "CROSSTREK_DRIVEMOTOR_INVERTER_T_C", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Drive motor inverter temperature c"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1058"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "106B"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
-    {"id": "CROSSTREK_DRIVEMOTOR_DRIVE_MOTOR_SPEED", "path": "Movement", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Drive motor speed"}
+    {"id": "CROSSTREK_ATF_T", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "ATF temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1059"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "106D"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
-    {"id": "CROSSTREK_DRIVEMOTOR_DRIVE_MOTOR_SPEED_TARGET", "path": "Movement", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Drive motor speed target"}
+    {"id": "CROSSTREK_DRIVEMOTOR_T_A", "path": "Engine", "fmt": { "len": 8, "max": 200, "min": -55, "add": -55, "unit": "celsius" }, "name": "Drive motor temperature a"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "105D"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "106E"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
-    {"id": "CROSSTREK_DRIVEMOTOR_DRIVE_MOTOR_TORQUE_UPPER_LIMIT", "path": "ECU", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "newtonMeters" }, "name": "Drive motor torque upper limit"}
+    {"id": "CROSSTREK_DRIVEMOTOR_T_B", "path": "Engine", "fmt": { "len": 8, "max": 200, "min": -55, "add": -55, "unit": "celsius" }, "name": "Drive motor temperature b"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "105E"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_DRIVEMOTOR_DRIVE_MOTOR_TORQUE_LOWER_LIMIT", "path": "ECU", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "newtonMeters" }, "name": "Drive motor torque lower limit"}
-  ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1063"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_DRIVEMOTOR_DRIVE_MOTOR_INVERTER_INPUT_HV_SENSOR", "path": "ECU", "fmt": { "len": 16, "max": 16383.75, "mul": 2500, "div": 10000, "unit": "volts" }, "name": "Drive motor inverter input HV sensor"}
-  ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1065"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_DRIVEMOTOR_INVERTER_T_ESTIMATED", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Inverter temperature estimated"}
-  ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1066"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_DRIVEMOTOR_DRIVE_MOTOR_INVERTER_T_A", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Drive motor inverter temperature a"}
-  ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1067"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_DRIVEMOTOR_DRIVE_MOTOR_INVERTER_T_B", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Drive motor inverter temperature b"}
-  ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1068"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_DRIVEMOTOR_DRIVE_MOTOR_INVERTER_T_C", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Drive motor inverter temperature c"}
-  ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "106B"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_DRIVEMOTOR_ATF_T", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "ATF temperature"}
-  ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "106D"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_DRIVEMOTOR_DRIVE_MOTOR_T_A", "path": "Engine", "fmt": { "len": 8, "max": 200, "min": -55, "add": -55, "unit": "celsius" }, "name": "Drive motor temperature a"}
-  ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "106E"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_DRIVEMOTOR_DRIVE_MOTOR_T_B", "path": "Engine", "fmt": { "len": 8, "max": 200, "min": -55, "add": -55, "unit": "celsius" }, "name": "Drive motor temperature b"}
-  ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1081"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_DRIVEMOTOR_HVB_COOLING_FAN_SPEED", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "HV battery cooling fan speed"}
-  ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1082"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_DRIVEMOTOR_HVB_COOLING_FAN_DUTY_TARGET", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "HV battery cooling fan duty target"}
-  ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1084"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_DRIVEMOTOR_HVB_COOLING_FAN_DUTY_OUTPUT", "path": "Battery", "fmt": { "len": 32, "max": 100, "unit": "percent" }, "name": "HV battery cooling fan duty output"}
-  ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "1033"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_HVB_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 127.5, "div": 255, "unit": "percent" }, "name": "HV battery soc"}
-  ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "1037"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "1037"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_12V_AUX_BAT_VOLTAGE", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "mul": 25.5, "div": 255, "unit": "volts" }, "name": "12V aux battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "1039"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "1039"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_12V_ENGINE_RESTART_BAT_VOLTAGE", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "mul": 25.5, "div": 255, "unit": "volts" }, "name": "12V engine restart battery voltage"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "1077"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "1077"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_12V_ENGINE_RESTART_BAT_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 127.5, "div": 255, "unit": "percent" }, "name": "12V engine restart battery soc"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "1079"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "1079"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_12V_ENGINE_RESTART_BAT_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "12V engine restart battery temperature"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "107A"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_HVB_COOLING_FAN_DUTY_TARGET", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "HV battery cooling fan duty target"}
-  ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2006"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2006"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_ENGINE_TORQUE_TARGET", "path": "ECU", "fmt": { "len": 16, "max": 5553.5, "min": -1000, "div": 10, "add": -1000, "unit": "newtonMeters" }, "name": "Engine torque target"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2009"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_HVB_TOTAL_VOLTAGE", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "mul": 1000, "div": 10000, "unit": "volts" }, "name": "HV battery total voltage"}
-  ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "200A"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_HVB_CURRENT", "path": "Battery", "fmt": { "len": 16, "max": 6353.5, "min": -200, "div": 10, "add": -200, "unit": "amps" }, "name": "HV battery current"}
-  ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "200C"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_HVB_COOLING_FAN_DUTY_TARGET_2", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "HV battery cooling fan duty target, v2"}
-  ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2012"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2012"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_12V_CURRENT", "path": "Battery", "fmt": { "len": 16, "max": 4553.5, "min": -2000, "div": 10, "add": -2000, "unit": "amps" }, "name": "12V engine restart battery current"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2014"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2014"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_12V_SOC_CONTROL", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 127.5, "div": 255, "unit": "percent" }, "name": "12V engine restart battery soc control"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2021"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_HVB_SOH", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 127.5, "div": 255, "unit": "percent" }, "name": "HV battery soh"}
-  ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2022"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_HVB_T_MAX", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 0.5, "add": -40, "unit": "percent" }, "name": "HV battery temperature max"}
-  ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2023"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_HVB_T_MIN", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 0.5, "add": -40, "unit": "percent" }, "name": "HV battery temperature min"}
-  ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2024"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_HVB_INTAKE_AIR_T", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 0.5, "add": -40, "unit": "percent" }, "name": "HV battery intake air temperature"}
-  ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2025"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_HVB_DISCHARGE_POWER", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "mul": 25.5, "div": 255, "unit": "kilowatts" }, "name": "HV battery discharge power"}
-  ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2026"}, "freq": 1,
-  "signals": [
-    {"id": "CROSSTREK_HVB_CHARGE_POWER", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "mul": 25.5, "div": 255, "unit": "kilowatts" }, "name": "HV battery charge power"}
-  ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2034"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2034"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_ELECTRIC_OIL_PUMP_SPEED", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Electric oil pump speed"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2035"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2035"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_ELECTRIC_OIL_PUMP_CURRENT", "path": "ECU", "fmt": { "len": 8, "max": 15.9375, "mul": 0.0625, "unit": "amps" }, "name": "Electric oil pump current"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2061"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2061"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_ENGINE_TORQUE_UPPER_ECM_", "path": "ECU", "fmt": { "len": 8, "max": 408, "mul": 408, "div": 255, "unit": "newtonMeters" }, "name": "Engine torque upper (ECM)"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2062"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2062"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_ENGINE_TORQUE_ACTUAL", "path": "ECU", "fmt": { "len": 16, "max": 5553.5, "min": -1000, "div": 10, "add": -1000, "unit": "newtonMeters" }, "name": "Engine torque actual"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "20E2"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "20E2"}, "freq": 1, "filter": { "to": 2020 },
   "signals": [
     {"id": "CROSSTREK_12V_AUX_BAT_T", "path": "Battery", "fmt": { "len": 8, "max": 87.5, "min": -40, "mul": 0.5, "add": -40, "unit": "celsius" }, "name": "12V aux battery temperature"}
   ]}
