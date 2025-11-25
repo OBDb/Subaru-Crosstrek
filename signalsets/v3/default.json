@@ -413,7 +413,7 @@
   "signals": [
     {"id": "CROSSTREK_TRANSFER_DUTY_RATIO", "path": "ECU", "fmt": { "len": 8, "max": 127.5, "mul": 0.5, "unit": "percent" }, "name": "Transfer duty ratio"}
   ]},
-{ "hdr": "7A3", "rax": "7AB", "cmd": {"22": "10CB"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7A3", "rax": "7AB", "cmd": {"22": "10CB"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CROSSTREK_TURBINE_SPEED", "path": "Movement", "fmt": { "len": 8, "max": 8160, "mul": 32, "unit": "rpm" }, "name": "Turbine speed"}
   ]},
