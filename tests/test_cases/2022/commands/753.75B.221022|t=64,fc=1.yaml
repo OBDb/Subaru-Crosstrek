@@ -1,6 +1,24 @@
 command_id: 753.75B.221022|t=64,fc=1
 test_cases:
 - expected_values:
+    CROSSTREK_TP_FL: 30.4
+    CROSSTREK_TP_FR: 30.6
+    CROSSTREK_TP_RL: 29.4
+    CROSSTREK_TP_RR: 28.4
+  response: 75B07621022938E9998
+- expected_values:
+    CROSSTREK_TP_FL: 30.4
+    CROSSTREK_TP_FR: 30.2
+    CROSSTREK_TP_RL: 29.4
+    CROSSTREK_TP_RR: 28.8
+  response: 75B0762102293909798
+- expected_values:
+    CROSSTREK_TP_FL: 31.8
+    CROSSTREK_TP_FR: 31.8
+    CROSSTREK_TP_RL: 31
+    CROSSTREK_TP_RR: 30.4
+  response: 75B076210229B989F9F
+- expected_values:
     CROSSTREK_TP_FL: 32.6
     CROSSTREK_TP_FR: 31.8
     CROSSTREK_TP_RL: 31.8
