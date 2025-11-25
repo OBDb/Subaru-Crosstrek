@@ -3,3 +3,24 @@ test_cases:
 - expected_values:
     CROSSTREK_ODO: 68078
   response: 7E8056210E584F7
+- expected_values:
+    CROSSTREK_ODO: 68080
+  response: 7E8056210E584F8
+- expected_values:
+    CROSSTREK_ODO: 68082
+  response: 7E8056210E584F9
+- expected_values:
+    CROSSTREK_ODO: 68084
+  response: 7E8056210E584FA
+- expected_values:
+    CROSSTREK_ODO: 68086
+  response: 7E8056210E584FB
+- expected_values:
+    CROSSTREK_ODO: 68088
+  response: 7E8056210E584FC
+- expected_values:
+    CROSSTREK_ODO: 68090
+  response: 7E8056210E584FD
+- expected_values:
+    CROSSTREK_ODO: 68092
+  response: 7E8056210E584FE
