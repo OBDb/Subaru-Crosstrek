@@ -4,29 +4,5 @@ test_cases:
     LOAD_PCT: 0
   response: '7E803410400'
 - expected_values:
-    LOAD_PCT: 23.52941
-  response: 7E80341043C
-- expected_values:
-    LOAD_PCT: 26.27451
-  response: '7E803410443'
-- expected_values:
-    LOAD_PCT: 30.19608
-  response: 7E80341044D
-- expected_values:
-    LOAD_PCT: 30.58824
-  response: 7E80341044E
-- expected_values:
-    LOAD_PCT: 32.54902
-  response: '7E803410453'
-- expected_values:
-    LOAD_PCT: 37.2549
-  response: 7E80341045F
-- expected_values:
-    LOAD_PCT: 47.84314
-  response: 7E80341047A
-- expected_values:
-    LOAD_PCT: 51.76471
-  response: '7E803410484'
-- expected_values:
-    LOAD_PCT: 89.80392
-  response: 7E8034104E5
+    LOAD_PCT: 100
+  response: 7E8034104FF
