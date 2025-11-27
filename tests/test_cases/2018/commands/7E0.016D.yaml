@@ -17,6 +17,38 @@ test_cases:
     7E8100D416D1B019001
     7E8218D000190018100
 - expected_values:
+    FRP_A: 4070
+    FRP_A_CMD: 4000
+    FRP_A_CMD_SUP: 1
+    FRP_A_SUP: 1
+    FRP_B: 3950
+    FRP_B_CMD: 4000
+    FRP_B_CMD_SUP: 1
+    FRP_B_SUP: 1
+    FRT_A: -40
+    FRT_A_SUP: 0
+    FRT_B: -40
+    FRT_B_SUP: 0
+  response: |-
+    7E8100D416D1B019001
+    7E82197000190018B00
+- expected_values:
+    FRP_A: 4420
+    FRP_A_CMD: 4400
+    FRP_A_CMD_SUP: 1
+    FRP_A_SUP: 1
+    FRP_B: 4320
+    FRP_B_CMD: 4400
+    FRP_B_CMD_SUP: 1
+    FRP_B_SUP: 1
+    FRT_A: -40
+    FRT_A_SUP: 0
+    FRT_B: -40
+    FRT_B_SUP: 0
+  response: |-
+    7E8100D416D1B01B801
+    7E821BA0001B801B000
+- expected_values:
     FRP_A: 4520
     FRP_A_CMD: 4470
     FRP_A_CMD_SUP: 1
