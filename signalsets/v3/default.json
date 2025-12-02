@@ -369,7 +369,7 @@
   "signals": [
     {"id": "CROSSTREK_MASS_AIR_FLOW_AVERAGE", "path": "ECU", "fmt": { "len": 16, "max": 5, "div": 100, "unit": "gramsPerSecond" }, "name": "Mass air flow average"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1314"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1314"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CROSSTREK_MONITOR_1", "path": "ECU", "fmt": { "len": 16, "max": 16383.75, "mul": 0.25, "unit": "rpm" }, "name": "Cylinder monitor #1"}
   ]},
