@@ -69,7 +69,7 @@
   "signals": [
     {"id": "CROSSTREK_EGR_STEPS", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Exhaust gas recirculation steps"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B2"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B2"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CROSSTREK_ALTERNATOR_DUTY", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Alternator duty"}
   ]},
