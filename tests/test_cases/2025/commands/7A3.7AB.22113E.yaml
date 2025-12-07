@@ -4,11 +4,11 @@ test_cases:
     CROSSTREK_ACTUAL_GEAR_RATIO: 0.3711
   response: 7AB0562113E005F
 - expected_values:
-    CROSSTREK_ACTUAL_GEAR_RATIO: 0.73048
-  response: 7AB0562113E00BB
-- expected_values:
     CROSSTREK_ACTUAL_GEAR_RATIO: 1.12502
   response: 7AB0562113E0120
 - expected_values:
     CROSSTREK_ACTUAL_GEAR_RATIO: 2.30082
   response: 7AB0562113E024D
+- expected_values:
+    CROSSTREK_ACTUAL_GEAR_RATIO: 2.89458
+  response: 7AB0562113E02E5
