@@ -1,8 +1,8 @@
 command_id: 7A3.7AB.2210D2
 test_cases:
 - expected_values:
-    CROSSTREK_CVT_T: 49
-  response: 7AB046210D263
+    CROSSTREK_CVT_T: 24
+  response: 7AB046210D24A
 - expected_values:
     CROSSTREK_CVT_T: 63
   response: 7AB046210D271

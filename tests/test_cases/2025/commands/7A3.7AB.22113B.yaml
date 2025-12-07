@@ -1,8 +1,8 @@
 command_id: 7A3.7AB.22113B
 test_cases:
 - expected_values:
-    CROSSTREK_SECONDARY_SET_CURRENT: 548
-  response: 7AB0562113B0224
+    CROSSTREK_SECONDARY_SET_CURRENT: 0
+  response: 7AB0562113B0000
 - expected_values:
     CROSSTREK_SECONDARY_SET_CURRENT: 758
   response: 7AB0562113B02F6
