@@ -329,7 +329,7 @@
   "signals": [
     {"id": "CROSSTREK_CC_RESUME_ACCELERATE_SWITCH", "path": "Cruise control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Cruise control resume/accelerate switch"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1233"}, "freq": 1, "filter": { "to": 2020 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1233"}, "freq": 1, "filter": { "to": 2020 }, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "CROSSTREK_BRAKE_SWITCH", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Brake switch"}
   ]},
