@@ -1,11 +1,11 @@
 command_id: 753.75B.221022|t=64,fc=1
 test_cases:
 - expected_values:
-    CROSSTREK_TP_FL: 31
-    CROSSTREK_TP_FR: 30.4
-    CROSSTREK_TP_RL: 29.6
-    CROSSTREK_TP_RR: 30
-  response: 75B076210229496989B
+    CROSSTREK_TP_FL: 27.4
+    CROSSTREK_TP_FR: 27.8
+    CROSSTREK_TP_RL: 29
+    CROSSTREK_TP_RR: 26.4
+  response: 75B0762102291848B89
 - expected_values:
     CROSSTREK_TP_FL: 37.8
     CROSSTREK_TP_FR: 37
