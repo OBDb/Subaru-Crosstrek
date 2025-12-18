@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CROSSTREK_RL_VSS: 0
   response: 7B8056210270000
+- expected_values:
+    CROSSTREK_RL_VSS: 802
+  response: 7B8056210270322
