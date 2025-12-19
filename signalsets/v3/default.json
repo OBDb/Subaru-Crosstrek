@@ -377,7 +377,7 @@
   "signals": [
     {"id": "CROSSTREK_MONITOR_2", "path": "ECU", "fmt": { "len": 16, "max": 16383.75, "mul": 0.25, "unit": "rpm" }, "name": "Cylinder monitor #2"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1316"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1316"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "CROSSTREK_MONITOR_3", "path": "ECU", "fmt": { "len": 16, "max": 16383.75, "mul": 0.25, "unit": "rpm" }, "name": "Cylinder monitor #3"}
   ]},
