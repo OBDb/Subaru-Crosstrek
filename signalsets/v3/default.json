@@ -145,7 +145,7 @@
   "signals": [
     {"id": "CROSSTREK_EXHAUST_OCV_DUTY_LEFT", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Exhaust OCV duty left"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "110B"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "110B"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CROSSTREK_ROUGHNESS_MONITOR_1", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Roughness monitor #1"}
   ]},
