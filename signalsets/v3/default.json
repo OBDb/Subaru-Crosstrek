@@ -89,11 +89,11 @@
   "signals": [
     {"id": "CROSSTREK_OCV_DUTY_RIGHT", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Oil control valve duty right"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B7"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B7"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CROSSTREK_OCV_DUTY_LEFT", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Oil control valve duty left"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10BE"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10BE"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CROSSTREK_A_F_SENSOR_1", "path": "ECU", "fmt": { "len": 8, "max": 1.99, "mul": 1.99, "div": 255, "unit": "scalar" }, "name": "A/F sensor #1"}
   ]},
@@ -365,7 +365,7 @@
   "signals": [
     {"id": "CROSSTREK_ENGINE_STARTING_TIME", "path": "ECU", "fmt": { "len": 16, "max": 655350, "mul": 10, "unit": "milliseconds" }, "name": "Engine starting time"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "12ED"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "12ED"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "CROSSTREK_MASS_AIR_FLOW_AVERAGE", "path": "ECU", "fmt": { "len": 16, "max": 5, "div": 100, "unit": "gramsPerSecond" }, "name": "Mass air flow average"}
   ]},
