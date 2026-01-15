@@ -1,4 +1,4 @@
-command_id: 7A3.7AB.221138
+command_id: 7A3.7AB.221138|f=2024-
 test_cases:
 - expected_values:
     CROSSTREK_SECONDARY_PULLEY_SPEED: 0

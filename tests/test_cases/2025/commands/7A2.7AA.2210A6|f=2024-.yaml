@@ -1,4 +1,4 @@
-command_id: 7A2.7AA.2210A6
+command_id: 7A2.7AA.2210A6|f=2024-
 test_cases:
 - expected_values:
     CROSSTREK_ACC_PEDAL_ANGLE: 0
