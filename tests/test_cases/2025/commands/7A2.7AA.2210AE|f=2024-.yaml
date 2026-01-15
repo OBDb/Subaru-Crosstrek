@@ -1,4 +1,4 @@
-command_id: 7A2.7AA.2210AE
+command_id: 7A2.7AA.2210AE|f=2024-
 test_cases:
 - expected_values:
     CROSSTREK_CPC_VALVE_DUTY_CYCLE: 0

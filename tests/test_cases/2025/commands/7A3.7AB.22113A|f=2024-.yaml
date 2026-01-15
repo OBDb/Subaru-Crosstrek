@@ -1,4 +1,4 @@
-command_id: 7A3.7AB.22113A
+command_id: 7A3.7AB.22113A|f=2024-
 test_cases:
 - expected_values:
     CROSSTREK_ACTUAL_SECONDARY_PRESSURE: 0

@@ -1,4 +1,4 @@
-command_id: 7A3.7AB.221147
+command_id: 7A3.7AB.221147|f=2024-
 test_cases:
 - expected_values:
     CROSSTREK_FRONT_WHEEL_SPEED: 0

@@ -1,4 +1,4 @@
-command_id: 7A3.7AB.2210D2
+command_id: 7A3.7AB.2210D2|f=2024-
 test_cases:
 - expected_values:
     CROSSTREK_CVT_T: 24
