@@ -13,10 +13,6 @@
     {"id": "CROSSTREK_TID3", "path": "Tires", "fmt": {"bix": 48, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Tire 3 id"},
     {"id": "CROSSTREK_TID4", "path": "Tires", "fmt": {"bix": 72, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Tire 4 id"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10A5"}, "freq": 1, "filter": { "from": 2024 }, "dbgfilter": { "to": 2024, "from": 2026 },
-  "signals": [
-    {"id": "CROSSTREK_ODO_7A2_10A5", "path": "Trips", "fmt": { "len": 16, "max": 131070, "mul": 2, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
-  ]},
 { "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10A6"}, "freq": 1, "filter": { "from": 2024 }, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "CROSSTREK_ACC_PEDAL_ANGLE", "path": "Movement", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Accelerator pedal angle"}
