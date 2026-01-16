@@ -97,7 +97,7 @@
   "signals": [
     {"id": "CROSSTREK_BRAKE_SWITCH", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Brake switch"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "124A"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "124A"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2024], "from": 2026 },
   "signals": [
     {"id": "CROSSTREK_CC_CANCEL_SWITCH", "path": "Cruise control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Cruise control cancel switch"}
   ]},
