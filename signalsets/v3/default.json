@@ -137,7 +137,7 @@
   "signals": [
     {"id": "CROSSTREK_ESTIMATED_BAT_T", "path": "Battery", "fmt": { "len": 16, "max": 32727.5, "min": -40, "mul": 0.5, "add": -40, "unit": "celsius" }, "name": "Estimated battery temperature"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1324"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1324"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2024], "from": 2026 },
   "signals": [
     {"id": "CROSSTREK_REMAINING_BAT_CAPACITY", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "Remaining battery capacity", "suggestedMetric": "stateOfCharge"}
   ]},
