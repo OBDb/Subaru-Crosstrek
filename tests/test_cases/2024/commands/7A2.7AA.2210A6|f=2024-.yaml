@@ -3,3 +3,30 @@ test_cases:
 - expected_values:
     CROSSTREK_ACC_PEDAL_ANGLE: 0
   response: 7AA046210A600
+- expected_values:
+    CROSSTREK_ACC_PEDAL_ANGLE: 0.78431
+  response: 7AA046210A602
+- expected_values:
+    CROSSTREK_ACC_PEDAL_ANGLE: 9.80392
+  response: 7AA046210A619
+- expected_values:
+    CROSSTREK_ACC_PEDAL_ANGLE: 10.19608
+  response: 7AA046210A61A
+- expected_values:
+    CROSSTREK_ACC_PEDAL_ANGLE: 17.2549
+  response: 7AA046210A62C
+- expected_values:
+    CROSSTREK_ACC_PEDAL_ANGLE: 17.64706
+  response: 7AA046210A62D
+- expected_values:
+    CROSSTREK_ACC_PEDAL_ANGLE: 20
+  response: 7AA046210A633
+- expected_values:
+    CROSSTREK_ACC_PEDAL_ANGLE: 24.31373
+  response: 7AA046210A63E
+- expected_values:
+    CROSSTREK_ACC_PEDAL_ANGLE: 36.86275
+  response: 7AA046210A65E
+- expected_values:
+    CROSSTREK_ACC_PEDAL_ANGLE: 50.98039
+  response: 7AA046210A682

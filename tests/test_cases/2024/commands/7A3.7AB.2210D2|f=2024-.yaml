@@ -4,11 +4,5 @@ test_cases:
     CROSSTREK_CVT_T: 12
   response: 7AB046210D23E
 - expected_values:
-    CROSSTREK_CVT_T: 13
-  response: 7AB046210D23F
-- expected_values:
-    CROSSTREK_CVT_T: 14
-  response: 7AB046210D240
-- expected_values:
-    CROSSTREK_CVT_T: 15
-  response: 7AB046210D241
+    CROSSTREK_CVT_T: 53
+  response: 7AB046210D267
