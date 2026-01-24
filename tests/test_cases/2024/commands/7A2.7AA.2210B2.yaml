@@ -1,5 +1,20 @@
 command_id: 7A2.7AA.2210B2
 test_cases:
 - expected_values:
+    CROSSTREK_ALTERNATOR_DUTY: 78
+  response: 7AA046210B24E
+- expected_values:
     CROSSTREK_ALTERNATOR_DUTY: 79
   response: 7AA046210B24F
+- expected_values:
+    CROSSTREK_ALTERNATOR_DUTY: 80
+  response: 7AA046210B250
+- expected_values:
+    CROSSTREK_ALTERNATOR_DUTY: 81
+  response: 7AA046210B251
+- expected_values:
+    CROSSTREK_ALTERNATOR_DUTY: 82
+  response: 7AA046210B252
+- expected_values:
+    CROSSTREK_ALTERNATOR_DUTY: 86
+  response: 7AA046210B256

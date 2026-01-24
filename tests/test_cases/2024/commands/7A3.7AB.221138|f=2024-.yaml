@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     CROSSTREK_SECONDARY_PULLEY_SPEED: 0
   response: 7AB056211380000
+- expected_values:
+    CROSSTREK_SECONDARY_PULLEY_SPEED: 1843
+  response: 7AB056211380733
+- expected_values:
+    CROSSTREK_SECONDARY_PULLEY_SPEED: 2035
+  response: 7AB0562113807F3

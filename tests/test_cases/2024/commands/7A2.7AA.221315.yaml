@@ -1,14 +1,14 @@
 command_id: 7A2.7AA.221315
 test_cases:
 - expected_values:
-    CROSSTREK_MONITOR_2: 1594.25
-  response: 7AA0562131518E9
+    CROSSTREK_MONITOR_2: 746
+  response: 7AA056213150BA8
 - expected_values:
-    CROSSTREK_MONITOR_2: 1605.25
-  response: 7AA056213151915
+    CROSSTREK_MONITOR_2: 766
+  response: 7AA056213150BF8
 - expected_values:
-    CROSSTREK_MONITOR_2: 1606
-  response: 7AA056213151918
+    CROSSTREK_MONITOR_2: 768.25
+  response: 7AA056213150C01
 - expected_values:
-    CROSSTREK_MONITOR_2: 1646.75
-  response: 7AA0562131519BB
+    CROSSTREK_MONITOR_2: 2002
+  response: 7AA056213151F48

@@ -1,6 +1,12 @@
 command_id: 7A2.7AA.2210BE
 test_cases:
 - expected_values:
+    CROSSTREK_A_F_SENSOR_1: 0.88184
+  response: 7AA046210BE71
+- expected_values:
+    CROSSTREK_A_F_SENSOR_1: 0.98329
+  response: 7AA046210BE7E
+- expected_values:
     CROSSTREK_A_F_SENSOR_1: 0.9911
   response: 7AA046210BE7F
 - expected_values:
@@ -9,3 +15,9 @@ test_cases:
 - expected_values:
     CROSSTREK_A_F_SENSOR_1: 1.00671
   response: 7AA046210BE81
+- expected_values:
+    CROSSTREK_A_F_SENSOR_1: 1.02231
+  response: 7AA046210BE83
+- expected_values:
+    CROSSTREK_A_F_SENSOR_1: 1.51396
+  response: 7AA046210BEC2

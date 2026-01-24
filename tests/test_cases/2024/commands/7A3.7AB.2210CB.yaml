@@ -1,8 +1,8 @@
 command_id: 7A3.7AB.2210CB
 test_cases:
 - expected_values:
-    CROSSTREK_TURBINE_SPEED: 1568
-  response: 7AB046210CB31
+    CROSSTREK_TURBINE_SPEED: 0
+  response: 7AB046210CB00
 - expected_values:
-    CROSSTREK_TURBINE_SPEED: 1600
-  response: 7AB046210CB32
+    CROSSTREK_TURBINE_SPEED: 2528
+  response: 7AB046210CB4F
