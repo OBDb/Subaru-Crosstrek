@@ -1,0 +1,5 @@
+command_id: 7A2.7AA.221323
+test_cases:
+- expected_values:
+    CROSSTREK_ESTIMATED_BAT_T: -5.5
+  response: 7AA056213230045
