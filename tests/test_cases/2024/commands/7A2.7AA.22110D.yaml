@@ -1,0 +1,5 @@
+command_id: 7A2.7AA.22110D
+test_cases:
+- expected_values:
+    CROSSTREK_ROUGHNESS_MONITOR_3: 0
+  response: 7AA0462110D00

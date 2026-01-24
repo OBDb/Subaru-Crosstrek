@@ -1,0 +1,5 @@
+command_id: 7A2.7AA.2210EF
+test_cases:
+- expected_values:
+    CROSSTREK_EXHAUST_OCV_DUTY_LEFT: 25.88235
+  response: 7AA046210EF42

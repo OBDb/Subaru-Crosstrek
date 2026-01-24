@@ -1,0 +1,5 @@
+command_id: 7A3.7AB.2212B4|f=2024-
+test_cases:
+- expected_values:
+    CROSSTREK_AWD_SOLENOID_SET_CURRENT: 0
+  response: 7AB056212B40000
