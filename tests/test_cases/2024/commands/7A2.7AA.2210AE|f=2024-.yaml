@@ -3,3 +3,24 @@ test_cases:
 - expected_values:
     CROSSTREK_CPC_VALVE_DUTY_CYCLE: 0
   response: 7AA046210AE00
+- expected_values:
+    CROSSTREK_CPC_VALVE_DUTY_CYCLE: 9.41176
+  response: 7AA046210AE18
+- expected_values:
+    CROSSTREK_CPC_VALVE_DUTY_CYCLE: 10.98039
+  response: 7AA046210AE1C
+- expected_values:
+    CROSSTREK_CPC_VALVE_DUTY_CYCLE: 15.29412
+  response: 7AA046210AE27
+- expected_values:
+    CROSSTREK_CPC_VALVE_DUTY_CYCLE: 32.94118
+  response: 7AA046210AE54
+- expected_values:
+    CROSSTREK_CPC_VALVE_DUTY_CYCLE: 48.23529
+  response: 7AA046210AE7B
+- expected_values:
+    CROSSTREK_CPC_VALVE_DUTY_CYCLE: 97.2549
+  response: 7AA046210AEF8
+- expected_values:
+    CROSSTREK_CPC_VALVE_DUTY_CYCLE: 98.82353
+  response: 7AA046210AEFC

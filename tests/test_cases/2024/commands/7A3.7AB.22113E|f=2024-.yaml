@@ -1,5 +1,14 @@
 command_id: 7A3.7AB.22113E|f=2024-
 test_cases:
 - expected_values:
-    CROSSTREK_ACTUAL_GEAR_RATIO: 2.89458
-  response: 7AB0562113E02E5
+    CROSSTREK_ACTUAL_GEAR_RATIO: 0.76954
+  response: 7AB0562113E00C5
+- expected_values:
+    CROSSTREK_ACTUAL_GEAR_RATIO: 1.21486
+  response: 7AB0562113E0137
+- expected_values:
+    CROSSTREK_ACTUAL_GEAR_RATIO: 1.95315
+  response: 7AB0562113E01F4
+- expected_values:
+    CROSSTREK_ACTUAL_GEAR_RATIO: 2.55863
+  response: 7AB0562113E028F

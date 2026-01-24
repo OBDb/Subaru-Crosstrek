@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     CROSSTREK_AWD_SOLENOID_ACTUAL_CURRENT: 0
   response: 7AB056212B50000
+- expected_values:
+    CROSSTREK_AWD_SOLENOID_ACTUAL_CURRENT: 587
+  response: 7AB056212B5024B
+- expected_values:
+    CROSSTREK_AWD_SOLENOID_ACTUAL_CURRENT: 725
+  response: 7AB056212B502D5
