@@ -1,0 +1,8 @@
+command_id: 7A2.7AA.2210B5|f=2024-
+test_cases:
+- expected_values:
+    CROSSTREK_INTAKE_VVT_ADVANCE_LEFT: -1
+  response: 7AA046210B531
+- expected_values:
+    CROSSTREK_INTAKE_VVT_ADVANCE_LEFT: 0
+  response: 7AA046210B532

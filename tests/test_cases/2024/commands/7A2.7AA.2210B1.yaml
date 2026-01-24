@@ -1,0 +1,5 @@
+command_id: 7A2.7AA.2210B1
+test_cases:
+- expected_values:
+    CROSSTREK_EGR_STEPS: 0
+  response: 7AA046210B100

@@ -1,0 +1,8 @@
+command_id: 7A3.7AB.2212B2|f=2024-
+test_cases:
+- expected_values:
+    CROSSTREK_LIN_SOLENOID_ACTUAL_CURRENT: 621
+  response: 7AB056212B2026D
+- expected_values:
+    CROSSTREK_LIN_SOLENOID_ACTUAL_CURRENT: 623
+  response: 7AB056212B2026F

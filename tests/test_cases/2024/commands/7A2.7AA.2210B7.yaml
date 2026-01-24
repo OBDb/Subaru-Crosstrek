@@ -1,0 +1,5 @@
+command_id: 7A2.7AA.2210B7
+test_cases:
+- expected_values:
+    CROSSTREK_OCV_DUTY_LEFT: 25.88235
+  response: 7AA046210B742
