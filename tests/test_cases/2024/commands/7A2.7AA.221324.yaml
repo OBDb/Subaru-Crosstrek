@@ -1,8 +1,8 @@
 command_id: 7A2.7AA.221324
 test_cases:
 - expected_values:
-    CROSSTREK_REMAINING_BAT_CAPACITY: 97.9
-  response: 7AA0562132403D3
+    CROSSTREK_REMAINING_BAT_CAPACITY: 97.5
+  response: 7AA0562132403CF
 - expected_values:
     CROSSTREK_REMAINING_BAT_CAPACITY: 100
   response: 7AA0562132403E8
