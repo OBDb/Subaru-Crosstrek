@@ -125,7 +125,7 @@
   "signals": [
     {"id": "CROSSTREK_MONITOR_4", "path": "ECU", "fmt": { "len": 16, "max": 16383.75, "mul": 0.25, "unit": "rpm" }, "name": "Cylinder monitor #4"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1321"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1321"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "CROSSTREK_BAT_TERMINAL_VOLTAGE", "path": "Battery", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Battery terminal voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
@@ -133,7 +133,7 @@
   "signals": [
     {"id": "CROSSTREK_BAT_CHARGE_DISCHARGE_CURRENT", "path": "Battery", "fmt": { "len": 32, "max": 4292967.2949999999, "min": -2000, "mul": 10, "div": 10000, "add": -2000, "unit": "amps" }, "name": "Battery charge/discharge current"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1323"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1323"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "CROSSTREK_ESTIMATED_BAT_T", "path": "Battery", "fmt": { "len": 16, "max": 32727.5, "min": -40, "mul": 0.5, "add": -40, "unit": "celsius" }, "name": "Estimated battery temperature"}
   ]},
