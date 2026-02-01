@@ -60,6 +60,7 @@ supported_commands_by_ecu:
   - 7E0.0106:SHRTFT1
   - 7E0.010D:VSS
   - 7E0.0110:MAF
+  - 7E0.0111:TP
   - 7E0.0124:LAMBDA11_VOLT,O2S11_VOLT
   - 7E0.0131:CLR_DIST
   - 7E0.0134:LAMBDA11_CURRENT,O2S11_CURRENT
@@ -72,6 +73,8 @@ unsupported_commands_by_ecu:
   "746":
   - '746.221032'
   "7A2":
+  - 7A2.221135
+  - 7A2.221136
   - 7A2.7AA.220005
   - 7A2.7AA.220023
   - 7A2.7AA.22002F
