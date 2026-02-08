@@ -225,7 +225,7 @@
   "signals": [
     {"id": "CROSSTREK_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "tmo": "64", "fcm1": true, "cmd": {"22": "10E5"}, "freq": 15, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "tmo": "64", "fcm1": true, "cmd": {"22": "10E5"}, "freq": 15, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2024], "from": 2026 },
   "signals": [
     {"id": "CROSSTREK_ODO", "path": "Trips", "fmt": { "len": 16, "max": 131070, "mul": 2, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]}
