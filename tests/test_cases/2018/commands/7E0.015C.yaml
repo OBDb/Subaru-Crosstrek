@@ -13,8 +13,8 @@ test_cases:
     EOT: 88
   response: '7E8 03 41 5C 80 '
 - expected_values:
-    EOT: -1
-  response: 7E803415C27
+    EOT: -2
+  response: 7E803415C26
 - expected_values:
     EOT: 108
   response: 7E803415C94
