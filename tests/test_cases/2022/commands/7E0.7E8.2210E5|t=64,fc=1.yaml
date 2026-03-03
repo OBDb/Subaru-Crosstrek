@@ -24,3 +24,9 @@ test_cases:
 - expected_values:
     CROSSTREK_ODO: 68092
   response: 7E8056210E584FE
+- expected_values:
+    CROSSTREK_ODO: 92200
+  response: 7E8056210E5B414
+- expected_values:
+    CROSSTREK_ODO: 92202
+  response: 7E8056210E5B415
