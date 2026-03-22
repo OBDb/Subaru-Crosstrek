@@ -7,5 +7,5 @@ test_cases:
     CROSSTREK_RL_VSS: 767
   response: 7B80562102702FF
 - expected_values:
-    CROSSTREK_RL_VSS: 1043
-  response: 7B8056210270413
+    CROSSTREK_RL_VSS: 1024
+  response: 7B8056210270400
