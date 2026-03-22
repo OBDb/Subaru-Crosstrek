@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     EXH_RATE: 17.8
   response: 7E804419E0059
+- expected_values:
+    EXH_RATE: 34.6
+  response: 7E804419E00AD
+- expected_values:
+    EXH_RATE: 66.2
+  response: 7E804419E014B
