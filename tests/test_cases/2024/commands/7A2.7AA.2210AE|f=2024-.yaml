@@ -19,6 +19,9 @@ test_cases:
     CROSSTREK_CPC_VALVE_DUTY_CYCLE: 48.23529
   response: 7AA046210AE7B
 - expected_values:
+    CROSSTREK_CPC_VALVE_DUTY_CYCLE: 94.90196
+  response: 7AA046210AEF2
+- expected_values:
     CROSSTREK_CPC_VALVE_DUTY_CYCLE: 97.2549
   response: 7AA046210AEF8
 - expected_values:

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CROSSTREK_EXHAUST_OCV_DUTY_RIGHT: 25.88235
   response: 7AA046210EE42
+- expected_values:
+    CROSSTREK_EXHAUST_OCV_DUTY_RIGHT: 54.90196
+  response: 7AA046210EE8C

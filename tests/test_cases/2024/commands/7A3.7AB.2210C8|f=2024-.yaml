@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     CROSSTREK_LOCK_UP_DUTY_RATIO: 95.5
   response: 7AB046210C8BF
+- expected_values:
+    CROSSTREK_LOCK_UP_DUTY_RATIO: 99
+  response: 7AB046210C8C6

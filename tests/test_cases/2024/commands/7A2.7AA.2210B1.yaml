@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CROSSTREK_EGR_STEPS: 0
   response: 7AA046210B100
+- expected_values:
+    CROSSTREK_EGR_STEPS: 14
+  response: 7AA046210B10E
