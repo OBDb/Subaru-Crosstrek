@@ -1,6 +1,9 @@
 command_id: 7A2.7AA.2210B2
 test_cases:
 - expected_values:
+    CROSSTREK_ALTERNATOR_DUTY: 16
+  response: 7AA046210B210
+- expected_values:
     CROSSTREK_ALTERNATOR_DUTY: 78
   response: 7AA046210B24E
 - expected_values:

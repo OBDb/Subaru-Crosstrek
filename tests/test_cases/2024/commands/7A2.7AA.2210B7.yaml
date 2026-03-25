@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CROSSTREK_OCV_DUTY_LEFT: 25.88235
   response: 7AA046210B742
+- expected_values:
+    CROSSTREK_OCV_DUTY_LEFT: 56.86275
+  response: 7AA046210B791
