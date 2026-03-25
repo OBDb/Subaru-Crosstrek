@@ -1,6 +1,9 @@
 command_id: 7A2.7AA.221321
 test_cases:
 - expected_values:
+    CROSSTREK_BAT_TERMINAL_VOLTAGE: 12.749
+  response: 7AA0562132131CD
+- expected_values:
     CROSSTREK_BAT_TERMINAL_VOLTAGE: 13.308
   response: 7AA0562132133FC
 - expected_values:
