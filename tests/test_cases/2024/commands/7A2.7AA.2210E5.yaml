@@ -1,6 +1,9 @@
 command_id: 7A2.7AA.2210E5
 test_cases:
 - expected_values:
+    CROSSTREK_ODO_7A2_10E5: 23150
+  response: 7AA056210E52D37
+- expected_values:
     CROSSTREK_ODO_7A2_10E5: 26600
   response: 7AA056210E533F4
 - expected_values:
