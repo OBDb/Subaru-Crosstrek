@@ -10,5 +10,8 @@ test_cases:
     CROSSTREK_ESTIMATED_BAT_T: -4.5
   response: 7AA056213230047
 - expected_values:
+    CROSSTREK_ESTIMATED_BAT_T: 25
+  response: 7AA056213230082
+- expected_values:
     CROSSTREK_ESTIMATED_BAT_T: 25.5
   response: 7AA056213230083
