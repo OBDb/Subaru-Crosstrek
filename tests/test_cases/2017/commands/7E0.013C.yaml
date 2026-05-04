@@ -1,0 +1,11 @@
+command_id: 7E0.013C
+test_cases:
+- expected_values:
+    CATEMP11: 576.9
+  response: 7E804413C1819
+- expected_values:
+    CATEMP11: 592.1
+  response: 7E804413C18B1
+- expected_values:
+    CATEMP11: 639.8
+  response: 7E804413C1A8E
