@@ -123,6 +123,7 @@ supported_commands_by_ecu:
   - 7E0.0142:VPWR
   - 7E0.0143:LOAD_ABS
   - 7E0.0144:EQ_RAT
+  - 7E0.0145:TP_R
   - 7E0.0146:AAT
   - 7E0.0147:TP_B
   - 7E0.014C:TAC_PCT
@@ -139,6 +140,7 @@ supported_commands_by_ecu:
   - 7E0.019D:FUEL_RATE_ALT,VFUEL_RATE
   - 7E0.019E:EXH_RATE
   - 7E0.01A6:ODO
+  - 7E0.7E8.2210E5|t=64,fc=1:CROSSTREK_ODO
   "7E1":
   - 7E1.7E9.0105
 unsupported_commands_by_ecu:
@@ -146,4 +148,3 @@ unsupported_commands_by_ecu:
   - 7C0.2129
   "7E0":
   - 7E0.7E8.22002F
-  - 7E0.7E8.2210E5|t=64,fc=1:CROSSTREK_ODO
