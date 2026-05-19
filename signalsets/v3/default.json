@@ -1,10 +1,10 @@
 { "commands": [
 { "hdr": "753", "rax": "75B", "tmo": "64", "fcm1": true, "cmd": {"22": "1022"}, "freq": 15, "dbgfilter": { "years": [2016], "from": 2026 },
   "signals": [
-    {"id": "CROSSTREK_TP_RL", "path": "Tires", "fmt": {           "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
-    {"id": "CROSSTREK_TP_RR", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
-    {"id": "CROSSTREK_TP_FR", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
-    {"id": "CROSSTREK_TP_FL", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"}
+    {"id": "CROSSTREK_TP_FL", "path": "Tires", "fmt": {           "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
+    {"id": "CROSSTREK_TP_FR", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
+    {"id": "CROSSTREK_TP_RR", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
+    {"id": "CROSSTREK_TP_RL", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"}
   ]},
 { "hdr": "753", "rax": "75B", "tmo": "64", "fcm1": true, "cmd": {"22": "1028"}, "freq": 86400, "dbgfilter": { "years": [2016], "from": 2026 },
   "signals": [
