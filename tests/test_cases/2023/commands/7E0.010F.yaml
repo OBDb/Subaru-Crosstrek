@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     IAT: 33
   response: 7E803410F49
+- expected_values:
+    IAT: 57
+  response: 7E803410F61
+- expected_values:
+    IAT: 66
+  response: 7E803410F6A
