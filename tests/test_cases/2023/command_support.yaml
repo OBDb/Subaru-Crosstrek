@@ -18,7 +18,10 @@ supported_commands_by_ecu:
   - 7B0.7B8.221027|t=64,fc=1:CROSSTREK_RL_VSS
   - 7B0.7B8.221029|t=64,fc=1:CROSSTREK_STEER_ANGLE
   "7DF":
+  - 7DF.0104
+  - 7DF.0106
   - 7DF.010D
+  - 7DF.0110
   - 7DF.011F
   - 7DF.012F
   - 7DF.0144
@@ -269,8 +272,6 @@ unsupported_commands_by_ecu:
   - 7A3.7AB.2212B5
   "7C0":
   - 7C0.2129
-  "7DF":
-  - 7DF.0104
   "7E0":
   - 7E0.7E8.220005
   - 7E0.7E8.22002F
