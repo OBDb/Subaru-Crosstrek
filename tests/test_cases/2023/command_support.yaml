@@ -38,6 +38,7 @@ supported_commands_by_ecu:
   - 0105:ECT
   - 0106:SHRTFT1
   - 0107:LONGFT1
+  - 010A:FP
   - 010B:MAP
   - 010C:RPM
   - 010D:VSS
@@ -50,6 +51,7 @@ supported_commands_by_ecu:
   - 011C:OBDSUP
   - 011F:RUNTM
   - 0121:MIL_DIST
+  - 0123:FRP
   - 0124:LAMBDA11_VOLT,O2S11_VOLT
   - 012C:EGR_PCT
   - 012D:EGR_ERR
@@ -57,6 +59,7 @@ supported_commands_by_ecu:
   - 012F:FLI
   - 0130:WARM_UPS
   - 0131:CLR_DIST
+  - 0132:EVAP_VP
   - 0133:BARO
   - 0134:LAMBDA11_CURRENT,O2S11_CURRENT
   - 013C:CATEMP11
