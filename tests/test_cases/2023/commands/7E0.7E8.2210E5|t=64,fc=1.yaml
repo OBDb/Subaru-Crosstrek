@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.2210E5|t=64,fc=1
 test_cases:
 - expected_values:
+    CROSSTREK_ODO: 36876
+  response: 7E8056210E54806
+- expected_values:
     CROSSTREK_ODO: 85144
   response: 7E8056210E5A64C
 - expected_values:
