@@ -4,11 +4,11 @@ test_cases:
     CROSSTREK_ODO: 36876
   response: 7E8056210E54806
 - expected_values:
+    CROSSTREK_ODO: 37338
+  response: 7E8056210E548ED
+- expected_values:
     CROSSTREK_ODO: 95182
   response: 7E8056210E5B9E7
-- expected_values:
-    CROSSTREK_ODO: 101330
-  response: 7E8056210E5C5E9
 - expected_values:
     CROSSTREK_ODO: 101422
   response: 7E8056210E5C617
