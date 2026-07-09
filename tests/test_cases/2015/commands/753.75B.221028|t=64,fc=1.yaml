@@ -1,0 +1,11 @@
+command_id: 753.75B.221028|t=64,fc=1
+test_cases:
+- expected_values:
+    CROSSTREK_TID1: 0
+    CROSSTREK_TID2: 0
+    CROSSTREK_TID3: 0
+    CROSSTREK_TID4: 0
+  response: |-
+    75B100F621028000000
+    75B2100000000000000
+    75B2200000000000000

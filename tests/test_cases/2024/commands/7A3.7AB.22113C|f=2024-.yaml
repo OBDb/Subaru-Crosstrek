@@ -1,0 +1,11 @@
+command_id: 7A3.7AB.22113C|f=2024-
+test_cases:
+- expected_values:
+    CROSSTREK_SECONDARY_ACTUAL_CURRENT: 575
+  response: 7AB0562113C023F
+- expected_values:
+    CROSSTREK_SECONDARY_ACTUAL_CURRENT: 764
+  response: 7AB0562113C02FC
+- expected_values:
+    CROSSTREK_SECONDARY_ACTUAL_CURRENT: 776
+  response: 7AB0562113C0308

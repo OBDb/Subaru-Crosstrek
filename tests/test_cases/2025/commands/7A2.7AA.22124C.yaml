@@ -1,0 +1,5 @@
+command_id: 7A2.7AA.22124C
+test_cases:
+- expected_values:
+    CROSSTREK_OIL_LEVEL_SWITCH: 255
+  response: 7AA0462124CFF
