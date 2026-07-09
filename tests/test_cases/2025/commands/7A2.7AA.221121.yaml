@@ -1,0 +1,11 @@
+command_id: 7A2.7AA.221121
+test_cases:
+- expected_values:
+    CROSSTREK_TARGET_ENGINE_SPEED: 750
+  response: 7AA056211210BB8
+- expected_values:
+    CROSSTREK_TARGET_ENGINE_SPEED: 850
+  response: 7AA056211210D48
+- expected_values:
+    CROSSTREK_TARGET_ENGINE_SPEED: 1200
+  response: 7AA0562112112C0

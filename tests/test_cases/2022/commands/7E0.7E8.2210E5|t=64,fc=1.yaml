@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2210E5|t=64,fc=1
+test_cases:
+- expected_values:
+    CROSSTREK_ODO: 68078
+  response: 7E8056210E584F7
+- expected_values:
+    CROSSTREK_ODO: 68092
+  response: 7E8056210E584FE
+- expected_values:
+    CROSSTREK_ODO: 92200
+  response: 7E8056210E5B414
