@@ -1,0 +1,20 @@
+command_id: 7E0.0167
+test_cases:
+- expected_values:
+    ECT_1: 38
+    ECT_1_SUP: 1
+    ECT_2: 37
+    ECT_2_SUP: 1
+  response: 7E8054167034E4D
+- expected_values:
+    ECT_1: 93
+    ECT_1_SUP: 1
+    ECT_2: 91
+    ECT_2_SUP: 1
+  response: '7E8054167038583'
+- expected_values:
+    ECT_1: 94
+    ECT_1_SUP: 1
+    ECT_2: 91
+    ECT_2_SUP: 1
+  response: '7E8054167038683'

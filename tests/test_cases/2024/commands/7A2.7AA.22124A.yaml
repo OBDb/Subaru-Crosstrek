@@ -1,0 +1,5 @@
+command_id: 7A2.7AA.22124A
+test_cases:
+- expected_values:
+    CROSSTREK_CC_CANCEL_SWITCH: 0
+  response: 7AA0462124A00

@@ -1,0 +1,11 @@
+command_id: 7A2.7AA.221314
+test_cases:
+- expected_values:
+    CROSSTREK_MONITOR_1: 0
+  response: 7AA056213140000
+- expected_values:
+    CROSSTREK_MONITOR_1: 1918
+  response: 7AA056213141DF8
+- expected_values:
+    CROSSTREK_MONITOR_1: 1991.5
+  response: 7AA056213141F1E
