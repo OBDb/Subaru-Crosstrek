@@ -1,0 +1,11 @@
+command_id: 7B0.7B8.221027|t=64,fc=1
+test_cases:
+- expected_values:
+    CROSSTREK_RL_VSS: 0
+  response: 7B8056210270000
+- expected_values:
+    CROSSTREK_RL_VSS: 255
+  response: 7B80562102700FF
+- expected_values:
+    CROSSTREK_RL_VSS: 2048
+  response: 7B8056210270800
