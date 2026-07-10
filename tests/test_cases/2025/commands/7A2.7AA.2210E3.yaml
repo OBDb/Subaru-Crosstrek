@@ -1,0 +1,5 @@
+command_id: 7A2.7AA.2210E3
+test_cases:
+- expected_values:
+    CROSSTREK_CRUISE_VSS_T: 0
+  response: 7AA046210E300

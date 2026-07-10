@@ -1,0 +1,5 @@
+command_id: 7A2.7AA.2211D0
+test_cases:
+- expected_values:
+    CROSSTREK_KNOCKING_SIGNAL: 0
+  response: 7AA046211D000
