@@ -4,5 +4,8 @@ test_cases:
     APP_E: 13.72549
   response: 7E803414A23
 - expected_values:
+    APP_E: 16.07843
+  response: 7E803414A29
+- expected_values:
     APP_E: 22.7451
   response: 7E803414A3A
