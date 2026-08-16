@@ -105,6 +105,10 @@ supported_commands_by_ecu:
   - 7E0.01A6:ODO
   - 7E0.7E8.2210E5|t=64,fc=1:CROSSTREK_ODO
 unsupported_commands_by_ecu:
+  "6F1":
+  - 6F1.221700
+  - 6F1.224AB1
+  - 6F1.22586F
   "746":
   - '746.221032'
   "7A2":
