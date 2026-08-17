@@ -46,6 +46,7 @@ supported_commands_by_ecu:
   - 7E0.010E:SPARKADV
   - 7E0.010F:IAT
   - 7E0.0110:MAF
+  - 7E0.0111:TP
   - 7E0.011C:OBDSUP
   - 7E0.011F:RUNTM
   - 7E0.0124:LAMBDA11_VOLT,O2S11_VOLT
@@ -61,6 +62,7 @@ supported_commands_by_ecu:
   - 7E0.0143:LOAD_ABS
   - 7E0.0144:EQ_RAT
   - 7E0.0146:AAT
+  - 7E0.0147:TP_B
   - 7E0.014C:TAC_PCT
   - 7E0.0151:FUEL_TYP
   - 7E0.0153:EVAP_VPA
