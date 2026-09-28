@@ -1,4 +1,5 @@
 { "ecu": [
+    { "hdr": "753", "type": "tpms" },
     { "hdr": "7E0", "type": "engine" }
   ],
   "commands": [
