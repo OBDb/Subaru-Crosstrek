@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221233
+test_cases:
+- expected_values:
+    CROSSTREK_BRAKE_PRESSED: 100
+  response: 7E804621233FF
