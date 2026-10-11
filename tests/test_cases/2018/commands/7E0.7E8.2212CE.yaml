@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.2212CE
+test_cases:
+- expected_values:
+    CROSSTREK_AMBIENT_T_SENS_SIG: 23
+  response: 7E8046212CE7E
+- expected_values:
+    CROSSTREK_AMBIENT_T_SENS_SIG: 23.5
+  response: 7E8046212CE7F
+- expected_values:
+    CROSSTREK_AMBIENT_T_SENS_SIG: 24
+  response: 7E8046212CE80
+- expected_values:
+    CROSSTREK_AMBIENT_T_SENS_SIG: 24.5
+  response: 7E8046212CE81
+- expected_values:
+    CROSSTREK_AMBIENT_T_SENS_SIG: 25
+  response: 7E8046212CE82
+- expected_values:
+    CROSSTREK_AMBIENT_T_SENS_SIG: 25.5
+  response: 7E8046212CE83
+- expected_values:
+    CROSSTREK_AMBIENT_T_SENS_SIG: 26
+  response: 7E8046212CE84
+- expected_values:
+    CROSSTREK_AMBIENT_T_SENS_SIG: 26.5
+  response: 7E8046212CE85
+- expected_values:
+    CROSSTREK_AMBIENT_T_SENS_SIG: 27
+  response: 7E8046212CE86
+- expected_values:
+    CROSSTREK_AMBIENT_T_SENS_SIG: 27.5
+  response: 7E8046212CE87

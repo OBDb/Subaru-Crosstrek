@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.22128B
 test_cases:
 - expected_values:
+    CROSSTREK_IDLE_SPD_CTRL: -0.44
+  response: 7E80562128B7504
+- expected_values:
     CROSSTREK_IDLE_SPD_CTRL: -0.08
   response: 7E80562128B7528
