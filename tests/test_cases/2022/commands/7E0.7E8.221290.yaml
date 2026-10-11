@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221290
+test_cases:
+- expected_values:
+    CROSSTREK_INT_VVT_ADVANCE_TGT_ANG: -24
+  response: 7E8046212901A
+- expected_values:
+    CROSSTREK_INT_VVT_ADVANCE_TGT_ANG: 3
+  response: '7E80462129035'
