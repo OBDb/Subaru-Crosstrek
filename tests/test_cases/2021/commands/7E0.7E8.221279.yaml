@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221279
+test_cases:
+- expected_values:
+    CROSSTREK_MAIN_ACCEL_SENS: 0.66
+  response: '7E80462127921'
+- expected_values:
+    CROSSTREK_MAIN_ACCEL_SENS: 0.9
+  response: 7E8046212792D
+- expected_values:
+    CROSSTREK_MAIN_ACCEL_SENS: 1.02
+  response: '7E80462127933'
+- expected_values:
+    CROSSTREK_MAIN_ACCEL_SENS: 1.1
+  response: '7E80462127937'
+- expected_values:
+    CROSSTREK_MAIN_ACCEL_SENS: 1.16
+  response: 7E8046212793A
+- expected_values:
+    CROSSTREK_MAIN_ACCEL_SENS: 1.24
+  response: 7E8046212793E
+- expected_values:
+    CROSSTREK_MAIN_ACCEL_SENS: 1.28
+  response: '7E80462127940'
+- expected_values:
+    CROSSTREK_MAIN_ACCEL_SENS: 1.4
+  response: '7E80462127946'

@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2210B0
+test_cases:
+- expected_values:
+    CROSSTREK_TUMBLE_GEN_VLV_POS_SENS: 1.18
+  response: 7E8046210B03B
+- expected_values:
+    CROSSTREK_TUMBLE_GEN_VLV_POS_SENS: 1.2
+  response: 7E8046210B03C
+- expected_values:
+    CROSSTREK_TUMBLE_GEN_VLV_POS_SENS: 1.24
+  response: 7E8046210B03E
+- expected_values:
+    CROSSTREK_TUMBLE_GEN_VLV_POS_SENS: 3.86
+  response: 7E8046210B0C1
+- expected_values:
+    CROSSTREK_TUMBLE_GEN_VLV_POS_SENS: 3.92
+  response: 7E8046210B0C4

@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.221290
+test_cases:
+- expected_values:
+    CROSSTREK_INT_VVT_ADVANCE_TGT_ANG: -10
+  response: '7E80462129028'
+- expected_values:
+    CROSSTREK_INT_VVT_ADVANCE_TGT_ANG: -5
+  response: 7E8046212902D
+- expected_values:
+    CROSSTREK_INT_VVT_ADVANCE_TGT_ANG: 0
+  response: '7E80462129032'
+- expected_values:
+    CROSSTREK_INT_VVT_ADVANCE_TGT_ANG: 6
+  response: '7E80462129038'
+- expected_values:
+    CROSSTREK_INT_VVT_ADVANCE_TGT_ANG: 7
+  response: '7E80462129039'
+- expected_values:
+    CROSSTREK_INT_VVT_ADVANCE_TGT_ANG: 13
+  response: 7E8046212903F

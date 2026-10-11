@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221276
+test_cases:
+- expected_values:
+    CROSSTREK_SUB_THROTTLE_SENS: 1.62
+  response: '7E80462127651'
+- expected_values:
+    CROSSTREK_SUB_THROTTLE_SENS: 2.12
+  response: 7E8046212766A

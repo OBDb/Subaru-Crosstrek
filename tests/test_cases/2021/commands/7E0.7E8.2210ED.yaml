@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.2210ED
+test_cases:
+- expected_values:
+    CROSSTREK_EXH_VVT_RETARD_ANG_LEFT: -1
+  response: 7E8046210ED31
+- expected_values:
+    CROSSTREK_EXH_VVT_RETARD_ANG_LEFT: 0
+  response: 7E8046210ED32
+- expected_values:
+    CROSSTREK_EXH_VVT_RETARD_ANG_LEFT: 5
+  response: 7E8046210ED37
+- expected_values:
+    CROSSTREK_EXH_VVT_RETARD_ANG_LEFT: 10
+  response: 7E8046210ED3C
+- expected_values:
+    CROSSTREK_EXH_VVT_RETARD_ANG_LEFT: 15
+  response: 7E8046210ED41
+- expected_values:
+    CROSSTREK_EXH_VVT_RETARD_ANG_LEFT: 18
+  response: 7E8046210ED44
+- expected_values:
+    CROSSTREK_EXH_VVT_RETARD_ANG_LEFT: 22
+  response: 7E8046210ED48
+- expected_values:
+    CROSSTREK_EXH_VVT_RETARD_ANG_LEFT: 27
+  response: 7E8046210ED4D
+- expected_values:
+    CROSSTREK_EXH_VVT_RETARD_ANG_LEFT: 35
+  response: 7E8046210ED55
+- expected_values:
+    CROSSTREK_EXH_VVT_RETARD_ANG_LEFT: 42
+  response: 7E8046210ED5C

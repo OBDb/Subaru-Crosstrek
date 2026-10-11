@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221289
+test_cases:
+- expected_values:
+    CROSSTREK_IDLE_MAF: 6.96
+  response: 7E80562128902B8
+- expected_values:
+    CROSSTREK_IDLE_MAF: 7.32
+  response: 7E80562128902DC
+- expected_values:
+    CROSSTREK_IDLE_MAF: 7.88
+  response: '7E8056212890314'
+- expected_values:
+    CROSSTREK_IDLE_MAF: 10.44
+  response: '7E8056212890414'
