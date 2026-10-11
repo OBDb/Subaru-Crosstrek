@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221355
+test_cases:
+- expected_values:
+    CROSSTREK_SPLIT_RAT_FUEL_INJ_4: 0
+  response: '7E80462135500'

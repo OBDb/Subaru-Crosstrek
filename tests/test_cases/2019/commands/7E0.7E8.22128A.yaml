@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.22128A
+test_cases:
+- expected_values:
+    CROSSTREK_IDLE_MAF_FEEDBACK: -0.2
+  response: 7E80562128A751C
+- expected_values:
+    CROSSTREK_IDLE_MAF_FEEDBACK: -0.11
+  response: 7E80562128A7525
+- expected_values:
+    CROSSTREK_IDLE_MAF_FEEDBACK: -0.07
+  response: 7E80562128A7529
+- expected_values:
+    CROSSTREK_IDLE_MAF_FEEDBACK: 0
+  response: 7E80562128A7530
+- expected_values:
+    CROSSTREK_IDLE_MAF_FEEDBACK: 0.01
+  response: 7E80562128A7531
+- expected_values:
+    CROSSTREK_IDLE_MAF_FEEDBACK: 0.02
+  response: 7E80562128A7532
+- expected_values:
+    CROSSTREK_IDLE_MAF_FEEDBACK: 0.03
+  response: 7E80562128A7533
+- expected_values:
+    CROSSTREK_IDLE_MAF_FEEDBACK: 0.1
+  response: 7E80562128A753A
+- expected_values:
+    CROSSTREK_IDLE_MAF_FEEDBACK: 0.12
+  response: 7E80562128A753C
+- expected_values:
+    CROSSTREK_IDLE_MAF_FEEDBACK: 0.14
+  response: 7E80562128A753E
