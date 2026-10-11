@@ -5,4 +5,4 @@ test_cases:
   response: 7E80562128C0000
 - expected_values:
     CROSSTREK_IDLE_AC_LOAD_CORR: 0
-  response: 7E80562128C0042
+  response: 7E80562128C0085

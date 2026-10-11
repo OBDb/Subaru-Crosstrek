@@ -4,5 +4,5 @@ test_cases:
     CROSSTREK_INT_VVT_ADVANCE_TGT: -23
   response: 7E80462128F1B
 - expected_values:
-    CROSSTREK_INT_VVT_ADVANCE_TGT: 4
-  response: 7E80462128F36
+    CROSSTREK_INT_VVT_ADVANCE_TGT: 6
+  response: 7E80462128F38

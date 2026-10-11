@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     CROSSTREK_IDLE_SPD_CTRL: -0.36
   response: 7E80562128B750C
+- expected_values:
+    CROSSTREK_IDLE_SPD_CTRL: -0.28
+  response: 7E80562128B7514
