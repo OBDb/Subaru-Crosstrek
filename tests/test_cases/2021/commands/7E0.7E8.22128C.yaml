@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22128C
+test_cases:
+- expected_values:
+    CROSSTREK_IDLE_AC_LOAD_CORR: 0
+  response: 7E80562128C0000
+- expected_values:
+    CROSSTREK_IDLE_AC_LOAD_CORR: 0
+  response: 7E80562128C0079

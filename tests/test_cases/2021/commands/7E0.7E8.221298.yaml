@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221298
+test_cases:
+- expected_values:
+    CROSSTREK_TRANS_TURBINE_SPD: 0
+  response: '7E8056212980000'
+- expected_values:
+    CROSSTREK_TRANS_TURBINE_SPD: 1249
+  response: 7E80562129804E1
+- expected_values:
+    CROSSTREK_TRANS_TURBINE_SPD: 2947
+  response: 7E8056212980B83

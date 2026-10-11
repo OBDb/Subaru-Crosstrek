@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221357
+test_cases:
+- expected_values:
+    CROSSTREK_DIRECT_FUEL_INJ_TIME_1: 0
+  response: '7E8056213570000'
+- expected_values:
+    CROSSTREK_DIRECT_FUEL_INJ_TIME_1: 1.016
+  response: 7E80562135700FE
+- expected_values:
+    CROSSTREK_DIRECT_FUEL_INJ_TIME_1: 3.096
+  response: '7E8056213570306'
