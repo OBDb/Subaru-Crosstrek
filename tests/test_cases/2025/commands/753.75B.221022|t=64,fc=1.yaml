@@ -7,6 +7,18 @@ test_cases:
     CROSSTREK_TP_RR: null
   response: 75B0762102200000000
 - expected_values:
+    CROSSTREK_TP_FL: 28.8
+    CROSSTREK_TP_FR: 28.2
+    CROSSTREK_TP_RL: 28.8
+    CROSSTREK_TP_RR: 28.4
+  response: 75B07621022908D8E90
+- expected_values:
+    CROSSTREK_TP_FL: 29.2
+    CROSSTREK_TP_FR: 28.4
+    CROSSTREK_TP_RL: 28.6
+    CROSSTREK_TP_RR: 28.6
+  response: 75B07621022928E8F8F
+- expected_values:
     CROSSTREK_TP_FL: 44.2
     CROSSTREK_TP_FR: 45.6
     CROSSTREK_TP_RL: 42.4
