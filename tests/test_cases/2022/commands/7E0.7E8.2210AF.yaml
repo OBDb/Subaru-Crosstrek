@@ -10,6 +10,9 @@ test_cases:
     CROSSTREK_TUMBLE_GEN_VLV_POS: 1.14
   response: 7E8046210AF39
 - expected_values:
+    CROSSTREK_TUMBLE_GEN_VLV_POS: 3.78
+  response: 7E8046210AFBD
+- expected_values:
     CROSSTREK_TUMBLE_GEN_VLV_POS: 3.8
   response: 7E8046210AFBE
 - expected_values:

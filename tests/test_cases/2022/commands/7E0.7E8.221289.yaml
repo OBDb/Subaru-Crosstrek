@@ -7,8 +7,8 @@ test_cases:
     CROSSTREK_IDLE_MAF: 5.08
   response: 7E80562128901FC
 - expected_values:
-    CROSSTREK_IDLE_MAF: 5.14
-  response: '7E8056212890202'
+    CROSSTREK_IDLE_MAF: 7.68
+  response: '7E8056212890300'
 - expected_values:
-    CROSSTREK_IDLE_MAF: 8
-  response: '7E8056212890320'
+    CROSSTREK_IDLE_MAF: 16.3
+  response: 7E805621289065E

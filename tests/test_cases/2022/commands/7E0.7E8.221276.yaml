@@ -4,5 +4,5 @@ test_cases:
     CROSSTREK_SUB_THROTTLE_SENS: 1.54
   response: 7E8046212764D
 - expected_values:
-    CROSSTREK_SUB_THROTTLE_SENS: 2.06
-  response: '7E80462127667'
+    CROSSTREK_SUB_THROTTLE_SENS: 2.12
+  response: 7E8046212766A

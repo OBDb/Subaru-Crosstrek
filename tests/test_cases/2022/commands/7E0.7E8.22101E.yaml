@@ -15,3 +15,13 @@ test_cases:
   response: |-
     7E8100962101E17BB00
     7E82100C28400000000
+- expected_values:
+    CROSSTREK_TRIP_CNT: 6077
+  response: |-
+    7E8100962101E17BD00
+    7E82100022100000000
+- expected_values:
+    CROSSTREK_TRIP_CNT: 6078
+  response: |-
+    7E8100962101E17BE00
+    7E82100020200000000
