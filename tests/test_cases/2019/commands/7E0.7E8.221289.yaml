@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221289
 test_cases:
 - expected_values:
-    CROSSTREK_IDLE_MAF: 4.27
-  response: 7E80562128901AB
+    CROSSTREK_IDLE_MAF: 3.61
+  response: '7E8056212890169'
 - expected_values:
     CROSSTREK_IDLE_MAF: 5.18
   response: '7E8056212890206'

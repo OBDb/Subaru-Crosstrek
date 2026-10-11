@@ -16,6 +16,9 @@ test_cases:
     CROSSTREK_INT_VVT_ADVANCE_TGT_ANG: 0
   response: '7E80462129032'
 - expected_values:
+    CROSSTREK_INT_VVT_ADVANCE_TGT_ANG: 1
+  response: '7E80462129033'
+- expected_values:
     CROSSTREK_INT_VVT_ADVANCE_TGT_ANG: 2
   response: '7E80462129034'
 - expected_values:
