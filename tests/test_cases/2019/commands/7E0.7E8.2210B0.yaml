@@ -7,8 +7,20 @@ test_cases:
     CROSSTREK_TUMBLE_GEN_VLV_POS_SENS: 1.06
   response: 7E8046210B035
 - expected_values:
+    CROSSTREK_TUMBLE_GEN_VLV_POS_SENS: 1.08
+  response: 7E8046210B036
+- expected_values:
+    CROSSTREK_TUMBLE_GEN_VLV_POS_SENS: 1.1
+  response: 7E8046210B037
+- expected_values:
+    CROSSTREK_TUMBLE_GEN_VLV_POS_SENS: 1.16
+  response: 7E8046210B03A
+- expected_values:
     CROSSTREK_TUMBLE_GEN_VLV_POS_SENS: 3.9
   response: 7E8046210B0C3
+- expected_values:
+    CROSSTREK_TUMBLE_GEN_VLV_POS_SENS: 3.92
+  response: 7E8046210B0C4
 - expected_values:
     CROSSTREK_TUMBLE_GEN_VLV_POS_SENS: 3.94
   response: 7E8046210B0C5

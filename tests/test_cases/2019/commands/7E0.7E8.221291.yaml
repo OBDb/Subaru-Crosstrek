@@ -25,5 +25,8 @@ test_cases:
     CROSSTREK_EXH_VVT_RETARD_TGT: 16
   response: '7E80462129142'
 - expected_values:
+    CROSSTREK_EXH_VVT_RETARD_TGT: 21
+  response: '7E80462129147'
+- expected_values:
     CROSSTREK_EXH_VVT_RETARD_TGT: 26
   response: 7E8046212914C
