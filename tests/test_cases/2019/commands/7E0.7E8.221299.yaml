@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221299
+test_cases:
+- expected_values:
+    CROSSTREK_TRANS_LOCK_UP: 0
+  response: '7E80462129900'
+- expected_values:
+    CROSSTREK_TRANS_LOCK_UP: 2
+  response: '7E80462129902'
+- expected_values:
+    CROSSTREK_TRANS_LOCK_UP: 4
+  response: '7E80462129904'
