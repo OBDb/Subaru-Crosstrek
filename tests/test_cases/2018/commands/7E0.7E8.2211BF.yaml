@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211BF
+test_cases:
+- expected_values:
+    CROSSTREK_EXH_VVT_CLEANING: 0
+  response: 7E8046211BF00

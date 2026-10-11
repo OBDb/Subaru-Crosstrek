@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.221358
+test_cases:
+- expected_values:
+    CROSSTREK_DIRECT_FUEL_INJ_TIME_2: 0
+  response: '7E8056213580000'
+- expected_values:
+    CROSSTREK_DIRECT_FUEL_INJ_TIME_2: 0.976
+  response: 7E80562135800F4
+- expected_values:
+    CROSSTREK_DIRECT_FUEL_INJ_TIME_2: 0.988
+  response: 7E80562135800F7
+- expected_values:
+    CROSSTREK_DIRECT_FUEL_INJ_TIME_2: 1.096
+  response: '7E8056213580112'
+- expected_values:
+    CROSSTREK_DIRECT_FUEL_INJ_TIME_2: 1.164
+  response: '7E8056213580123'
+- expected_values:
+    CROSSTREK_DIRECT_FUEL_INJ_TIME_2: 1.24
+  response: '7E8056213580136'
+- expected_values:
+    CROSSTREK_DIRECT_FUEL_INJ_TIME_2: 1.252
+  response: '7E8056213580139'
+- expected_values:
+    CROSSTREK_DIRECT_FUEL_INJ_TIME_2: 1.396
+  response: 7E805621358015D
+- expected_values:
+    CROSSTREK_DIRECT_FUEL_INJ_TIME_2: 1.528
+  response: 7E805621358017E

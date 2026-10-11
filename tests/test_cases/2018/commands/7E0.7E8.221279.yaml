@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221279
+test_cases:
+- expected_values:
+    CROSSTREK_MAIN_ACCEL_SENS: 0.68
+  response: '7E80462127922'
+- expected_values:
+    CROSSTREK_MAIN_ACCEL_SENS: 1.6
+  response: '7E80462127950'

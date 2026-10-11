@@ -4,6 +4,12 @@ test_cases:
     CROSSTREK_THROTTLE_MOTOR_V: 0.24
   response: '7E80462127503'
 - expected_values:
+    CROSSTREK_THROTTLE_MOTOR_V: 12
+  response: '7E80462127596'
+- expected_values:
+    CROSSTREK_THROTTLE_MOTOR_V: 12.24
+  response: '7E80462127599'
+- expected_values:
     CROSSTREK_THROTTLE_MOTOR_V: 14
   response: 7E804621275AF
 - expected_values:
