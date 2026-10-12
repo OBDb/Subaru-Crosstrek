@@ -1,6 +1,7 @@
 { "ecu": [
     { "hdr": "753", "type": "tpms" },
-    { "hdr": "7E0", "type": "engine" }
+    { "hdr": "7E0", "type": "engine" },
+    { "hdr": "7E1", "type": "transmission" }
   ],
   "commands": [
 { "hdr": "753", "rax": "75B", "tmo": "64", "fcm1": true, "cmd": {"22": "1022"}, "freq": 15, "dbgfilter": { "years": [2016], "from": 2026 },
