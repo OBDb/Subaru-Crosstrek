@@ -4,5 +4,14 @@ test_cases:
     CROSSTREK_DIRECT_FUEL_INJ_TIME_2: 0
   response: '7E8056213580000'
 - expected_values:
+    CROSSTREK_DIRECT_FUEL_INJ_TIME_2: 0.952
+  response: 7E80562135800EE
+- expected_values:
     CROSSTREK_DIRECT_FUEL_INJ_TIME_2: 1.196
   response: 7E805621358012B
+- expected_values:
+    CROSSTREK_DIRECT_FUEL_INJ_TIME_2: 1.308
+  response: '7E8056213580147'
+- expected_values:
+    CROSSTREK_DIRECT_FUEL_INJ_TIME_2: 1.392
+  response: 7E805621358015C

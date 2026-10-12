@@ -4,5 +4,11 @@ test_cases:
     CROSSTREK_SPLIT_RAT_FUEL_INJ_1: 34.5098
   response: '7E80462135258'
 - expected_values:
+    CROSSTREK_SPLIT_RAT_FUEL_INJ_1: 39.60784
+  response: '7E80462135265'
+- expected_values:
+    CROSSTREK_SPLIT_RAT_FUEL_INJ_1: 50.19608
+  response: '7E80462135280'
+- expected_values:
     CROSSTREK_SPLIT_RAT_FUEL_INJ_1: 100
   response: 7E804621352FF

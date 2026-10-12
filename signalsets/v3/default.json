@@ -614,11 +614,11 @@
   "signals": [
     {"id": "CROSSTREK_PURGE_DENSITY_LEARN", "path": "Engine", "fmt": { "len": 8, "max": 99.1999, "min": -100, "mul": 332, "div": 425, "add": -100, "unit": "percent" }, "name": "Purge density learn value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1298"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1298"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020], "from": 2024 },
   "signals": [
     {"id": "CROSSTREK_TRANS_TURBINE_SPD", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Transmission turbine speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1299"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1299"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020], "from": 2024 },
   "signals": [
     {"id": "CROSSTREK_TRANS_LOCK_UP", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Transmission lock-up"}
   ]},

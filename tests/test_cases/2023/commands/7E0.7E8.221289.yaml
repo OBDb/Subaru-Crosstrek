@@ -1,23 +1,14 @@
 command_id: 7E0.7E8.221289
 test_cases:
 - expected_values:
-    CROSSTREK_IDLE_MAF: 3.3
-  response: 7E805621289014A
-- expected_values:
-    CROSSTREK_IDLE_MAF: 3.77
-  response: '7E8056212890179'
+    CROSSTREK_IDLE_MAF: 2.51
+  response: 7E80562128900FB
 - expected_values:
     CROSSTREK_IDLE_MAF: 5.09
   response: 7E80562128901FD
 - expected_values:
-    CROSSTREK_IDLE_MAF: 5.84
-  response: '7E8056212890248'
+    CROSSTREK_IDLE_MAF: 7.75
+  response: '7E8056212890307'
 - expected_values:
-    CROSSTREK_IDLE_MAF: 6.4
-  response: '7E8056212890280'
-- expected_values:
-    CROSSTREK_IDLE_MAF: 6.59
-  response: '7E8056212890293'
-- expected_values:
-    CROSSTREK_IDLE_MAF: 8.84
-  response: '7E8056212890374'
+    CROSSTREK_IDLE_MAF: 13.23
+  response: 7E805621289052B

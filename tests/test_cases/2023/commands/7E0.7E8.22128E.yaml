@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CROSSTREK_IDLE_DIRTY_THROTTLE: 0.33
   response: 7E80562128E7551
+- expected_values:
+    CROSSTREK_IDLE_DIRTY_THROTTLE: 1.51
+  response: 7E80562128E75C7

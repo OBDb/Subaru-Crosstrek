@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CROSSTREK_DIRECT_FUEL_INJ_TIME_3: 0
   response: '7E8056213590000'
+- expected_values:
+    CROSSTREK_DIRECT_FUEL_INJ_TIME_3: 0.944
+  response: 7E80562135900EC
