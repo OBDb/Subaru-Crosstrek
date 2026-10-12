@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2212CE
+test_cases:
+- expected_values:
+    CROSSTREK_AMBIENT_T_SENS_SIG: 21
+  response: 7E8046212CE7A
+- expected_values:
+    CROSSTREK_AMBIENT_T_SENS_SIG: 21.5
+  response: 7E8046212CE7B
+- expected_values:
+    CROSSTREK_AMBIENT_T_SENS_SIG: 22
+  response: 7E8046212CE7C
+- expected_values:
+    CROSSTREK_AMBIENT_T_SENS_SIG: 22.5
+  response: 7E8046212CE7D

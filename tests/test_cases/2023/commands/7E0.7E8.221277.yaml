@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.221277
+test_cases:
+- expected_values:
+    CROSSTREK_MAIN_THROTTLE_SENS: 0.68
+  response: '7E80462127722'
+- expected_values:
+    CROSSTREK_MAIN_THROTTLE_SENS: 0.7
+  response: '7E80462127723'
+- expected_values:
+    CROSSTREK_MAIN_THROTTLE_SENS: 0.92
+  response: 7E8046212772E
+- expected_values:
+    CROSSTREK_MAIN_THROTTLE_SENS: 1.06
+  response: '7E80462127735'
+- expected_values:
+    CROSSTREK_MAIN_THROTTLE_SENS: 1.22
+  response: 7E8046212773D
+- expected_values:
+    CROSSTREK_MAIN_THROTTLE_SENS: 1.28
+  response: '7E80462127740'
