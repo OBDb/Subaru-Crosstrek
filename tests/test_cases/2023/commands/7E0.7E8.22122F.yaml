@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22122F
+test_cases:
+- expected_values:
+    CROSSTREK_CLUTCH_PRESSED: 0
+  response: 7E80462122F00
+- expected_values:
+    CROSSTREK_CLUTCH_PRESSED: 100
+  response: 7E80462122FFF

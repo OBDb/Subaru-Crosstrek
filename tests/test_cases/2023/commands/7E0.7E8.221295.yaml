@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221295
+test_cases:
+- expected_values:
+    CROSSTREK_PURGE_DENSITY_LEARN: 1.55294
+  response: '7E80462129582'

@@ -1,0 +1,7 @@
+command_id: 7E0.7E8.22101E
+test_cases:
+- expected_values:
+    CROSSTREK_TRIP_CNT: 3938
+  response: |-
+    7E8100962101E0F6200
+    7E82100020400000000
