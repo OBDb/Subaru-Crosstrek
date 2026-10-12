@@ -3,3 +3,18 @@ test_cases:
 - expected_values:
     CROSSTREK_IDLE_AC_LOAD_CORR: 0
   response: 7E80562128C0000
+- expected_values:
+    CROSSTREK_IDLE_AC_LOAD_CORR: 0
+  response: 7E80562128C0018
+- expected_values:
+    CROSSTREK_IDLE_AC_LOAD_CORR: 0
+  response: 7E80562128C001B
+- expected_values:
+    CROSSTREK_IDLE_AC_LOAD_CORR: 0
+  response: 7E80562128C001E
+- expected_values:
+    CROSSTREK_IDLE_AC_LOAD_CORR: 0
+  response: 7E80562128C002A
+- expected_values:
+    CROSSTREK_IDLE_AC_LOAD_CORR: 0
+  response: 7E80562128C002D

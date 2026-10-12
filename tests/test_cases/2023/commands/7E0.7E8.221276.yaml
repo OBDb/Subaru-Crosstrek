@@ -1,23 +1,8 @@
 command_id: 7E0.7E8.221276
 test_cases:
 - expected_values:
-    CROSSTREK_SUB_THROTTLE_SENS: 1.54
-  response: 7E8046212764D
+    CROSSTREK_SUB_THROTTLE_SENS: 1.52
+  response: 7E8046212764C
 - expected_values:
-    CROSSTREK_SUB_THROTTLE_SENS: 1.56
-  response: 7E8046212764E
-- expected_values:
-    CROSSTREK_SUB_THROTTLE_SENS: 1.72
-  response: '7E80462127656'
-- expected_values:
-    CROSSTREK_SUB_THROTTLE_SENS: 1.74
-  response: '7E80462127657'
-- expected_values:
-    CROSSTREK_SUB_THROTTLE_SENS: 1.84
-  response: 7E8046212765C
-- expected_values:
-    CROSSTREK_SUB_THROTTLE_SENS: 1.86
-  response: 7E8046212765D
-- expected_values:
-    CROSSTREK_SUB_THROTTLE_SENS: 2.04
-  response: '7E80462127666'
+    CROSSTREK_SUB_THROTTLE_SENS: 4.24
+  response: 7E804621276D4

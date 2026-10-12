@@ -4,14 +4,29 @@ test_cases:
     CROSSTREK_EXH_VVT_RETARD_TGT: 0
   response: '7E80462129132'
 - expected_values:
+    CROSSTREK_EXH_VVT_RETARD_TGT: 3
+  response: '7E80462129135'
+- expected_values:
     CROSSTREK_EXH_VVT_RETARD_TGT: 7
   response: '7E80462129139'
+- expected_values:
+    CROSSTREK_EXH_VVT_RETARD_TGT: 10
+  response: 7E8046212913C
 - expected_values:
     CROSSTREK_EXH_VVT_RETARD_TGT: 14
   response: '7E80462129140'
 - expected_values:
+    CROSSTREK_EXH_VVT_RETARD_TGT: 15
+  response: '7E80462129141'
+- expected_values:
+    CROSSTREK_EXH_VVT_RETARD_TGT: 20
+  response: '7E80462129146'
+- expected_values:
     CROSSTREK_EXH_VVT_RETARD_TGT: 26
   response: 7E8046212914C
+- expected_values:
+    CROSSTREK_EXH_VVT_RETARD_TGT: 29
+  response: 7E8046212914F
 - expected_values:
     CROSSTREK_EXH_VVT_RETARD_TGT: 30
   response: '7E80462129150'

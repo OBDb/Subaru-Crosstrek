@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.221298
+test_cases:
+- expected_values:
+    CROSSTREK_TRANS_TURBINE_SPD: 0
+  response: '7E8056212980000'
+- expected_values:
+    CROSSTREK_TRANS_TURBINE_SPD: 71
+  response: '7E8056212980047'
+- expected_values:
+    CROSSTREK_TRANS_TURBINE_SPD: 1169
+  response: '7E8056212980491'
+- expected_values:
+    CROSSTREK_TRANS_TURBINE_SPD: 1205
+  response: 7E80562129804B5
+- expected_values:
+    CROSSTREK_TRANS_TURBINE_SPD: 1234
+  response: 7E80562129804D2
+- expected_values:
+    CROSSTREK_TRANS_TURBINE_SPD: 1298
+  response: '7E8056212980512'
+- expected_values:
+    CROSSTREK_TRANS_TURBINE_SPD: 1363
+  response: '7E8056212980553'
