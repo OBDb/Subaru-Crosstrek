@@ -4,5 +4,5 @@ test_cases:
     CROSSTREK_MAIN_ACCEL_SENS: 0.66
   response: '7E80462127921'
 - expected_values:
-    CROSSTREK_MAIN_ACCEL_SENS: 2.28
-  response: '7E80462127972'
+    CROSSTREK_MAIN_ACCEL_SENS: 3.04
+  response: '7E80462127998'
