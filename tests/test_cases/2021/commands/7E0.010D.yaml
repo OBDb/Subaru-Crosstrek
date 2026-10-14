@@ -9,3 +9,70 @@ test_cases:
 - expected_values:
     VSS: null
   response: 7E803410DFF
+- expected_values:
+    VSS: 75
+  response: 7E903410D4B
+- expected_values:
+    VSS: 75
+  response: |-
+    > 7DF.010C
+    7E803410D4B
+- expected_values:
+    VSS: 112
+  response: |-
+    > 7E0.7E8.010C
+    7E803410D70
+- expected_values:
+    VSS: 79
+  response: |-
+    > 7E0.7E8.0144
+
+    7E803410D4F
+- expected_values:
+    VSS: 15
+  response: |-
+    > 7E0.7E8.0162
+    7E803410D0F
+- expected_values:
+    VSS: 53
+  response: |-
+    > 7E0.7E8.01A6
+    7E803410D35
+- expected_values:
+    VSS: 112
+  response: |-
+    > 7E0.7E8.2101
+
+    7E803410D70
+- expected_values:
+    VSS: 112
+  response: |-
+    > 7E0.7E8.2121
+    7E803410D70
+- expected_values:
+    VSS: 112
+  response: |-
+    > 7E0.7E8.220005
+    7E803410D70
+- expected_values:
+    VSS: 79
+  response: |-
+    > 7E0.7E8.2210A3
+
+    7E803410D4F
+- expected_values:
+    VSS: 112
+  response: |-
+    > 7E0.7E8.2210AC
+    7E803410D70
+- expected_values:
+    VSS: 112
+  response: |-
+    > 7E0.7E8.221155
+    7E803410D70
+- expected_values:
+    VSS: 112
+  response: |-
+    > 7E0.7E8.2212D1
+
+    7E803410D70
