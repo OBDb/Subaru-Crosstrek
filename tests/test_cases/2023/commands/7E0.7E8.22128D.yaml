@@ -6,3 +6,15 @@ test_cases:
 - expected_values:
     CROSSTREK_ELEC_LOAD_FEEDBACK: 0
   response: 7E80562128D0019
+- expected_values:
+    CROSSTREK_ELEC_LOAD_FEEDBACK: 0
+  response: 7E80562128D001C
+- expected_values:
+    CROSSTREK_ELEC_LOAD_FEEDBACK: 0
+  response: 7E80562128D0021
+- expected_values:
+    CROSSTREK_ELEC_LOAD_FEEDBACK: 0
+  response: 7E80562128D0029
+- expected_values:
+    CROSSTREK_ELEC_LOAD_FEEDBACK: 0
+  response: 7E80562128D002C
