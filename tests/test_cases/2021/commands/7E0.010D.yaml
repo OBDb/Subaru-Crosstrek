@@ -10,18 +10,56 @@ test_cases:
     VSS: null
   response: 7E803410DFF
 - expected_values:
-    VSS: 75
-  response: 7E903410D4B
+    VSS: 0
+  response: 7E903410D00
 - expected_values:
     VSS: 75
   response: |-
     > 7DF.010C
     7E803410D4B
 - expected_values:
+    VSS: 28
+  response: |-
+    > 7DF.010D
+
+    7E803410D1C
+- expected_values:
+    VSS: 120
+  response: |-
+    > 7DF.012F
+
+    7E803410D78
+- expected_values:
+    VSS: 43
+  response: |-
+    > 7DF.0131
+    7E803410D2B
+- expected_values:
+    VSS: 0
+  response: |-
+    > 7DF.0144
+
+    7E803410D00
+- expected_values:
+    VSS: 115
+  response: |-
+    > 7DF.015C
+    7E803410D73
+- expected_values:
     VSS: 112
   response: |-
     > 7E0.7E8.010C
     7E803410D70
+- expected_values:
+    VSS: 0
+  response: |-
+    > 7E0.7E8.0111
+    7E803410D00
+- expected_values:
+    VSS: 79
+  response: |-
+    > 7E0.7E8.012F
+    7E803410D4F
 - expected_values:
     VSS: 79
   response: |-
@@ -29,26 +67,33 @@ test_cases:
 
     7E803410D4F
 - expected_values:
-    VSS: 15
+    VSS: 121
+  response: |-
+    > 7E0.7E8.0144
+
+    7E803410D79
+- expected_values:
+    VSS: 112
   response: |-
     > 7E0.7E8.0162
-    7E803410D0F
+
+    7E803410D70
 - expected_values:
     VSS: 53
   response: |-
     > 7E0.7E8.01A6
     7E803410D35
 - expected_values:
-    VSS: 112
+    VSS: 0
   response: |-
     > 7E0.7E8.2101
 
-    7E803410D70
+    7E803410D00
 - expected_values:
-    VSS: 112
+    VSS: 52
   response: |-
     > 7E0.7E8.2121
-    7E803410D70
+    7E803410D34
 - expected_values:
     VSS: 112
   response: |-
@@ -61,10 +106,10 @@ test_cases:
 
     7E803410D4F
 - expected_values:
-    VSS: 112
+    VSS: 116
   response: |-
-    > 7E0.7E8.2210AC
-    7E803410D70
+    > 7E0.7E8.2210E7
+    7E803410D74
 - expected_values:
     VSS: 112
   response: |-
@@ -76,3 +121,8 @@ test_cases:
     > 7E0.7E8.2212D1
 
     7E803410D70
+- expected_values:
+    VSS: 34
+  response: |-
+    > 7E1.7E9.2211CB
+    7E803410D22
