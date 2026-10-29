@@ -1,0 +1,23 @@
+command_id: 7A2.7AA.2210DE
+test_cases:
+- expected_values:
+    CROSSTREK_THROTTLE_MOTOR_DUTY: -12.192
+  response: 7AA046210DE70
+- expected_values:
+    CROSSTREK_THROTTLE_MOTOR_DUTY: -11.408
+  response: 7AA046210DE71
+- expected_values:
+    CROSSTREK_THROTTLE_MOTOR_DUTY: -9.84
+  response: 7AA046210DE73
+- expected_values:
+    CROSSTREK_THROTTLE_MOTOR_DUTY: -9.056
+  response: 7AA046210DE74
+- expected_values:
+    CROSSTREK_THROTTLE_MOTOR_DUTY: -8.272
+  response: 7AA046210DE75
+- expected_values:
+    CROSSTREK_THROTTLE_MOTOR_DUTY: -7.488
+  response: 7AA046210DE76
+- expected_values:
+    CROSSTREK_THROTTLE_MOTOR_DUTY: 9.76
+  response: 7AA046210DE8C
