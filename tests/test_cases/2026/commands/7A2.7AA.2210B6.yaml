@@ -1,0 +1,11 @@
+command_id: 7A2.7AA.2210B6
+test_cases:
+- expected_values:
+    CROSSTREK_OCV_DUTY_RIGHT: 0
+  response: 7AA046210B600
+- expected_values:
+    CROSSTREK_OCV_DUTY_RIGHT: 45.4902
+  response: 7AA046210B674
+- expected_values:
+    CROSSTREK_OCV_DUTY_RIGHT: 46.66667
+  response: 7AA046210B677

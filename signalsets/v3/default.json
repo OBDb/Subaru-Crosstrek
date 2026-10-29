@@ -4,14 +4,14 @@
     { "hdr": "7E1", "type": "transmission" }
   ],
   "commands": [
-{ "hdr": "753", "rax": "75B", "tmo": "64", "fcm1": true, "cmd": {"22": "1022"}, "freq": 15, "dbgfilter": { "years": [2016], "from": 2026 },
+{ "hdr": "753", "rax": "75B", "tmo": "64", "fcm1": true, "cmd": {"22": "1022"}, "freq": 15, "dbgfilter": { "years": [2016], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_TP_FL", "path": "Tires", "fmt": {           "len": 8, "max": 51, "div": 5, "nullmin": 0, "unit": "psi" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
     {"id": "CROSSTREK_TP_FR", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 51, "div": 5, "nullmin": 0, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
     {"id": "CROSSTREK_TP_RR", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 51, "div": 5, "nullmin": 0, "unit": "psi" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
     {"id": "CROSSTREK_TP_RL", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 51, "div": 5, "nullmin": 0, "unit": "psi" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "753", "rax": "75B", "tmo": "64", "fcm1": true, "cmd": {"22": "1028"}, "freq": 86400, "dbgfilter": { "years": [2016], "from": 2026 },
+{ "hdr": "753", "rax": "75B", "tmo": "64", "fcm1": true, "cmd": {"22": "1028"}, "freq": 86400, "dbgfilter": { "years": [2016], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_TID1", "path": "Tires", "fmt": {           "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Tire 1 id"},
     {"id": "CROSSTREK_TID2", "path": "Tires", "fmt": {"bix": 24, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Tire 2 id"},
@@ -58,11 +58,11 @@
   "signals": [
     {"id": "CROSSTREK_PRIMARY_BOOST_CTRL", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Primary boost control"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10AE"}, "freq": 1, "filter": { "from": 2024 }, "dbgfilter": { "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10AE"}, "freq": 1, "filter": { "from": 2024 }, "dbgfilter": { "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_CPC_VALVE_DUTY_CYCLE", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Canister purge control valve duty cycle"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B1"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B1"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_EGR_STEPS", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Exhaust gas recirculation steps"}
   ]},
@@ -74,23 +74,23 @@
   "signals": [
     {"id": "CROSSTREK_FUEL_PUMP_DUTY", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel pump duty"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B4"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B4"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_INTAKE_VVT_ADVANCE_RIGHT", "path": "ECU", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "degrees" }, "name": "Intake VVT advance angle right"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B5"}, "freq": 1, "filter": { "from": 2024 }, "dbgfilter": { "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B5"}, "freq": 1, "filter": { "from": 2024 }, "dbgfilter": { "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_INTAKE_VVT_ADVANCE_LEFT", "path": "ECU", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "degrees" }, "name": "Intake VVT advance angle left"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B6"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B6"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_OCV_DUTY_RIGHT", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Oil control valve duty right"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B7"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2022], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B7"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2022], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_OCV_DUTY_LEFT", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Oil control valve duty left"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10BE"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10BE"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_A_F_SENSOR_1", "path": "ECU", "fmt": { "len": 8, "max": 1.99, "mul": 1.99, "div": 255, "unit": "scalar" }, "name": "A/F sensor #1"}
   ]},
@@ -106,7 +106,7 @@
   "signals": [
     {"id": "CROSSTREK_EWG_VALVE_ACTUAL_POSITION", "path": "ECU", "fmt": { "len": 16, "max": 30, "min": -10, "mul": 40, "div": 65535, "add": -10, "unit": "millimeters" }, "name": "Electric waste gate valve actual position value"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10DE"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10DE"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_THROTTLE_MOTOR_DUTY", "path": "ECU", "fmt": { "len": 8, "max": 99.92, "min": -100, "mul": 0.784, "add": -100, "unit": "percent" }, "name": "Throttle motor duty"}
   ]},
@@ -114,7 +114,7 @@
   "signals": [
     {"id": "CROSSTREK_CRUISE_VSS_T", "path": "Cruise control", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise speed, set"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10E5"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10E5"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_ODO_7A2_10E5", "path": "Trips", "fmt": { "len": 16, "max": 131070, "mul": 2, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
@@ -138,19 +138,19 @@
   "signals": [
     {"id": "CROSSTREK_EXHAUST_OCV_DUTY_LEFT", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Exhaust OCV duty left"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "110B"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "110B"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_ROUGHNESS_MONITOR_1", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Roughness monitor #1"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "110C"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "110C"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_ROUGHNESS_MONITOR_2", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Roughness monitor #2"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "110D"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2022, 2023], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "110D"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2022, 2023], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_ROUGHNESS_MONITOR_3", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Roughness monitor #3"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "110E"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2022, 2023], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "110E"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2022, 2023], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_ROUGHNESS_MONITOR_4", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Roughness monitor #4"}
   ]},
@@ -174,7 +174,7 @@
   "signals": [
     {"id": "CROSSTREK_INLET_AIR_T_AFTER_AIR_FILTER", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Inlet air temperature, after air filter"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1121"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1121"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_TARGET_ENGINE_SPEED", "path": "Movement", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Target engine speed"}
   ]},
@@ -274,7 +274,7 @@
   "signals": [
     {"id": "CROSSTREK_OIL_DILUTION_AMOUNT", "path": "ECU", "fmt": { "len": 8, "max": 1.275, "div": 200, "unit": "scalar" }, "name": "Oil dilution amount"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "11D0"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2022, 2023], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "11D0"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2022, 2023], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_KNOCKING_SIGNAL", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "degrees" }, "name": "Knocking signal"}
   ]},
@@ -306,7 +306,7 @@
   "signals": [
     {"id": "CROSSTREK_CC_CANCEL_SWITCH", "path": "Cruise control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Cruise control cancel switch"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "124C"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2022, 2023], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "124C"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2022, 2023], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_OIL_LEVEL_SWITCH", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Oil level switch"}
   ]},
@@ -326,23 +326,23 @@
   "signals": [
     {"id": "CROSSTREK_ENGINE_STARTING_TIME", "path": "ECU", "fmt": { "len": 16, "max": 655350, "mul": 10, "unit": "milliseconds" }, "name": "Engine starting time"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "12ED"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "12ED"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_MASS_AIR_FLOW_AVERAGE", "path": "ECU", "fmt": { "len": 16, "max": 5, "div": 100, "unit": "gramsPerSecond" }, "name": "Mass air flow average"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1314"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2022, 2023], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1314"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2022, 2023], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_MONITOR_1", "path": "ECU", "fmt": { "len": 16, "max": 16383.75, "mul": 0.25, "unit": "rpm" }, "name": "Cylinder monitor #1"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1315"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1315"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_MONITOR_2", "path": "ECU", "fmt": { "len": 16, "max": 16383.75, "mul": 0.25, "unit": "rpm" }, "name": "Cylinder monitor #2"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1316"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1316"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_MONITOR_3", "path": "ECU", "fmt": { "len": 16, "max": 16383.75, "mul": 0.25, "unit": "rpm" }, "name": "Cylinder monitor #3"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1317"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2022, 2023], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1317"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2022, 2023], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_MONITOR_4", "path": "ECU", "fmt": { "len": 16, "max": 16383.75, "mul": 0.25, "unit": "rpm" }, "name": "Cylinder monitor #4"}
   ]},
@@ -448,23 +448,23 @@
     {"id": "CROSSTREK_YAW_RATE",        "path": "Orientation", "fmt": {"bix": 16, "len": 8,  "max": 127,    "min": -128,             "add": -128,                  "unit": "degrees" }, "name": "Yaw rate"},
     {"id": "CROSSTREK_STEER_ANGLE_7B0", "path": "Control",     "fmt": {"bix": 24, "len": 16, "max": 3276.7, "min": -3276, "div": 10, "add": -3276.8,               "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1024"}, "freq": 0.25, "dbgfilter": { "years": [2016, 2017], "from": 2026 },
+{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1024"}, "freq": 0.25, "dbgfilter": { "years": [2016, 2017], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_FR_VSS", "path": "Tires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1025"}, "freq": 0.25, "dbgfilter": { "years": [2016, 2017], "from": 2026 },
+{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1025"}, "freq": 0.25, "dbgfilter": { "years": [2016, 2017], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_FL_VSS", "path": "Tires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1026"}, "freq": 0.25, "dbgfilter": { "years": [2016, 2017], "from": 2026 },
+{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1026"}, "freq": 0.25, "dbgfilter": { "years": [2016, 2017], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_RR_VSS", "path": "Tires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1027"}, "freq": 0.25, "dbgfilter": { "years": [2016, 2017], "from": 2026 },
+{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1027"}, "freq": 0.25, "dbgfilter": { "years": [2016, 2017], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_RL_VSS", "path": "Tires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1029"}, "freq": 0.25, "dbgfilter": { "years": [2016, 2017], "from": 2026 },
+{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1029"}, "freq": 0.25, "dbgfilter": { "years": [2016, 2017], "from": 2027 },
   "signals": [
     {"id": "CROSSTREK_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
