@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2210ED
+test_cases:
+- expected_values:
+    CROSSTREK_EXH_VVT_RETARD_ANG_LEFT: 0
+  response: 7E8046210ED32
+- expected_values:
+    CROSSTREK_EXH_VVT_RETARD_ANG_LEFT: 12
+  response: 7E8046210ED3E
+- expected_values:
+    CROSSTREK_EXH_VVT_RETARD_ANG_LEFT: 14
+  response: 7E8046210ED40
+- expected_values:
+    CROSSTREK_EXH_VVT_RETARD_ANG_LEFT: 33
+  response: 7E8046210ED53
+- expected_values:
+    CROSSTREK_EXH_VVT_RETARD_ANG_LEFT: 45
+  response: 7E8046210ED5F

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221291
+test_cases:
+- expected_values:
+    CROSSTREK_EXH_VVT_RETARD_TGT: 0
+  response: '7E80462129132'
+- expected_values:
+    CROSSTREK_EXH_VVT_RETARD_TGT: 16
+  response: '7E80462129142'
+- expected_values:
+    CROSSTREK_EXH_VVT_RETARD_TGT: 20
+  response: '7E80462129146'
+- expected_values:
+    CROSSTREK_EXH_VVT_RETARD_TGT: 33
+  response: '7E80462129153'

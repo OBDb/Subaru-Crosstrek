@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22135A
+test_cases:
+- expected_values:
+    CROSSTREK_DIRECT_FUEL_INJ_TIME_4: 0
+  response: 7E80562135A0000

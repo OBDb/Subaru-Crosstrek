@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22128D
+test_cases:
+- expected_values:
+    CROSSTREK_ELEC_LOAD_FEEDBACK: 0
+  response: 7E80562128D0005
