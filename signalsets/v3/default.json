@@ -1,5 +1,6 @@
 { "ecu": [
     { "hdr": "753", "type": "tpms" },
+    { "hdr": "7A2", "type": "engine" },
     { "hdr": "7E0", "type": "engine" },
     { "hdr": "7E1", "type": "transmission" }
   ],
