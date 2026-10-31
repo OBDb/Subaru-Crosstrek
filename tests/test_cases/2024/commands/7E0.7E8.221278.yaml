@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.221278
+test_cases:
+- expected_values:
+    CROSSTREK_SUB_ACCEL_SENS: 0.66
+  response: '7E80462127821'
+- expected_values:
+    CROSSTREK_SUB_ACCEL_SENS: 0.68
+  response: '7E80462127822'
+- expected_values:
+    CROSSTREK_SUB_ACCEL_SENS: 0.76
+  response: '7E80462127826'
+- expected_values:
+    CROSSTREK_SUB_ACCEL_SENS: 0.8
+  response: '7E80462127828'
+- expected_values:
+    CROSSTREK_SUB_ACCEL_SENS: 1.3
+  response: '7E80462127841'
+- expected_values:
+    CROSSTREK_SUB_ACCEL_SENS: 1.5
+  response: 7E8046212784B

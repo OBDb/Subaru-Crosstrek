@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22128E
+test_cases:
+- expected_values:
+    CROSSTREK_IDLE_DIRTY_THROTTLE: 1.67
+  response: 7E80562128E75D7

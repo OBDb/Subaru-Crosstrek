@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.221275
+test_cases:
+- expected_values:
+    CROSSTREK_THROTTLE_MOTOR_V: 11.68
+  response: '7E80462127592'
+- expected_values:
+    CROSSTREK_THROTTLE_MOTOR_V: 11.84
+  response: '7E80462127594'
+- expected_values:
+    CROSSTREK_THROTTLE_MOTOR_V: 14.24
+  response: 7E804621275B2
+- expected_values:
+    CROSSTREK_THROTTLE_MOTOR_V: 14.4
+  response: 7E804621275B4
+- expected_values:
+    CROSSTREK_THROTTLE_MOTOR_V: 14.48
+  response: 7E804621275B5
+- expected_values:
+    CROSSTREK_THROTTLE_MOTOR_V: 14.56
+  response: 7E804621275B6
