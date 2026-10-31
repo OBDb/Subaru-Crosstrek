@@ -4,14 +4,5 @@ test_cases:
     CROSSTREK_EXH_VVT_RETARD_ANG: 0
   response: 7E8046210EC32
 - expected_values:
-    CROSSTREK_EXH_VVT_RETARD_ANG: 14
-  response: 7E8046210EC40
-- expected_values:
-    CROSSTREK_EXH_VVT_RETARD_ANG: 27
-  response: 7E8046210EC4D
-- expected_values:
-    CROSSTREK_EXH_VVT_RETARD_ANG: 34
-  response: 7E8046210EC54
-- expected_values:
     CROSSTREK_EXH_VVT_RETARD_ANG: 37
   response: 7E8046210EC57

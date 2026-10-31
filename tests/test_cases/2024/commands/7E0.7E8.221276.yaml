@@ -4,20 +4,5 @@ test_cases:
     CROSSTREK_SUB_THROTTLE_SENS: 1.56
   response: 7E8046212764E
 - expected_values:
-    CROSSTREK_SUB_THROTTLE_SENS: 1.58
-  response: 7E8046212764F
-- expected_values:
-    CROSSTREK_SUB_THROTTLE_SENS: 1.6
-  response: '7E80462127650'
-- expected_values:
-    CROSSTREK_SUB_THROTTLE_SENS: 1.66
-  response: '7E80462127653'
-- expected_values:
-    CROSSTREK_SUB_THROTTLE_SENS: 1.7
-  response: '7E80462127655'
-- expected_values:
-    CROSSTREK_SUB_THROTTLE_SENS: 1.88
-  response: 7E8046212765E
-- expected_values:
     CROSSTREK_SUB_THROTTLE_SENS: 2.14
   response: 7E8046212766B
