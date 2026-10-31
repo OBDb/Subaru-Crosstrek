@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     CROSSTREK_AMBIENT_T_CTRL: 8
   response: 7E8046212D160
+- expected_values:
+    CROSSTREK_AMBIENT_T_CTRL: 14
+  response: 7E8046212D16C
