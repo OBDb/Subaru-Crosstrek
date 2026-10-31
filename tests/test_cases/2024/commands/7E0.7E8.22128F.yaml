@@ -4,11 +4,26 @@ test_cases:
     CROSSTREK_INT_VVT_ADVANCE_TGT: -19
   response: 7E80462128F1F
 - expected_values:
+    CROSSTREK_INT_VVT_ADVANCE_TGT: -18
+  response: 7E80462128F20
+- expected_values:
     CROSSTREK_INT_VVT_ADVANCE_TGT: -17
   response: 7E80462128F21
 - expected_values:
     CROSSTREK_INT_VVT_ADVANCE_TGT: -15
   response: 7E80462128F23
+- expected_values:
+    CROSSTREK_INT_VVT_ADVANCE_TGT: -13
+  response: 7E80462128F25
+- expected_values:
+    CROSSTREK_INT_VVT_ADVANCE_TGT: -10
+  response: 7E80462128F28
+- expected_values:
+    CROSSTREK_INT_VVT_ADVANCE_TGT: -9
+  response: 7E80462128F29
+- expected_values:
+    CROSSTREK_INT_VVT_ADVANCE_TGT: -8
+  response: 7E80462128F2A
 - expected_values:
     CROSSTREK_INT_VVT_ADVANCE_TGT: -2
   response: 7E80462128F30

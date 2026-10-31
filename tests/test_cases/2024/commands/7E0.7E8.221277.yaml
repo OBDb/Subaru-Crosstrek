@@ -4,23 +4,5 @@ test_cases:
     CROSSTREK_MAIN_THROTTLE_SENS: 0.7
   response: '7E80462127723'
 - expected_values:
-    CROSSTREK_MAIN_THROTTLE_SENS: 0.72
-  response: '7E80462127724'
-- expected_values:
-    CROSSTREK_MAIN_THROTTLE_SENS: 0.74
-  response: '7E80462127725'
-- expected_values:
-    CROSSTREK_MAIN_THROTTLE_SENS: 0.76
-  response: '7E80462127726'
-- expected_values:
-    CROSSTREK_MAIN_THROTTLE_SENS: 0.78
-  response: '7E80462127727'
-- expected_values:
-    CROSSTREK_MAIN_THROTTLE_SENS: 0.88
-  response: 7E8046212772C
-- expected_values:
-    CROSSTREK_MAIN_THROTTLE_SENS: 1.28
-  response: '7E80462127740'
-- expected_values:
     CROSSTREK_MAIN_THROTTLE_SENS: 1.5
   response: 7E8046212774B
