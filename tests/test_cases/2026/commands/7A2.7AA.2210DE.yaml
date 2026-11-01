@@ -1,6 +1,9 @@
 command_id: 7A2.7AA.2210DE
 test_cases:
 - expected_values:
+    CROSSTREK_THROTTLE_MOTOR_DUTY: -12.976
+  response: 7AA046210DE6F
+- expected_values:
     CROSSTREK_THROTTLE_MOTOR_DUTY: -12.192
   response: 7AA046210DE70
 - expected_values:
