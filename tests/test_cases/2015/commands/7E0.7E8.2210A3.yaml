@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2210A3
+test_cases:
+- expected_values:
+    CROSSTREK_FUEL_INJ_1_WIDTH: 2.304
+  response: 7E8046210A309
+- expected_values:
+    CROSSTREK_FUEL_INJ_1_WIDTH: 2.56
+  response: 7E8046210A30A
