@@ -38,10 +38,10 @@ test_cases:
   response: '75B 07 62 10 22 B0 B2 AF AD '
 - expected_values:
     CROSSTREK_TP_FL: 26.8
-    CROSSTREK_TP_FR: 28
-    CROSSTREK_TP_RL: 26.4
+    CROSSTREK_TP_FR: 27.6
+    CROSSTREK_TP_RL: 26
     CROSSTREK_TP_RR: 27.6
-  response: 75B07621022868C8A84
+  response: 75B07621022868A8A82
 - expected_values:
     CROSSTREK_TP_FL: 33.4
   response: 75B07621022A7000000
