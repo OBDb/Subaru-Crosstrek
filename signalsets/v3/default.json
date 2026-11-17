@@ -39,7 +39,7 @@
   "signals": [
     {"id": "CROSSTREK_FUEL_INJECTOR_2_PULSE_WIDTH", "path": "Fuel", "fmt": { "len": 8, "max": 65.28, "div": 3.90625, "unit": "milliseconds" }, "name": "Fuel injector #2 pulse width"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10A5"}, "freq": 30, "filter": { "to": 2017, "from": 2023 }, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2023], "from": 2025 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10A5"}, "freq": 30, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "CROSSTREK_ODO_7A2_10A5", "path": "Trips", "fmt": { "len": 16, "max": 131070, "mul": 2, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
