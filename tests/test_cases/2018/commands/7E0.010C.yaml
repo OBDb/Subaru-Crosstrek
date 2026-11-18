@@ -13,8 +13,8 @@ test_cases:
     RPM: 1599.75
   response: '7E8 04 41 0C 18 FF '
 - expected_values:
-    RPM: 2824
-  response: '7E8 04 41 0C 2C 20 '
+    RPM: 3286
+  response: '7E8 04 41 0C 33 58 '
 - expected_values:
     RPM: 0
   response: 7E804410C0000
