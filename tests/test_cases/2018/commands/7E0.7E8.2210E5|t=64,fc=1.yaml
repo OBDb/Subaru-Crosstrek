@@ -4,8 +4,8 @@ test_cases:
     CROSSTREK_ODO: 130880
   response: '7E8 05 62 10 E5 FF A0 '
 - expected_values:
-    CROSSTREK_ODO: 130896
-  response: '7E8 05 62 10 E5 FF A8 '
+    CROSSTREK_ODO: 131070
+  response: '7E8 05 62 10 E5 FF FF '
 - expected_values:
     CROSSTREK_ODO: 85404
   response: 7E8056210E5A6CE
