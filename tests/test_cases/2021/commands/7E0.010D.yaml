@@ -100,20 +100,37 @@ test_cases:
     > 7E0.7E8.220005
     7E803410D70
 - expected_values:
+    VSS: 117
+  response: |-
+    > 7E0.7E8.22002F|t=64,fc=1
+
+    7E803410D75
+- expected_values:
     VSS: 79
   response: |-
     > 7E0.7E8.2210A3
 
     7E803410D4F
 - expected_values:
-    VSS: 116
+    VSS: 112
   response: |-
     > 7E0.7E8.2210E7
-    7E803410D74
+    7E803410D70
+- expected_values:
+    VSS: 119
+  response: |-
+    > 7E0.7E8.221149
+    7E803410D77
 - expected_values:
     VSS: 112
   response: |-
     > 7E0.7E8.221155
+
+    7E803410D70
+- expected_values:
+    VSS: 112
+  response: |-
+    > 7E0.7E8.22122F
     7E803410D70
 - expected_values:
     VSS: 112
@@ -121,6 +138,12 @@ test_cases:
     > 7E0.7E8.2212D1
 
     7E803410D70
+- expected_values:
+    VSS: 117
+  response: |-
+    > 7E0.7E8.2212D1
+
+    7E803410D75
 - expected_values:
     VSS: 34
   response: |-
